@@ -1,0 +1,17 @@
+== SmallGroup(252,21)  n=168
+G = C21 x (C3 : C4)
+a words  [ <identity> of ..., f3^2*f5^2, f1*f3^6*f5 ]
+B words  [ [ [ <identity> of ..., f3^2*f5^2 ], [ <identity> of ... ] ], [ [ <identity> of ... ], [ f5, f3^3 ] ] ]
+
+candidate [ [ 0, 1, 0, 0, 1 ], [ 0, 0, 0, 1, 0 ] ] lift=21 stab=3 r=2 allB=true someA=true
+
+surviving: 1
+
+H gens [ [ 0, 1, 0, 0, 1 ], [ 0, 0, 0, 1, 0 ] ]
+  Aidx [ 1, 45, 105 ]  Bidx [ [ [ 1, 12 ], [ 1 ] ], [ [ 1 ], [ 3, 7 ] ] ]
+  rebuild identical: true  k=10
+
+PINNED H = [ "f2*f5", "f4" ] C6
+  N_G(H) = C42 x C3  Core = C2
+  m=42 r=2 lift=21 stab=3
+
