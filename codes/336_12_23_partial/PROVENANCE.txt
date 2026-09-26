@@ -1,0 +1,3 @@
+[[336,12,<=23]] w=7  b336_12_23_ii, SmallGroup(168,33) H=C2, server D3 run Sep 2026
+Partial certification, cutoff 22.5. dZ sectors 2 to 8 and dX sectors 1 to 2 of 12 reached cutoff, remaining sectors not run.
+Reported in the paper as an upper bound only.
