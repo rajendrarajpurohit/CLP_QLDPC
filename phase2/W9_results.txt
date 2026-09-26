@@ -1,0 +1,1 @@
+# W9  3x4/5x3  target w=9  Q must beat 20.3  rate floor 0.06

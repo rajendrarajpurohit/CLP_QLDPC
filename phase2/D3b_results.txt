@@ -1,0 +1,2 @@
+# D3b  1x1/2x2 k>=10  -- distances are QDistRnd upper bounds; certify before p\
+ublishing

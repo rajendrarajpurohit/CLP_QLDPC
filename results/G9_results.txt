@@ -1,0 +1,1 @@
+# G9 shape 1x1/3x3 n=6m  both sides screened  d=min(dZ,dX)

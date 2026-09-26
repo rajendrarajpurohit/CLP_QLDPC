@@ -1,0 +1,3 @@
+[2026-09-11 23:40:02] === H10_n360k20d20 [[360,20]] dZ sectors 1-1 of 20  cutoff=19.5 threads=16 nodefile=8GB
+[2026-09-12 00:38:36] dZ sector 1: >=20  (3513s, 15793207 nodes)
+[2026-09-12 00:38:36] range complete: {'1': '>=20'}

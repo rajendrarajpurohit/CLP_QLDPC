@@ -1,0 +1,1 @@
+# W8_m30-55 shape 1x1/2x2 n=4m  w<=8  both sides  d=min(dZ,dX)

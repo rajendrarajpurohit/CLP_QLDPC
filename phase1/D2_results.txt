@@ -1,0 +1,244 @@
+# D2  2x2/1x1  -- distances are QDistRnd upper bounds; certify before publishing
+
+#### D2_1  [[240,16,<=8]]  w=5  FOM_upper=4.266666666666667  NON-DOMINATED
+driver := "D2  2x2/1x1";  group := "SmallGroup(120,32) H=C2";  l := 120;  i := 32;
+m := 60;  r := 2;  lift := 30;  stab := 2;
+shapeA := [ 2, 2 ];  shapeB := [ 1, 1 ];
+A := [ [ [ <identity> of ... ], [ f1*f2*f5 ] ], [ [ <identity> of ... ], [ f1*f2*f4^4*f5 ] ] ];
+B := [ [ [ <identity> of ..., f3, f3^2*f4^3 ] ] ];
+Aidx := [ [ [ 1 ], [ 92 ] ], [ [ 1 ], [ 100 ] ] ];  Bidx := [ [ [ 1, 2, 22 ] ] ];   # indices into RightTransversal(G,Core) / RightTransversal(N,H), identity first
+matrices := "D2_1_HX.txt / _HZ.txt";
+
+#### D2_2  [[240,16,<=13]]  w=7  FOM_upper=11.26666666666667  NON-DOMINATED
+driver := "D2  2x2/1x1";  group := "SmallGroup(120,32) H=C2";  l := 120;  i := 32;
+m := 60;  r := 2;  lift := 30;  stab := 2;
+shapeA := [ 2, 2 ];  shapeB := [ 1, 1 ];
+A := [ [ [ <identity> of ..., f1*f2*f3^2*f4^2 ], [ f1*f3^2*f4^4*f5, f1*f2*f4^4*f5 ] ], [ [ <identity> of ... ], [ f4^4, f2*f3^2*f4^2*f5 ] ] ];
+B := [ [ [ <identity> of ..., f3^2*f4^2, f3^2*f4^3*f5 ] ] ];
+Aidx := [ [ [ 1, 115 ], [ 90, 100 ] ], [ [ 1 ], [ 9, 56 ] ] ];  Bidx := [ [ [ 1, 16, 28 ] ] ];   # indices into RightTransversal(G,Core) / RightTransversal(N,H), identity first
+matrices := "D2_2_HX.txt / _HZ.txt";
+
+#### D2_3  [[240,16,<=8]]  w=5  FOM_upper=4.266666666666667  NON-DOMINATED
+driver := "D2  2x2/1x1";  group := "SmallGroup(360,99) H=S3";  l := 360;  i := 99;
+m := 60;  r := 2;  lift := 30;  stab := 2;
+shapeA := [ 2, 2 ];  shapeB := [ 1, 1 ];
+A := [ [ [ <identity> of ... ], [ f1*f2*f3*f4^2*f5 ] ], [ [ <identity> of ... ], [ f1*f2*f3*f4^4*f5 ] ] ];
+B := [ [ [ <identity> of ..., f3^2, f3*f4 ] ] ];
+Aidx := [ [ [ 1 ], [ 87 ] ], [ [ 1 ], [ 117 ] ] ];  Bidx := [ [ [ 1, 5, 6 ] ] ];   # indices into RightTransversal(G,Core) / RightTransversal(N,H), identity first
+matrices := "D2_3_HX.txt / _HZ.txt";
+
+#### D2_4  [[240,16,<=8]]  w=5  FOM_upper=4.266666666666667  NON-DOMINATED
+driver := "D2  2x2/1x1";  group := "SmallGroup(360,99) H=C6";  l := 360;  i := 99;
+m := 60;  r := 2;  lift := 30;  stab := 2;
+shapeA := [ 2, 2 ];  shapeB := [ 1, 1 ];
+A := [ [ [ <identity> of ... ], [ f1*f2*f4^3*f5*f6^2 ] ], [ [ <identity> of ... ], [ f1*f2*f4*f5*f6^2 ] ] ];
+B := [ [ [ <identity> of ..., f4*f6, f4*f6^2 ] ] ];
+Aidx := [ [ [ 1 ], [ 117 ] ], [ [ 1 ], [ 89 ] ] ];  Bidx := [ [ [ 1, 7, 14 ] ] ];   # indices into RightTransversal(G,Core) / RightTransversal(N,H), identity first
+matrices := "D2_4_HX.txt / _HZ.txt";
+
+#### D2_5  [[224,18,<=10]]  w=7  FOM_upper=8.035714285714286  NON-DOMINATED
+driver := "D2  2x2/1x1";  group := "SmallGroup(224,53) H=C2 x C2";  l := 224;  i := 53;
+m := 56;  r := 2;  lift := 28;  stab := 2;
+shapeA := [ 2, 2 ];  shapeB := [ 1, 1 ];
+A := [ [ [ <identity> of ... ], [ f1*f3^2*f5, f1*f2*f3^3*f6 ] ], [ [ <identity> of ..., f1*f3*f5 ], [ f1*f4*f6, f2*f3*f4*f5*f6 ] ] ];
+B := [ [ [ <identity> of ..., f3*f4*f5, f3^5*f5 ] ] ];
+Aidx := [ [ [ 1 ], [ 32, 60 ] ], [ [ 1, 18 ], [ 19, 54 ] ] ];  Bidx := [ [ [ 1, 12, 23 ] ] ];   # indices into RightTransversal(G,Core) / RightTransversal(N,H), identity first
+matrices := "D2_5_HX.txt / _HZ.txt";
+
+#### D2_6  [[224,18,<=10]]  w=7  FOM_upper=8.035714285714286  NON-DOMINATED
+driver := "D2  2x2/1x1";  group := "SmallGroup(336,188) H=C6";  l := 336;  i := 188;
+m := 56;  r := 2;  lift := 28;  stab := 2;
+shapeA := [ 2, 2 ];  shapeB := [ 1, 1 ];
+A := [ [ [ <identity> of ..., f1*f3*f4^3 ], [ f2*f3*f4^2, f4^5 ] ], [ [ <identity> of ..., f1*f2*f4^5 ], [ f3*f4^3*f5 ] ] ];
+B := [ [ [ <identity> of ..., f1*f4*f5, f4^5*f5 ] ] ];
+Aidx := [ [ [ 1, 53 ], [ 41, 63 ] ], [ [ 1, 83 ], [ 62 ] ] ];  Bidx := [ [ [ 1, 10, 24 ] ] ];   # indices into RightTransversal(G,Core) / RightTransversal(N,H), identity first
+matrices := "D2_6_HX.txt / _HZ.txt";
+
+#### D2_7  [[224,18,<=10]]  w=7  FOM_upper=8.035714285714286  NON-DOMINATED
+driver := "D2  2x2/1x1";  group := "SmallGroup(224,53) H=C4";  l := 224;  i := 53;
+m := 56;  r := 2;  lift := 28;  stab := 2;
+shapeA := [ 2, 2 ];  shapeB := [ 1, 1 ];
+A := [ [ [ <identity> of ... ], [ f1*f3^2, f1*f3*f5 ] ], [ [ <identity> of ..., f1*f4*f6 ], [ f2*f3^4*f4*f6, f1*f2*f3^4*f4*f5 ] ] ];
+B := [ [ [ <identity> of ..., f3^2*f4*f5, f3^6*f4 ] ] ];
+Aidx := [ [ [ 1 ], [ 17, 18 ] ], [ [ 1, 19 ], [ 85, 92 ] ] ];  Bidx := [ [ [ 1, 16, 25 ] ] ];   # indices into RightTransversal(G,Core) / RightTransversal(N,H), identity first
+matrices := "D2_7_HX.txt / _HZ.txt";
+
+#### D2_8  [[216,8,<=17]]  w=7  FOM_upper=10.7037037037037  NON-DOMINATED
+driver := "D2  2x2/1x1";  group := "SmallGroup(162,3) H=C3";  l := 162;  i := 3;
+m := 54;  r := 2;  lift := 27;  stab := 3;
+shapeA := [ 2, 2 ];  shapeB := [ 1, 1 ];
+A := [ [ [ <identity> of ..., f1*f3*f4*f5^2 ], [ f4^2*f5^2, f1*f3*f4^2*f5 ] ], [ [ <identity> of ..., f2^2*f3*f4^2*f5 ], [ f3*f5, f1*f2^2*f3*f5^2 ] ] ];
+B := [ [ [ <identity> of ..., f2^2*f4, f2*f5^2 ] ] ];
+Aidx := [ [ [ 1, 96 ], [ 9, 98 ] ], [ [ 1, 71 ], [ 11, 147 ] ] ];  Bidx := [ [ [ 1, 11, 15 ] ] ];   # indices into RightTransversal(G,Core) / RightTransversal(N,H), identity first
+matrices := "D2_8_HX.txt / _HZ.txt";
+
+#### D2_9  [[216,8,<=17]]  w=7  FOM_upper=10.7037037037037  NON-DOMINATED
+driver := "D2  2x2/1x1";  group := "SmallGroup(162,3) H=C3";  l := 162;  i := 3;
+m := 54;  r := 2;  lift := 27;  stab := 3;
+shapeA := [ 2, 2 ];  shapeB := [ 1, 1 ];
+A := [ [ [ <identity> of ... ], [ f2^2*f3^2*f5^2, f1*f3^2*f4^2*f5^2 ] ], [ [ <identity> of ..., f1*f2^2*f4^2*f5^2 ], [ f1*f4^2*f5^2, f1*f2^2*f3*f4^2*f5 ] ] ];
+B := [ [ [ <identity> of ..., f4^2, f2^2*f4*f5^2 ] ] ];
+Aidx := [ [ [ 1 ], [ 75, 108 ] ], [ [ 1, 144 ], [ 90, 152 ] ] ];  Bidx := [ [ [ 1, 8, 25 ] ] ];   # indices into RightTransversal(G,Core) / RightTransversal(N,H), identity first
+matrices := "D2_9_HX.txt / _HZ.txt";
+
+#### D2_10  [[216,8,<=18]]  w=7  FOM_upper=12.  NON-DOMINATED
+driver := "D2  2x2/1x1";  group := "SmallGroup(162,3) H=C3";  l := 162;  i := 3;
+m := 54;  r := 2;  lift := 27;  stab := 3;
+shapeA := [ 2, 2 ];  shapeB := [ 1, 1 ];
+A := [ [ [ <identity> of ..., f1*f2*f4 ], [ f1*f3^2*f4^2*f5^2, f1*f2*f4^2*f5 ] ], [ [ <identity> of ..., f1*f3*f4*f5^2 ], [ f2^2*f4*f5, f1*f2^2*f3*f4*f5 ] ] ];
+B := [ [ [ <identity> of ..., f2^2*f4, f2^2*f4^2*f5 ] ] ];
+Aidx := [ [ [ 1, 112 ], [ 108, 116 ] ], [ [ 1, 96 ], [ 59, 149 ] ] ];  Bidx := [ [ [ 1, 11, 24 ] ] ];   # indices into RightTransversal(G,Core) / RightTransversal(N,H), identity first
+matrices := "D2_10_HX.txt / _HZ.txt";
+
+#### D2_11  [[180,12,<=8]]  w=5  FOM_upper=4.266666666666667  NON-DOMINATED
+driver := "D2  2x2/1x1";  group := "SmallGroup(135,3) H=C3";  l := 135;  i := 3;
+m := 45;  r := 3;  lift := 15;  stab := 3;
+shapeA := [ 2, 2 ];  shapeB := [ 1, 1 ];
+A := [ [ [ <identity> of ... ], [ f1*f3^3*f4 ] ], [ [ <identity> of ... ], [ f1*f3*f4 ] ] ];
+B := [ [ [ <identity> of ..., f3^4*f4, f3^4*f4^2 ] ] ];
+Aidx := [ [ [ 1 ], [ 56 ] ], [ [ 1 ], [ 50 ] ] ];  Bidx := [ [ [ 1, 13, 15 ] ] ];   # indices into RightTransversal(G,Core) / RightTransversal(N,H), identity first
+matrices := "D2_11_HX.txt / _HZ.txt";
+
+#### D2_12  [[180,12,<=8]]  w=5  FOM_upper=4.266666666666667  NON-DOMINATED
+driver := "D2  2x2/1x1";  group := "SmallGroup(135,3) H=C3";  l := 135;  i := 3;
+m := 45;  r := 3;  lift := 15;  stab := 3;
+shapeA := [ 2, 2 ];  shapeB := [ 1, 1 ];
+A := [ [ [ <identity> of ... ], [ f1*f3*f4 ] ], [ [ <identity> of ... ], [ f1*f3^4*f4 ] ] ];
+B := [ [ [ <identity> of ..., f4^2, f3^4*f4 ] ] ];
+Aidx := [ [ [ 1 ], [ 50 ] ], [ [ 1 ], [ 59 ] ] ];  Bidx := [ [ [ 1, 6, 13 ] ] ];   # indices into RightTransversal(G,Core) / RightTransversal(N,H), identity first
+matrices := "D2_12_HX.txt / _HZ.txt";
+
+#### D2_13  [[180,12,<=8]]  w=5  FOM_upper=4.266666666666667  NON-DOMINATED
+driver := "D2  2x2/1x1";  group := "SmallGroup(135,3) H=C3";  l := 135;  i := 3;
+m := 45;  r := 3;  lift := 15;  stab := 3;
+shapeA := [ 2, 2 ];  shapeB := [ 1, 1 ];
+A := [ [ [ <identity> of ... ], [ f1*f2^2*f3^3*f4 ] ], [ [ <identity> of ... ], [ f1*f2^2*f3^2*f4 ] ] ];
+B := [ [ [ <identity> of ..., f4^2, f3^2*f4 ] ] ];
+Aidx := [ [ [ 1 ], [ 86 ] ], [ [ 1 ], [ 83 ] ] ];  Bidx := [ [ [ 1, 6, 8 ] ] ];   # indices into RightTransversal(G,Core) / RightTransversal(N,H), identity first
+matrices := "D2_13_HX.txt / _HZ.txt";
+
+#### D2_14  [[120,8,<=8]]  w=5  FOM_upper=4.266666666666667  NON-DOMINATED
+driver := "D2  2x2/1x1";  group := "SmallGroup(360,99) H=C6 x C2";  l := 360;  i := 99;
+m := 30;  r := 2;  lift := 15;  stab := 3;
+shapeA := [ 2, 2 ];  shapeB := [ 1, 1 ];
+A := [ [ [ <identity> of ... ], [ f1*f4^3*f6 ] ], [ [ <identity> of ... ], [ f1*f4^2*f6 ] ] ];
+B := [ [ [ <identity> of ..., f6, f4^3*f6^2 ] ] ];
+Aidx := [ [ [ 1 ], [ 53 ] ], [ [ 1 ], [ 35 ] ] ];  Bidx := [ [ [ 1, 3, 14 ] ] ];   # indices into RightTransversal(G,Core) / RightTransversal(N,H), identity first
+matrices := "D2_14_HX.txt / _HZ.txt";
+
+#### D2_15  [[120,8,<=8]]  w=5  FOM_upper=4.266666666666667  NON-DOMINATED
+driver := "D2  2x2/1x1";  group := "SmallGroup(360,99) H=C6 x C2";  l := 360;  i := 99;
+m := 30;  r := 2;  lift := 15;  stab := 3;
+shapeA := [ 2, 2 ];  shapeB := [ 1, 1 ];
+A := [ [ [ <identity> of ... ], [ f1*f3^2*f4^2*f6^2 ] ], [ [ <identity> of ... ], [ f1*f3^2*f6^2 ] ] ];
+B := [ [ [ <identity> of ..., f6, f4^4*f6^2 ] ] ];
+Aidx := [ [ [ 1 ], [ 79 ] ], [ [ 1 ], [ 48 ] ] ];  Bidx := [ [ [ 1, 3, 15 ] ] ];   # indices into RightTransversal(G,Core) / RightTransversal(N,H), identity first
+matrices := "D2_15_HX.txt / _HZ.txt";
+
+#### D2_16  [[180,12,<=8]]  w=5  FOM_upper=4.266666666666667  NON-DOMINATED
+driver := "D2  2x2/1x1";  group := "SmallGroup(135,3) H=C3";  l := 135;  i := 3;
+m := 45;  r := 3;  lift := 15;  stab := 3;
+shapeA := [ 2, 2 ];  shapeB := [ 1, 1 ];
+A := [ [ [ <identity> of ... ], [ f2*f3^2*f4^2 ] ], [ [ <identity> of ... ], [ f2*f4^2 ] ] ];
+B := [ [ [ <identity> of ..., f3^4*f4, f3^4*f4^2 ] ] ];
+Aidx := [ [ [ 1 ], [ 24 ] ], [ [ 1 ], [ 18 ] ] ];  Bidx := [ [ [ 1, 13, 15 ] ] ];   # indices into RightTransversal(G,Core) / RightTransversal(N,H), identity first
+matrices := "D2_16_HX.txt / _HZ.txt";
+
+#### D2_17  [[180,12,<=8]]  w=5  FOM_upper=4.266666666666667  NON-DOMINATED
+driver := "D2  2x2/1x1";  group := "SmallGroup(135,3) H=C3";  l := 135;  i := 3;
+m := 45;  r := 3;  lift := 15;  stab := 3;
+shapeA := [ 2, 2 ];  shapeB := [ 1, 1 ];
+A := [ [ [ <identity> of ... ], [ f1^2*f3*f4^2 ] ], [ [ <identity> of ... ], [ f1^2*f4^2 ] ] ];
+B := [ [ [ <identity> of ..., f4^2, f3^3*f4 ] ] ];
+Aidx := [ [ [ 1 ], [ 96 ] ], [ [ 1 ], [ 93 ] ] ];  Bidx := [ [ [ 1, 6, 11 ] ] ];   # indices into RightTransversal(G,Core) / RightTransversal(N,H), identity first
+matrices := "D2_17_HX.txt / _HZ.txt";
+
+#### D2_18  [[180,12,<=8]]  w=5  FOM_upper=4.266666666666667  NON-DOMINATED
+driver := "D2  2x2/1x1";  group := "SmallGroup(135,3) H=C3";  l := 135;  i := 3;
+m := 45;  r := 3;  lift := 15;  stab := 3;
+shapeA := [ 2, 2 ];  shapeB := [ 1, 1 ];
+A := [ [ [ <identity> of ... ], [ f1^2*f3^3 ] ], [ [ <identity> of ... ], [ f1^2*f3 ] ] ];
+B := [ [ [ <identity> of ..., f4, f3*f4^2 ] ] ];
+Aidx := [ [ [ 1 ], [ 100 ] ], [ [ 1 ], [ 94 ] ] ];  Bidx := [ [ [ 1, 3, 9 ] ] ];   # indices into RightTransversal(G,Core) / RightTransversal(N,H), identity first
+matrices := "D2_18_HX.txt / _HZ.txt";
+
+#### D2_19  [[180,12,<=8]]  w=5  FOM_upper=4.266666666666667  NON-DOMINATED
+driver := "D2  2x2/1x1";  group := "SmallGroup(135,3) H=C3";  l := 135;  i := 3;
+m := 45;  r := 3;  lift := 15;  stab := 3;
+shapeA := [ 2, 2 ];  shapeB := [ 1, 1 ];
+A := [ [ [ <identity> of ... ], [ f2^2*f3^4 ] ], [ [ <identity> of ... ], [ f2^2 ] ] ];
+B := [ [ [ <identity> of ..., f3^2*f4, f3^2*f4^2 ] ] ];
+Aidx := [ [ [ 1 ], [ 43 ] ], [ [ 1 ], [ 31 ] ] ];  Bidx := [ [ [ 1, 8, 12 ] ] ];   # indices into RightTransversal(G,Core) / RightTransversal(N,H), identity first
+matrices := "D2_19_HX.txt / _HZ.txt";
+
+#### D2_20  [[180,12,<=8]]  w=5  FOM_upper=4.266666666666667  NON-DOMINATED
+driver := "D2  2x2/1x1";  group := "SmallGroup(135,3) H=C3";  l := 135;  i := 3;
+m := 45;  r := 3;  lift := 15;  stab := 3;
+shapeA := [ 2, 2 ];  shapeB := [ 1, 1 ];
+A := [ [ [ <identity> of ... ], [ f1^2*f2^2*f3^3*f4^2 ] ], [ [ <identity> of ... ], [ f1^2*f2^2*f3^2*f4^2 ] ] ];
+B := [ [ [ <identity> of ..., f4^2, f3^2*f4 ] ] ];
+Aidx := [ [ [ 1 ], [ 132 ] ], [ [ 1 ], [ 129 ] ] ];  Bidx := [ [ [ 1, 6, 8 ] ] ];   # indices into RightTransversal(G,Core) / RightTransversal(N,H), identity first
+matrices := "D2_20_HX.txt / _HZ.txt";
+
+#### D2_21  [[180,12,<=8]]  w=5  FOM_upper=4.266666666666667  NON-DOMINATED
+driver := "D2  2x2/1x1";  group := "SmallGroup(135,3) H=C3";  l := 135;  i := 3;
+m := 45;  r := 3;  lift := 15;  stab := 3;
+shapeA := [ 2, 2 ];  shapeB := [ 1, 1 ];
+A := [ [ [ <identity> of ... ], [ f1^2*f3^4 ] ], [ [ <identity> of ... ], [ f1^2 ] ] ];
+B := [ [ [ <identity> of ..., f3^3*f4, f3^3*f4^2 ] ] ];
+Aidx := [ [ [ 1 ], [ 103 ] ], [ [ 1 ], [ 91 ] ] ];  Bidx := [ [ [ 1, 11, 14 ] ] ];   # indices into RightTransversal(G,Core) / RightTransversal(N,H), identity first
+matrices := "D2_21_HX.txt / _HZ.txt";
+
+#### D2_22  [[180,12,<=8]]  w=5  FOM_upper=4.266666666666667  NON-DOMINATED
+driver := "D2  2x2/1x1";  group := "SmallGroup(135,3) H=C3";  l := 135;  i := 3;
+m := 45;  r := 3;  lift := 15;  stab := 3;
+shapeA := [ 2, 2 ];  shapeB := [ 1, 1 ];
+A := [ [ [ <identity> of ... ], [ f1^2*f2^2*f3^3*f4 ] ], [ [ <identity> of ... ], [ f1^2*f2^2*f3*f4 ] ] ];
+B := [ [ [ <identity> of ..., f4^2, f3^4*f4 ] ] ];
+Aidx := [ [ [ 1 ], [ 131 ] ], [ [ 1 ], [ 125 ] ] ];  Bidx := [ [ [ 1, 6, 13 ] ] ];   # indices into RightTransversal(G,Core) / RightTransversal(N,H), identity first
+matrices := "D2_22_HX.txt / _HZ.txt";
+
+#### D2_23  [[180,12,<=8]]  w=5  FOM_upper=4.266666666666667  NON-DOMINATED
+driver := "D2  2x2/1x1";  group := "SmallGroup(135,3) H=C3";  l := 135;  i := 3;
+m := 45;  r := 3;  lift := 15;  stab := 3;
+shapeA := [ 2, 2 ];  shapeB := [ 1, 1 ];
+A := [ [ [ <identity> of ... ], [ f1^2*f2^2*f3^3 ] ], [ [ <identity> of ... ], [ f1^2*f2^2*f3^4 ] ] ];
+B := [ [ [ <identity> of ..., f4, f3^3*f4^2 ] ] ];
+Aidx := [ [ [ 1 ], [ 130 ] ], [ [ 1 ], [ 133 ] ] ];  Bidx := [ [ [ 1, 3, 14 ] ] ];   # indices into RightTransversal(G,Core) / RightTransversal(N,H), identity first
+matrices := "D2_23_HX.txt / _HZ.txt";
+
+#### D2_24  [[180,12,<=8]]  w=5  FOM_upper=4.266666666666667  NON-DOMINATED
+driver := "D2  2x2/1x1";  group := "SmallGroup(135,3) H=C3";  l := 135;  i := 3;
+m := 45;  r := 3;  lift := 15;  stab := 3;
+shapeA := [ 2, 2 ];  shapeB := [ 1, 1 ];
+A := [ [ [ <identity> of ... ], [ f1*f3^3 ] ], [ [ <identity> of ... ], [ f1 ] ] ];
+B := [ [ [ <identity> of ..., f4^2, f3^4*f4 ] ] ];
+Aidx := [ [ [ 1 ], [ 55 ] ], [ [ 1 ], [ 46 ] ] ];  Bidx := [ [ [ 1, 6, 13 ] ] ];   # indices into RightTransversal(G,Core) / RightTransversal(N,H), identity first
+matrices := "D2_24_HX.txt / _HZ.txt";
+
+#### D2_25  [[180,12,<=8]]  w=5  FOM_upper=4.266666666666667  NON-DOMINATED
+driver := "D2  2x2/1x1";  group := "SmallGroup(135,3) H=C3";  l := 135;  i := 3;
+m := 45;  r := 3;  lift := 15;  stab := 3;
+shapeA := [ 2, 2 ];  shapeB := [ 1, 1 ];
+A := [ [ [ <identity> of ... ], [ f1*f2^2 ] ], [ [ <identity> of ... ], [ f1*f2^2*f3 ] ] ];
+B := [ [ [ <identity> of ..., f3^3*f4, f3^3*f4^2 ] ] ];
+Aidx := [ [ [ 1 ], [ 76 ] ], [ [ 1 ], [ 79 ] ] ];  Bidx := [ [ [ 1, 11, 14 ] ] ];   # indices into RightTransversal(G,Core) / RightTransversal(N,H), identity first
+matrices := "D2_25_HX.txt / _HZ.txt";
+
+#### D2_26  [[180,12,<=8]]  w=5  FOM_upper=4.266666666666667  NON-DOMINATED
+driver := "D2  2x2/1x1";  group := "SmallGroup(360,99) H=D8";  l := 360;  i := 99;
+m := 45;  r := 3;  lift := 15;  stab := 2;
+shapeA := [ 2, 2 ];  shapeB := [ 1, 1 ];
+A := [ [ [ <identity> of ... ], [ f4*f6^2 ] ], [ [ <identity> of ... ], [ f6^2 ] ] ];
+B := [ [ [ <identity> of ..., f3^2, f3*f4^3 ] ] ];
+Aidx := [ [ [ 1 ], [ 28 ] ], [ [ 1 ], [ 14 ] ] ];  Bidx := [ [ [ 1, 4, 11 ] ] ];   # indices into RightTransversal(G,Core) / RightTransversal(N,H), identity first
+matrices := "D2_26_HX.txt / _HZ.txt";
+
+#### D2_27  [[180,12,<=8]]  w=5  FOM_upper=4.266666666666667  NON-DOMINATED
+driver := "D2  2x2/1x1";  group := "SmallGroup(360,99) H=D8";  l := 360;  i := 99;
+m := 45;  r := 3;  lift := 15;  stab := 2;
+shapeA := [ 2, 2 ];  shapeB := [ 1, 1 ];
+A := [ [ [ <identity> of ... ], [ f4*f6^2 ] ], [ [ <identity> of ... ], [ f4^2*f6^2 ] ] ];
+B := [ [ [ <identity> of ..., f3, f3^2*f4^2 ] ] ];
+Aidx := [ [ [ 1 ], [ 28 ] ], [ [ 1 ], [ 45 ] ] ];  Bidx := [ [ [ 1, 2, 10 ] ] ];   # indices into RightTransversal(G,Core) / RightTransversal(N,H), identity first
+matrices := "D2_27_HX.txt / _HZ.txt";

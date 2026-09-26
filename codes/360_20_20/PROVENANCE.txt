@@ -1,0 +1,38 @@
+# CLP keep set.  Distances are QDistRnd upper bounds unless marked EXACT.
+# columns: name | machine | original id | results file | group | m r lift stab | shape A/B | params | w
+
+a240_8_20 | PC | D3_4 | D3_results (N<=252) | SmallGroup(360,99) H=C6 | m=60 r=2 lift=30 stab=2 | 1x1/2x2 | [[240,8,<=20]] | w=6 EXACT =20, best publishable so far.
+a168_10_14 | PC | D3_6 | D3_results (N<=252) | SmallGroup(252,21) H=C6 | m=42 r=2 lift=21 stab=3 | 1x1/2x2 | [[168,10,<=14]] | w=6
+a216_8_18 | PC | D2_10 | D2_results | SmallGroup(162,3) H=C3 | m=54 r=2 lift=27 stab=3 | 2x2/1x1 | [[216,8,<=18]] | w=7
+a180_16_12_i | PC | D3_17 | D3_results (N<=240) | SmallGroup(135,3) H=C3 | m=45 r=3 lift=15 stab=3 | 1x1/2x2 | [[180,16,<=12]] | w=7
+a180_16_12_ii | PC | D3_32 | D3_results (N<=240) | SmallGroup(135,3) H=C3 | m=45 r=3 lift=15 stab=3 | 1x1/2x2 | [[180,16,<=12]] | w=7
+a168_14_12 | PC | D3_39 | D3_results (N<=240) | SmallGroup(336,188) H=D8 | m=42 r=3 lift=14 stab=2 | 1x1/2x2 | [[168,14,<=12]] | w=7
+a168_20_10 | PC | D3_56 | D3_results (N<=240) | SmallGroup(336,188) H=D8 | m=42 r=3 lift=14 stab=2 | 1x1/2x2 | [[168,20,<=10]] | w=7
+a240_16_13_i | PC | D3_3 | D3_results (N<=252) | SmallGroup(360,99) H=C6 | m=60 r=2 lift=30 stab=3 | 1x1/2x2 | [[240,16,<=13]] | w=7
+a240_16_13_ii | PC | D2_2 | D2_results | SmallGroup(120,32) H=C2 | m=60 r=2 lift=30 stab=2 | 2x2/1x1 | [[240,16,<=13]] | w=7
+a216_16_12_i | PC | D3_9 | D3_results (N<=252) | SmallGroup(216,47) H=C4 | m=54 r=3 lift=18 stab=2 | 1x1/2x2 | [[216,16,<=12]] | w=7
+a216_16_12_ii | PC | D3_11 | D3_results (N<=252) | SmallGroup(216,47) H=C2 x C2 | m=54 r=3 lift=18 stab=2 | 1x1/2x2 | [[216,16,<=12]] | w=7
+a112_12_10 | PC | D3_41 | D3_results (N<=240) | SmallGroup(336,188) H=D12 | m=28 r=2 lift=14 stab=2 | 1x1/2x2 | [[112,12,<=10]] | w=7
+a252_22_10 | PC | D3_8 | D3_results (N<=252) | SmallGroup(126,8) H=C2 | m=63 r=3 lift=21 stab=2 | 1x1/2x2 | [[252,22,<=10]] | w=7
+a224_24_9 | PC | D3_5 | D3_results (N<=252) | SmallGroup(336,188) H=S3 | m=56 r=2 lift=28 stab=2 | 1x1/2x2 | [[224,24,<=9]] | w=7
+b336_12_23_i | SRV | D3_28 | D3_results (n=336) | SmallGroup(252,21) H=C3 | m=84 r=2 lift=42 stab=3 | 1x1/2x2 | [[336,12,<=23]] | w=7
+b336_12_23_ii | SRV | D3_43 | D3_results (n=336) | SmallGroup(168,33) H=C2 | m=84 r=2 lift=42 stab=2 | 1x1/2x2 | [[336,12,<=23]] | w=7
+b384_8_28 | SRV | D3_25 | D3_results (n=384) | SmallGroup(384,512) H=C2 x C2 | m=96 r=2 lift=48 stab=2 | 1x1/2x2 | [[384,8,<=28]] | w=7
+b336_12_21 | SRV | D3_39 | D3_results (n=336) | SmallGroup(168,33) H=C2 | m=84 r=2 lift=42 stab=2 | 1x1/2x2 | [[336,12,<=21]] | w=7
+b384_14_20 | SRV | D4_39 | D4_results | SmallGroup(384,512) H=C4 x C2 | m=48 r=2 lift=24 stab=2 | 2x2/2x2 | [[384,14,<=20]] | w=8
+b336_10_22 | SRV | D3_40 | D3_results (n=336) | SmallGroup(168,33) H=C2 | m=84 r=2 lift=42 stab=2 | 1x1/2x2 | [[336,10,<=22]] | w=6
+b336_12_20 | SRV | D3_36 | D3_results (n=336) | SmallGroup(168,33) H=C2 | m=84 r=2 lift=42 stab=2 | 1x1/2x2 | [[336,12,<=20]] | w=6
+b384_8_26_i | SRV | D3_21 | D3_results (n=384) | SmallGroup(384,512) H=C2 x C2 | m=96 r=2 lift=48 stab=2 | 1x1/2x2 | [[384,8,<=26]] | w=6
+b384_8_26_ii | SRV | D4_35 | D4_results | SmallGroup(288,489) H=S3 | m=48 r=2 lift=24 stab=2 | 2x2/2x2 | [[384,8,<=26]] | w=6
+b336_14_19 | SRV | D4_43 | D4_results | SmallGroup(252,21) H=C6 | m=42 r=2 lift=21 stab=3 | 2x2/2x2 | [[336,14,<=19]] | w=8
+b384_16_18 | SRV | D4_16 | D4_results | SmallGroup(288,489) H=S3 | m=48 r=2 lift=24 stab=2 | 2x2/2x2 | [[384,16,<=18]] | w=6
+b288_12_18 | SRV | D3_51 | D3_results (n=288) | SmallGroup(216,47) H=C3 | m=72 r=2 lift=36 stab=3 | 1x1/2x2 | [[288,12,<=18]] | w=6
+b384_8_25_i | SRV | D4_2 | D4_results | SmallGroup(384,512) H=C4 x C2 | m=48 r=2 lift=24 stab=2 | 2x2/2x2 | [[384,8,<=25]] | w=7
+b384_8_25_ii | SRV | D4_31 | D4_results | SmallGroup(288,498) H=S3 | m=48 r=2 lift=24 stab=2 | 2x2/2x2 | [[384,8,<=25]] | w=7
+b336_10_21 | SRV | D3_41 | D3_results (n=336) | SmallGroup(168,33) H=C2 | m=84 r=2 lift=42 stab=2 | 1x1/2x2 | [[336,10,<=21]] | w=7
+b384_12_20_i | SRV | D3_13 | D3_results (n=384) | SmallGroup(288,498) H=C3 | m=96 r=2 lift=48 stab=3 | 1x1/2x2 | [[384,12,<=20]] | w=6
+b384_12_20_ii | SRV | D3_4 | D3_results (n=384) | SmallGroup(288,489) H=C3 | m=96 r=2 lift=48 stab=3 | 1x1/2x2 | [[384,12,<=20]] | w=7
+b336_16_15 | SRV | D3_42 | D3_results (n=336) | SmallGroup(168,33) H=C2 | m=84 r=2 lift=42 stab=2 | 1x1/2x2 | [[336,16,<=15]] | w=6
+b336_20_13 | SRV | D3_30 | D3_results (n=336) | SmallGroup(168,33) H=C2 | m=84 r=2 lift=42 stab=2 | 1x1/2x2 | [[336,20,<=13]] | w=7
+b320_8_16 | SRV | D4_45 | D4_results | SmallGroup(80,10) H=C2 | m=40 r=2 lift=20 stab=2 | 2x2/2x2 | [[320,8,<=16]] | w=5
+b384_8_16 | SRV | D3_14 | D3_results (n=384) | SmallGroup(384,512) H=C2 x C2 | m=96 r=2 lift=48 stab=2 | 1x1/2x2 | [[384,8,<=16]] | w=5

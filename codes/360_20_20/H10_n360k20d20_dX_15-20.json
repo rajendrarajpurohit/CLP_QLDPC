@@ -1,0 +1,50 @@
+{
+ "15": {
+  "status": "CUTOFF",
+  "min_weight": ">=20",
+  "bound": 19.500000002050005,
+  "nodes": 29149862.0,
+  "seconds": 3538.2449159622192,
+  "threads": 32
+ },
+ "16": {
+  "status": "CUTOFF",
+  "min_weight": ">=20",
+  "bound": 19.500000002050005,
+  "nodes": 26906441.0,
+  "seconds": 3316.4984788894653,
+  "threads": 32
+ },
+ "17": {
+  "status": "CUTOFF",
+  "min_weight": ">=20",
+  "bound": 19.500000002050005,
+  "nodes": 22964801.0,
+  "seconds": 3582.9322600364685,
+  "threads": 32
+ },
+ "18": {
+  "status": "CUTOFF",
+  "min_weight": ">=20",
+  "bound": 19.500000002050005,
+  "nodes": 47094879.0,
+  "seconds": 4659.893490076065,
+  "threads": 32
+ },
+ "19": {
+  "status": "CUTOFF",
+  "min_weight": ">=20",
+  "bound": 19.500000002050005,
+  "nodes": 34836333.0,
+  "seconds": 3376.6621890068054,
+  "threads": 32
+ },
+ "20": {
+  "status": "CUTOFF",
+  "min_weight": ">=20",
+  "bound": 19.500000002050005,
+  "nodes": 61323026.0,
+  "seconds": 5297.1970999240875,
+  "threads": 32
+ }
+}

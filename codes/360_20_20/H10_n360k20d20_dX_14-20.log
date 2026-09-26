@@ -1,0 +1,4 @@
+[2026-09-12 20:55:09] === H10_n360k20d20 [[360,20]] dX sectors 14-20 of 20  cutoff=19.5 threads=12 nodefile=6GB
+[2026-09-12 23:12:18] dX sector 14: >=20  (8229s, 21091510 nodes)
+[2026-09-13 00:01:28] === H10_n360k20d20 [[360,20]] dX sectors 14-20 of 20  cutoff=19.5 threads=12 nodefile=30GB
+[2026-09-13 00:01:28] dX sector 14 already done: >=20

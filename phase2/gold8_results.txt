@@ -1,0 +1,11 @@
+# w=8: A has 4 terms.  log only if Q > 30.6
+
+#### W1  [[360,18,<=26]]  w=8  Q=33.8
+group := "SmallGroup(540,114) H=C6";  l := 540;  i := 114;  m := 90;  lift := 
+45;  stab := 3;
+A := [ [ [ <identity> of ..., f4*f6, f3*f6^3, f1*f4^2*f5*f6^4 ] ] ]
+B := 
+[ [ [ <identity> of ..., f5^2*f6^4 ], [ <identity> of ..., f4^2*f5^2*f6^4 ] ],
+  [ [ <identity> of ... ], [ f4*f5*f6, f5*f6^4 ] ] ]
+Aidx := [ [ [ 1, 17, 78, 239 ] ] ];  Bidx := 
+[ [ [ 1, 41 ], [ 1, 45 ] ], [ [ 1 ], [ 14, 35 ] ] ];
