@@ -1,12 +1,15 @@
-[[240,8,20]] w=6  D3_4 on personal machine, certified on server Sep 8 to 9 2026
-group SmallGroup(360,99), H=C6 (generators to be pinned), m=60, |a|=3, B weights 1 2 / 2 1
-matrices D3_4_HX.txt D3_4_HZ.txt, identical to keep/a240_8_20_HX.txt
+[[240,8,20]] w=6   D3_4, found on personal machine Sep 7 2026, certified on server Sep 8 to 9 2026
+group SmallGroup(360,99), H=C6 (generators pinned separately), m=60, |a|=3, B weights 1 2 / 2 1
+matrices D3_4_HX.txt D3_4_HZ.txt, identical to keep/a240_8_20_HX.txt (md5 b2cc1ec3...)
 
-Two scripts were used, both in phase1/milp/
-  run_d3_4_exact.py     per sector minimum weight, reports the exact optimum
-  run_d3_4_safe.py and run_d3_4_bulletproof.py   cutoff at 19.5, reports inf when no logical below 20 exists
-progress_D3_4.json     summary, dZ sectors 1 to 8 all 20, dX sectors 1 to 8 all 20
-progress_d3_4*.txt     per sector raw results, 20 = exact optimum found, inf = cutoff reached
-D3_4_dZ_1.log to _5.log and D3_4_dZ_sectors_1-5.json   early sector logs
-D3_4_dZ_witness_w20.npy   weight 20 logical on the Z side
-Gurobi 13.0.3, 32 threads
+Sector proofs, 8 sectors per side, cutoff 19.5 unless stated
+  Z1 to Z4   D3_4_dZ_1.log to _4.log        cutoff reached, best bound 19.5, no solution   (dZ_sectors_1to5.py, Sep 9)
+  Z5, Z6     overnight_run.log               solved to optimality, exact value 20           (run_d3_4_bulletproof.py, Sep 8)
+  Z7, Z8     milp_fast.log lines 644, 1334   cutoff reached                                 (milp_fast.py, Sep 8 to 9)
+  X1 to X8   milp_fast.log lines 2882 to 12915   cutoff reached                             (milp_fast.py, Sep 8 to 9)
+progress_D3_4.json     summary written by milp_fast.py, every entry recorded only on CUTOFF or OPTIMAL status
+D3_4_dZ_witness_w20.npy   weight 20 logical on the Z side, so d = 20 exactly
+
+Not evidence   progress_d3_4.txt and progress_d3_4_overnight.txt contain pre populated entries and inf on failed solves
+               D3_4_dZ_5.log stopped at bound 17, superseded by the overnight optimal solve of sector 5
+Solver Gurobi 13.0.3. Formulation identical to python/certify.py.
