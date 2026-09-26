@@ -1,5 +1,5 @@
 [[240,8,20]] w=6   D3_4, found on personal machine Sep 7 2026, certified on server Sep 8 to 9 2026
-group SmallGroup(360,99), H=C6 (generators pinned separately), m=60, |a|=3, B weights 1 2 / 2 1
+group SmallGroup(360,99), H=<f2,f3>=C6, N_G(H)=C30xC6, Core=C3, pinned by gap/recoverD3.g, rebuild identical, m=60, |a|=3, B weights 1 2 / 2 1
 matrices D3_4_HX.txt D3_4_HZ.txt, identical to keep/a240_8_20_HX.txt (md5 b2cc1ec3...)
 
 Sector proofs, 8 sectors per side, cutoff 19.5 unless stated

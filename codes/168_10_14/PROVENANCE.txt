@@ -1,0 +1,4 @@
+[[168,10,14]] w=6  D3_6, found on personal machine Sep 7 2026, certified on server Sep 9 2026 (a168_10_14_certify.log, all 10 dZ and 10 dX sectors at cutoff 13.5, witness weight 14 on Z)
+group SmallGroup(252,21), H=<f2*f5,f4>=C6, N_G(H)=C42xC3, Core=C2, m=42, |a|=3, B weights 2 1 / 1 2
+H pinned by gap/recoverD3.g, rebuild from (G,H,a,B) identical to stored matrices
+matrices D3_6_HX.txt D3_6_HZ.txt, identical to keep/a168_10_14_HX.txt (md5 b04d25bd...)
