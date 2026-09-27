@@ -1,0 +1,6 @@
+Restricted license - for non-production use only - expires 2027-11-29
+dZ: weight-10 logical in sector 1
+   support [0, 7, 8, 9, 17, 24, 33, 34, 43, 52]
+dX: weight-10 logical in sector 12
+   support [131, 139, 148, 149, 158, 165, 174, 175, 176, 187]
+wrote D3_8_witnesses.json

@@ -1,0 +1,8 @@
+Restricted license - for non-production use only - expires 2027-11-29
+
+Interrupt request received
+dZ: weight-12 logical in sector 8
+   support [96, 99, 108, 111, 114, 117, 138, 141, 150, 153, 156, 159]
+dX: weight-12 logical in sector 8
+   support [12, 15, 18, 21, 30, 33, 54, 57, 60, 63, 72, 75]
+wrote D3_39_witnesses.json

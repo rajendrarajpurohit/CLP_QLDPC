@@ -1,0 +1,34 @@
+{
+ "dZ": {
+  "sector": 1,
+  "weight": 9,
+  "support": [
+   0,
+   3,
+   35,
+   43,
+   49,
+   54,
+   136,
+   153,
+   217
+  ],
+  "file": "D3_5_witness_dZ_sector1_w9.txt"
+ },
+ "dX": {
+  "sector": 1,
+  "weight": 9,
+  "support": [
+   35,
+   90,
+   91,
+   179,
+   192,
+   193,
+   211,
+   216,
+   222
+  ],
+  "file": "D3_5_witness_dX_sector1_w9.txt"
+ }
+}

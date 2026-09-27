@@ -1,0 +1,2766 @@
+
+Gurobi 13.0.3 (linux64) logging started Sun Sep 27 04:25:44 2026
+
+Set parameter LogFile to value "D3_56_gurobi.log"
+Set parameter Threads to value 8
+Set parameter NodefileStart to value 10
+Set parameter NodefileDir to value "."
+Set parameter SoftMemLimit to value 40
+Set parameter Cutoff to value 9.5
+Set parameter MIPFocus to value 3
+Set parameter Symmetry to value 2
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+
+CPU model: AMD Ryzen Threadripper PRO 9975WX 32-Cores, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 32 physical cores, 64 logical processors, using up to 8 threads
+
+Non-default parameters:
+Cutoff  9.5
+SoftMemLimit  40
+MIPFocus  3
+NodefileStart  10
+Symmetry  2
+Threads  8
+
+Optimize a model with 85 rows, 253 columns and 687 nonzeros (Min)
+Model fingerprint: 0x182597d5
+Model has 168 linear objective coefficients
+Variable types: 0 continuous, 253 integer (168 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 7e+00]
+  RHS range        [1e+00, 1e+00]
+
+Presolve time: 0.00s
+Presolved: 85 rows, 253 columns, 687 nonzeros
+Variable types: 0 continuous, 253 integer (168 binary)
+Root relaxation presolve removed 85 rows and 253 columns
+Root relaxation presolve: All rows and columns removed
+
+Root relaxation: objective 1.000000e+00, 0 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.00000    0    3          -    1.00000      -     -    0s
+     0     0    2.00000    0   16          -    2.00000      -     -    0s
+     0     0    2.00000    0    4          -    2.00000      -     -    0s
+     0     0    4.00000    0    6          -    4.00000      -     -    0s
+     0     0    4.00000    0    6          -    4.00000      -     -    0s
+     0     0    5.00000    0   10          -    5.00000      -     -    0s
+     0     0    5.00000    0    9          -    5.00000      -     -    0s
+     0     0    5.00000    0    9          -    5.00000      -     -    0s
+     0     0    5.00000    0    9          -    5.00000      -     -    0s
+     0     2    6.00000    0    9          -    6.00000      -     -    0s
+
+Cutting planes:
+  Gomory: 32
+  Lift-and-project: 2
+  Cover: 1
+  Implied bound: 88
+  MIR: 42
+  Inf proof: 1
+  Zero half: 16
+  Relax-and-lift: 1
+
+Explored 1383 nodes (10529 simplex iterations) in 0.27 seconds (0.11 work units)
+Thread count was 8 (of 64 available processors)
+
+Solution count 0
+
+Model objective exceeds cutoff
+Best objective -, best bound 9.500000001050e+00, gap -
+
+Gurobi 13.0.3 (linux64) logging started Sun Sep 27 04:25:44 2026
+
+Set parameter LogFile to value "D3_56_gurobi.log"
+Set parameter Threads to value 8
+Set parameter NodefileStart to value 10
+Set parameter NodefileDir to value "."
+Set parameter SoftMemLimit to value 40
+Set parameter Cutoff to value 9.5
+Set parameter MIPFocus to value 3
+Set parameter Symmetry to value 2
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+
+CPU model: AMD Ryzen Threadripper PRO 9975WX 32-Cores, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 32 physical cores, 64 logical processors, using up to 8 threads
+
+Non-default parameters:
+Cutoff  9.5
+SoftMemLimit  40
+MIPFocus  3
+NodefileStart  10
+Symmetry  2
+Threads  8
+
+Optimize a model with 85 rows, 253 columns and 687 nonzeros (Min)
+Model fingerprint: 0x496c84ed
+Model has 168 linear objective coefficients
+Variable types: 0 continuous, 253 integer (168 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 7e+00]
+  RHS range        [1e+00, 1e+00]
+
+Presolve time: 0.00s
+Presolved: 85 rows, 253 columns, 687 nonzeros
+Variable types: 0 continuous, 253 integer (168 binary)
+Root relaxation presolve removed 85 rows and 253 columns
+Root relaxation presolve: All rows and columns removed
+
+Root relaxation: objective 1.000000e+00, 0 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.00000    0    3          -    1.00000      -     -    0s
+     0     0    2.00000    0   15          -    2.00000      -     -    0s
+     0     0    2.00000    0    4          -    2.00000      -     -    0s
+     0     0    4.00000    0    8          -    4.00000      -     -    0s
+     0     0    4.00000    0    8          -    4.00000      -     -    0s
+     0     0    5.00000    0   37          -    5.00000      -     -    0s
+     0     0    5.00000    0   33          -    5.00000      -     -    0s
+     0     0    5.00000    0   30          -    5.00000      -     -    0s
+     0     0    5.00000    0   29          -    5.00000      -     -    0s
+     0     0    5.69498    0   71          -    5.69498      -     -    0s
+     0     0    5.69498    0   71          -    5.69498      -     -    0s
+     0     0    6.00000    0   64          -    6.00000      -     -    0s
+     0     0    6.00000    0   73          -    6.00000      -     -    0s
+     0     0    6.00000    0   86          -    6.00000      -     -    0s
+     0     0    6.00000    0   92          -    6.00000      -     -    0s
+     0     0    6.00000    0   96          -    6.00000      -     -    0s
+     0     0    6.54109    0  117          -    6.54109      -     -    0s
+     0     0    6.81909    0  115          -    6.81909      -     -    0s
+     0     0    7.00000    0  123          -    7.00000      -     -    0s
+     0     0    7.00000    0  134          -    7.00000      -     -    0s
+     0     0    7.00000    0  139          -    7.00000      -     -    0s
+     0     0    7.11588    0  144          -    7.11588      -     -    0s
+     0     0    7.14452    0  141          -    7.14452      -     -    0s
+     0     0    7.15616    0  143          -    7.15616      -     -    0s
+     0     0    7.15898    0  149          -    7.15898      -     -    0s
+     0     0    7.37158    0  155          -    7.37158      -     -    0s
+     0     0    7.46996    0  151          -    7.46996      -     -    0s
+     0     0    7.47086    0  151          -    7.47086      -     -    1s
+     0     2    7.49497    0  151          -    7.49497      -     -    1s
+
+Cutting planes:
+  Gomory: 12
+  Lift-and-project: 11
+  Cover: 1
+  Implied bound: 104
+  MIR: 20
+  Flow cover: 1
+  Zero half: 104
+  Relax-and-lift: 1
+
+Explored 475 nodes (20687 simplex iterations) in 1.46 seconds (0.76 work units)
+Thread count was 8 (of 64 available processors)
+
+Solution count 0
+
+Model objective exceeds cutoff
+Best objective -, best bound 9.500000001050e+00, gap -
+
+Gurobi 13.0.3 (linux64) logging started Sun Sep 27 04:25:46 2026
+
+Set parameter LogFile to value "D3_56_gurobi.log"
+Set parameter Threads to value 8
+Set parameter NodefileStart to value 10
+Set parameter NodefileDir to value "."
+Set parameter SoftMemLimit to value 40
+Set parameter Cutoff to value 9.5
+Set parameter MIPFocus to value 3
+Set parameter Symmetry to value 2
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+
+CPU model: AMD Ryzen Threadripper PRO 9975WX 32-Cores, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 32 physical cores, 64 logical processors, using up to 8 threads
+
+Non-default parameters:
+Cutoff  9.5
+SoftMemLimit  40
+MIPFocus  3
+NodefileStart  10
+Symmetry  2
+Threads  8
+
+Optimize a model with 85 rows, 253 columns and 687 nonzeros (Min)
+Model fingerprint: 0xc565a9ae
+Model has 168 linear objective coefficients
+Variable types: 0 continuous, 253 integer (168 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 7e+00]
+  RHS range        [1e+00, 1e+00]
+
+Presolve time: 0.00s
+Presolved: 85 rows, 253 columns, 687 nonzeros
+Variable types: 0 continuous, 253 integer (168 binary)
+Root relaxation presolve removed 85 rows and 253 columns
+Root relaxation presolve: All rows and columns removed
+
+Root relaxation: objective 1.000000e+00, 0 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.00000    0    3          -    1.00000      -     -    0s
+     0     0    1.00000    0    3          -    1.00000      -     -    0s
+     0     0    2.00000    0    3          -    2.00000      -     -    0s
+     0     0    3.00000    0    3          -    3.00000      -     -    0s
+     0     0    3.00000    0    3          -    3.00000      -     -    0s
+     0     2    3.00000    0    3          -    3.00000      -     -    0s
+
+Cutting planes:
+  Gomory: 17
+  Implied bound: 18
+  MIR: 55
+  Inf proof: 98
+  Zero half: 29
+  Relax-and-lift: 3
+
+Explored 23453 nodes (128320 simplex iterations) in 1.50 seconds (1.10 work units)
+Thread count was 8 (of 64 available processors)
+
+Solution count 0
+
+Model objective exceeds cutoff
+Best objective -, best bound 9.500000001050e+00, gap -
+
+Gurobi 13.0.3 (linux64) logging started Sun Sep 27 04:25:47 2026
+
+Set parameter LogFile to value "D3_56_gurobi.log"
+Set parameter Threads to value 8
+Set parameter NodefileStart to value 10
+Set parameter NodefileDir to value "."
+Set parameter SoftMemLimit to value 40
+Set parameter Cutoff to value 9.5
+Set parameter MIPFocus to value 3
+Set parameter Symmetry to value 2
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+
+CPU model: AMD Ryzen Threadripper PRO 9975WX 32-Cores, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 32 physical cores, 64 logical processors, using up to 8 threads
+
+Non-default parameters:
+Cutoff  9.5
+SoftMemLimit  40
+MIPFocus  3
+NodefileStart  10
+Symmetry  2
+Threads  8
+
+Optimize a model with 85 rows, 253 columns and 683 nonzeros (Min)
+Model fingerprint: 0x1800b011
+Model has 168 linear objective coefficients
+Variable types: 0 continuous, 253 integer (168 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 5e+00]
+  RHS range        [1e+00, 1e+00]
+
+Presolve time: 0.00s
+Presolved: 85 rows, 253 columns, 683 nonzeros
+Variable types: 0 continuous, 253 integer (168 binary)
+Root relaxation presolve removed 85 rows and 253 columns
+Root relaxation presolve: All rows and columns removed
+
+Root relaxation: objective 1.000000e+00, 0 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.00000    0    3          -    1.00000      -     -    0s
+     0     0    2.00000    0    3          -    2.00000      -     -    0s
+     0     0    3.00000    0    3          -    3.00000      -     -    0s
+     0     0    4.00000    0    3          -    4.00000      -     -    0s
+     0     2    4.00000    0    3          -    4.00000      -     -    0s
+
+Cutting planes:
+  Gomory: 18
+  Implied bound: 8
+  MIR: 92
+  Inf proof: 99
+  Zero half: 30
+  Relax-and-lift: 2
+
+Explored 30850 nodes (169539 simplex iterations) in 1.42 seconds (0.95 work units)
+Thread count was 8 (of 64 available processors)
+
+Solution count 0
+
+Model objective exceeds cutoff
+Best objective -, best bound 9.500000001050e+00, gap -
+
+Gurobi 13.0.3 (linux64) logging started Sun Sep 27 04:25:49 2026
+
+Set parameter LogFile to value "D3_56_gurobi.log"
+Set parameter Threads to value 8
+Set parameter NodefileStart to value 10
+Set parameter NodefileDir to value "."
+Set parameter SoftMemLimit to value 40
+Set parameter Cutoff to value 9.5
+Set parameter MIPFocus to value 3
+Set parameter Symmetry to value 2
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+
+CPU model: AMD Ryzen Threadripper PRO 9975WX 32-Cores, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 32 physical cores, 64 logical processors, using up to 8 threads
+
+Non-default parameters:
+Cutoff  9.5
+SoftMemLimit  40
+MIPFocus  3
+NodefileStart  10
+Symmetry  2
+Threads  8
+
+Optimize a model with 85 rows, 253 columns and 687 nonzeros (Min)
+Model fingerprint: 0x9715f87f
+Model has 168 linear objective coefficients
+Variable types: 0 continuous, 253 integer (168 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 7e+00]
+  RHS range        [1e+00, 1e+00]
+
+Presolve time: 0.00s
+Presolved: 85 rows, 253 columns, 687 nonzeros
+Variable types: 0 continuous, 253 integer (168 binary)
+Root relaxation presolve removed 85 rows and 253 columns
+Root relaxation presolve: All rows and columns removed
+
+Root relaxation: objective 1.000000e+00, 0 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.00000    0    3          -    1.00000      -     -    0s
+     0     0    1.00000    0    3          -    1.00000      -     -    0s
+     0     0    2.00000    0    3          -    2.00000      -     -    0s
+     0     0    3.00000    0    3          -    3.00000      -     -    0s
+     0     0    3.00000    0    3          -    3.00000      -     -    0s
+     0     2    3.00000    0    3          -    3.00000      -     -    0s
+
+Cutting planes:
+  Gomory: 26
+  Implied bound: 367
+  MIR: 75
+  Inf proof: 27
+  Zero half: 141
+  Relax-and-lift: 13
+
+Explored 15362 nodes (230735 simplex iterations) in 1.87 seconds (1.97 work units)
+Thread count was 8 (of 64 available processors)
+
+Solution count 0
+
+Model objective exceeds cutoff
+Best objective -, best bound 9.500000001050e+00, gap -
+
+Gurobi 13.0.3 (linux64) logging started Sun Sep 27 04:25:51 2026
+
+Set parameter LogFile to value "D3_56_gurobi.log"
+Set parameter Threads to value 8
+Set parameter NodefileStart to value 10
+Set parameter NodefileDir to value "."
+Set parameter SoftMemLimit to value 40
+Set parameter Cutoff to value 9.5
+Set parameter MIPFocus to value 3
+Set parameter Symmetry to value 2
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+
+CPU model: AMD Ryzen Threadripper PRO 9975WX 32-Cores, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 32 physical cores, 64 logical processors, using up to 8 threads
+
+Non-default parameters:
+Cutoff  9.5
+SoftMemLimit  40
+MIPFocus  3
+NodefileStart  10
+Symmetry  2
+Threads  8
+
+Optimize a model with 85 rows, 253 columns and 687 nonzeros (Min)
+Model fingerprint: 0x0bfbfc5c
+Model has 168 linear objective coefficients
+Variable types: 0 continuous, 253 integer (168 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 7e+00]
+  RHS range        [1e+00, 1e+00]
+
+Presolve time: 0.00s
+Presolved: 85 rows, 253 columns, 687 nonzeros
+Variable types: 0 continuous, 253 integer (168 binary)
+Root relaxation presolve removed 85 rows and 253 columns
+Root relaxation presolve: All rows and columns removed
+
+Root relaxation: objective 1.000000e+00, 0 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.00000    0    3          -    1.00000      -     -    0s
+     0     0    1.00000    0    3          -    1.00000      -     -    0s
+     0     0    2.00000    0    3          -    2.00000      -     -    0s
+     0     0    3.00000    0    3          -    3.00000      -     -    0s
+     0     0    3.00000    0    3          -    3.00000      -     -    0s
+     0     2    3.00000    0    3          -    3.00000      -     -    0s
+
+Cutting planes:
+  Gomory: 46
+  Implied bound: 282
+  MIR: 47
+  Mixing: 1
+  Inf proof: 26
+  Zero half: 40
+  Relax-and-lift: 2
+
+Explored 12424 nodes (112632 simplex iterations) in 1.21 seconds (0.90 work units)
+Thread count was 8 (of 64 available processors)
+
+Solution count 0
+
+Model objective exceeds cutoff
+Best objective -, best bound 9.500000001050e+00, gap -
+
+Gurobi 13.0.3 (linux64) logging started Sun Sep 27 04:25:52 2026
+
+Set parameter LogFile to value "D3_56_gurobi.log"
+Set parameter Threads to value 8
+Set parameter NodefileStart to value 10
+Set parameter NodefileDir to value "."
+Set parameter SoftMemLimit to value 40
+Set parameter Cutoff to value 9.5
+Set parameter MIPFocus to value 3
+Set parameter Symmetry to value 2
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+
+CPU model: AMD Ryzen Threadripper PRO 9975WX 32-Cores, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 32 physical cores, 64 logical processors, using up to 8 threads
+
+Non-default parameters:
+Cutoff  9.5
+SoftMemLimit  40
+MIPFocus  3
+NodefileStart  10
+Symmetry  2
+Threads  8
+
+Optimize a model with 85 rows, 253 columns and 683 nonzeros (Min)
+Model fingerprint: 0x6993048c
+Model has 168 linear objective coefficients
+Variable types: 0 continuous, 253 integer (168 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 5e+00]
+  RHS range        [1e+00, 1e+00]
+
+Presolve time: 0.00s
+Presolved: 85 rows, 253 columns, 683 nonzeros
+Variable types: 0 continuous, 253 integer (168 binary)
+Root relaxation presolve removed 85 rows and 253 columns
+Root relaxation presolve: All rows and columns removed
+
+Root relaxation: objective 1.000000e+00, 0 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.00000    0    3          -    1.00000      -     -    0s
+     0     0    2.00000    0    3          -    2.00000      -     -    0s
+     0     0    3.00000    0    3          -    3.00000      -     -    0s
+     0     0    4.00000    0    3          -    4.00000      -     -    0s
+     0     2    4.00000    0    3          -    4.00000      -     -    0s
+
+Cutting planes:
+  Gomory: 22
+  Implied bound: 34
+  MIR: 92
+  Inf proof: 57
+  Zero half: 64
+  Relax-and-lift: 3
+
+Explored 26711 nodes (265168 simplex iterations) in 2.15 seconds (1.70 work units)
+Thread count was 8 (of 64 available processors)
+
+Solution count 0
+
+Model objective exceeds cutoff
+Best objective -, best bound 9.500000001050e+00, gap -
+
+Gurobi 13.0.3 (linux64) logging started Sun Sep 27 04:25:54 2026
+
+Set parameter LogFile to value "D3_56_gurobi.log"
+Set parameter Threads to value 8
+Set parameter NodefileStart to value 10
+Set parameter NodefileDir to value "."
+Set parameter SoftMemLimit to value 40
+Set parameter Cutoff to value 9.5
+Set parameter MIPFocus to value 3
+Set parameter Symmetry to value 2
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+
+CPU model: AMD Ryzen Threadripper PRO 9975WX 32-Cores, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 32 physical cores, 64 logical processors, using up to 8 threads
+
+Non-default parameters:
+Cutoff  9.5
+SoftMemLimit  40
+MIPFocus  3
+NodefileStart  10
+Symmetry  2
+Threads  8
+
+Optimize a model with 85 rows, 253 columns and 683 nonzeros (Min)
+Model fingerprint: 0x95b150ad
+Model has 168 linear objective coefficients
+Variable types: 0 continuous, 253 integer (168 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 5e+00]
+  RHS range        [1e+00, 1e+00]
+
+Presolve time: 0.00s
+Presolved: 85 rows, 253 columns, 683 nonzeros
+Variable types: 0 continuous, 253 integer (168 binary)
+Root relaxation presolve removed 85 rows and 253 columns
+Root relaxation presolve: All rows and columns removed
+
+Root relaxation: objective 1.000000e+00, 0 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.00000    0    3          -    1.00000      -     -    0s
+     0     0    2.00000    0    3          -    2.00000      -     -    0s
+     0     0    3.00000    0    3          -    3.00000      -     -    0s
+     0     0    4.00000    0    3          -    4.00000      -     -    0s
+     0     2    4.00000    0    3          -    4.00000      -     -    0s
+
+Cutting planes:
+  Gomory: 20
+  Implied bound: 44
+  MIR: 113
+  Inf proof: 68
+  Zero half: 76
+  Relax-and-lift: 3
+
+Explored 27902 nodes (348366 simplex iterations) in 2.68 seconds (2.54 work units)
+Thread count was 8 (of 64 available processors)
+
+Solution count 0
+
+Model objective exceeds cutoff
+Best objective -, best bound 9.500000001050e+00, gap -
+
+Gurobi 13.0.3 (linux64) logging started Sun Sep 27 04:25:57 2026
+
+Set parameter LogFile to value "D3_56_gurobi.log"
+Set parameter Threads to value 8
+Set parameter NodefileStart to value 10
+Set parameter NodefileDir to value "."
+Set parameter SoftMemLimit to value 40
+Set parameter Cutoff to value 9.5
+Set parameter MIPFocus to value 3
+Set parameter Symmetry to value 2
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+
+CPU model: AMD Ryzen Threadripper PRO 9975WX 32-Cores, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 32 physical cores, 64 logical processors, using up to 8 threads
+
+Non-default parameters:
+Cutoff  9.5
+SoftMemLimit  40
+MIPFocus  3
+NodefileStart  10
+Symmetry  2
+Threads  8
+
+Optimize a model with 85 rows, 253 columns and 687 nonzeros (Min)
+Model fingerprint: 0x5606f874
+Model has 168 linear objective coefficients
+Variable types: 0 continuous, 253 integer (168 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 7e+00]
+  RHS range        [1e+00, 1e+00]
+
+Presolve time: 0.00s
+Presolved: 85 rows, 253 columns, 687 nonzeros
+Variable types: 0 continuous, 253 integer (168 binary)
+Root relaxation presolve removed 85 rows and 253 columns
+Root relaxation presolve: All rows and columns removed
+
+Root relaxation: objective 1.000000e+00, 0 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.00000    0    3          -    1.00000      -     -    0s
+     0     0    1.00000    0    3          -    1.00000      -     -    0s
+     0     0    2.00000    0    3          -    2.00000      -     -    0s
+     0     0    3.00000    0    3          -    3.00000      -     -    0s
+     0     0    3.00000    0    3          -    3.00000      -     -    0s
+     0     2    3.00000    0    3          -    3.00000      -     -    0s
+
+Cutting planes:
+  Gomory: 61
+  Implied bound: 302
+  MIR: 73
+  Inf proof: 15
+  Zero half: 42
+  Relax-and-lift: 4
+
+Explored 9567 nodes (116589 simplex iterations) in 1.13 seconds (0.97 work units)
+Thread count was 8 (of 64 available processors)
+
+Solution count 0
+
+Model objective exceeds cutoff
+Best objective -, best bound 9.500000001050e+00, gap -
+
+Gurobi 13.0.3 (linux64) logging started Sun Sep 27 04:25:58 2026
+
+Set parameter LogFile to value "D3_56_gurobi.log"
+Set parameter Threads to value 8
+Set parameter NodefileStart to value 10
+Set parameter NodefileDir to value "."
+Set parameter SoftMemLimit to value 40
+Set parameter Cutoff to value 9.5
+Set parameter MIPFocus to value 3
+Set parameter Symmetry to value 2
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+
+CPU model: AMD Ryzen Threadripper PRO 9975WX 32-Cores, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 32 physical cores, 64 logical processors, using up to 8 threads
+
+Non-default parameters:
+Cutoff  9.5
+SoftMemLimit  40
+MIPFocus  3
+NodefileStart  10
+Symmetry  2
+Threads  8
+
+Optimize a model with 85 rows, 253 columns and 683 nonzeros (Min)
+Model fingerprint: 0xa0d7234c
+Model has 168 linear objective coefficients
+Variable types: 0 continuous, 253 integer (168 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 5e+00]
+  RHS range        [1e+00, 1e+00]
+
+Presolve time: 0.00s
+Presolved: 85 rows, 253 columns, 683 nonzeros
+Variable types: 0 continuous, 253 integer (168 binary)
+Root relaxation presolve removed 85 rows and 253 columns
+Root relaxation presolve: All rows and columns removed
+
+Root relaxation: objective 1.000000e+00, 0 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.00000    0    3          -    1.00000      -     -    0s
+     0     0    2.00000    0    3          -    2.00000      -     -    0s
+     0     0    3.00000    0    3          -    3.00000      -     -    0s
+     0     0    4.00000    0    3          -    4.00000      -     -    0s
+     0     2    4.00000    0    3          -    4.00000      -     -    0s
+
+Cutting planes:
+  Gomory: 33
+  Implied bound: 17
+  MIR: 96
+  Inf proof: 68
+  Zero half: 58
+  Relax-and-lift: 5
+
+Explored 32638 nodes (280595 simplex iterations) in 1.90 seconds (1.79 work units)
+Thread count was 8 (of 64 available processors)
+
+Solution count 0
+
+Model objective exceeds cutoff
+Best objective -, best bound 9.500000001050e+00, gap -
+
+Gurobi 13.0.3 (linux64) logging started Sun Sep 27 04:26:00 2026
+
+Set parameter LogFile to value "D3_56_gurobi.log"
+Set parameter Threads to value 8
+Set parameter NodefileStart to value 10
+Set parameter NodefileDir to value "."
+Set parameter SoftMemLimit to value 40
+Set parameter Cutoff to value 9.5
+Set parameter MIPFocus to value 3
+Set parameter Symmetry to value 2
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+
+CPU model: AMD Ryzen Threadripper PRO 9975WX 32-Cores, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 32 physical cores, 64 logical processors, using up to 8 threads
+
+Non-default parameters:
+Cutoff  9.5
+SoftMemLimit  40
+MIPFocus  3
+NodefileStart  10
+Symmetry  2
+Threads  8
+
+Optimize a model with 85 rows, 253 columns and 700 nonzeros (Min)
+Model fingerprint: 0x22ec4aed
+Model has 168 linear objective coefficients
+Variable types: 0 continuous, 253 integer (168 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+01]
+  RHS range        [1e+00, 1e+00]
+
+Presolve time: 0.00s
+Presolved: 85 rows, 253 columns, 700 nonzeros
+Variable types: 0 continuous, 253 integer (168 binary)
+Root relaxation presolve removed 85 rows and 253 columns
+Root relaxation presolve: All rows and columns removed
+
+Extra simplex iterations after uncrush: 1
+
+Root relaxation: objective 1.000000e+00, 1 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.00000    0    4          -    1.00000      -     -    0s
+     0     0    6.00000    0   84          -    6.00000      -     -    0s
+     0     0    6.00000    0   82          -    6.00000      -     -    0s
+     0     0    6.00000    0   93          -    6.00000      -     -    0s
+     0     0    6.00000    0  107          -    6.00000      -     -    0s
+     0     0    6.00000    0  101          -    6.00000      -     -    0s
+     0     0    6.00000    0  110          -    6.00000      -     -    0s
+     0     0    6.00000    0  119          -    6.00000      -     -    0s
+     0     0    6.00000    0  117          -    6.00000      -     -    0s
+     0     0    6.00000    0  122          -    6.00000      -     -    0s
+     0     0    6.00000    0  121          -    6.00000      -     -    0s
+     0     0    6.00000    0  115          -    6.00000      -     -    0s
+     0     0    6.00000    0  115          -    6.00000      -     -    0s
+     0     0    6.00000    0  108          -    6.00000      -     -    0s
+     0     2    6.00000    0  101          -    6.00000      -     -    0s
+  6311  1476     cutoff   27               -    7.87391      -  42.9    5s
+
+Cutting planes:
+  Gomory: 13
+  Lift-and-project: 2
+  Implied bound: 44
+  MIR: 70
+  Inf proof: 20
+  Zero half: 290
+  Relax-and-lift: 4
+
+Explored 9235 nodes (420990 simplex iterations) in 5.92 seconds (9.54 work units)
+Thread count was 8 (of 64 available processors)
+
+Solution count 0
+
+Model objective exceeds cutoff
+Best objective -, best bound 9.500000001050e+00, gap -
+
+Gurobi 13.0.3 (linux64) logging started Sun Sep 27 04:26:06 2026
+
+Set parameter LogFile to value "D3_56_gurobi.log"
+Set parameter Threads to value 8
+Set parameter NodefileStart to value 10
+Set parameter NodefileDir to value "."
+Set parameter SoftMemLimit to value 40
+Set parameter Cutoff to value 9.5
+Set parameter MIPFocus to value 3
+Set parameter Symmetry to value 2
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+
+CPU model: AMD Ryzen Threadripper PRO 9975WX 32-Cores, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 32 physical cores, 64 logical processors, using up to 8 threads
+
+Non-default parameters:
+Cutoff  9.5
+SoftMemLimit  40
+MIPFocus  3
+NodefileStart  10
+Symmetry  2
+Threads  8
+
+Optimize a model with 85 rows, 253 columns and 703 nonzeros (Min)
+Model fingerprint: 0x83335021
+Model has 168 linear objective coefficients
+Variable types: 0 continuous, 253 integer (168 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+01]
+  RHS range        [1e+00, 1e+00]
+
+Presolve time: 0.00s
+Presolved: 85 rows, 253 columns, 703 nonzeros
+Variable types: 0 continuous, 253 integer (168 binary)
+Root relaxation presolve removed 85 rows and 253 columns
+Root relaxation presolve: All rows and columns removed
+
+Root relaxation: objective 1.000000e+00, 0 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.00000    0    3          -    1.00000      -     -    0s
+     0     0    1.00000    0    4          -    1.00000      -     -    0s
+     0     0    2.00000    0    3          -    2.00000      -     -    0s
+     0     0    3.00000    0    3          -    3.00000      -     -    0s
+     0     0    3.00000    0    3          -    3.00000      -     -    0s
+     0     2    3.00000    0    3          -    3.00000      -     -    0s
+
+Cutting planes:
+  Gomory: 34
+  Implied bound: 414
+  MIR: 53
+  Mixing: 1
+  Inf proof: 33
+  Zero half: 118
+  Relax-and-lift: 3
+
+Explored 22216 nodes (324415 simplex iterations) in 2.17 seconds (2.52 work units)
+Thread count was 8 (of 64 available processors)
+
+Solution count 0
+
+Model objective exceeds cutoff
+Best objective -, best bound 9.500000001050e+00, gap -
+
+Gurobi 13.0.3 (linux64) logging started Sun Sep 27 04:26:08 2026
+
+Set parameter LogFile to value "D3_56_gurobi.log"
+Set parameter Threads to value 8
+Set parameter NodefileStart to value 10
+Set parameter NodefileDir to value "."
+Set parameter SoftMemLimit to value 40
+Set parameter Cutoff to value 9.5
+Set parameter MIPFocus to value 3
+Set parameter Symmetry to value 2
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+
+CPU model: AMD Ryzen Threadripper PRO 9975WX 32-Cores, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 32 physical cores, 64 logical processors, using up to 8 threads
+
+Non-default parameters:
+Cutoff  9.5
+SoftMemLimit  40
+MIPFocus  3
+NodefileStart  10
+Symmetry  2
+Threads  8
+
+Optimize a model with 85 rows, 253 columns and 709 nonzeros (Min)
+Model fingerprint: 0x942dac25
+Model has 168 linear objective coefficients
+Variable types: 0 continuous, 253 integer (168 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+01]
+  RHS range        [1e+00, 1e+00]
+
+Presolve time: 0.00s
+Presolved: 85 rows, 253 columns, 709 nonzeros
+Variable types: 0 continuous, 253 integer (168 binary)
+Root relaxation presolve removed 85 rows and 253 columns
+Root relaxation presolve: All rows and columns removed
+
+Root relaxation: objective 1.000000e+00, 0 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.00000    0    3          -    1.00000      -     -    0s
+     0     0    6.00000    0   66          -    6.00000      -     -    0s
+     0     0    6.00000    0   65          -    6.00000      -     -    0s
+     0     0    6.00000    0   91          -    6.00000      -     -    0s
+     0     0    6.00000    0  111          -    6.00000      -     -    0s
+     0     0    6.00000    0  120          -    6.00000      -     -    0s
+     0     0    6.00000    0  123          -    6.00000      -     -    0s
+     0     0    6.00000    0  122          -    6.00000      -     -    0s
+     0     0    6.00000    0  105          -    6.00000      -     -    0s
+     0     0    6.00000    0  105          -    6.00000      -     -    0s
+     0     0    6.00000    0   99          -    6.00000      -     -    0s
+     0     2    6.00000    0   94          -    6.00000      -     -    0s
+ 10432  1114 infeasible   25               -    8.00000      -  26.4    5s
+
+Cutting planes:
+  Gomory: 11
+  Lift-and-project: 1
+  Implied bound: 43
+  MIR: 101
+  Inf proof: 25
+  Zero half: 200
+  Relax-and-lift: 3
+
+Explored 12247 nodes (327951 simplex iterations) in 5.34 seconds (6.34 work units)
+Thread count was 8 (of 64 available processors)
+
+Solution count 0
+
+Model objective exceeds cutoff
+Best objective -, best bound 9.500000001050e+00, gap -
+
+Gurobi 13.0.3 (linux64) logging started Sun Sep 27 04:26:13 2026
+
+Set parameter LogFile to value "D3_56_gurobi.log"
+Set parameter Threads to value 8
+Set parameter NodefileStart to value 10
+Set parameter NodefileDir to value "."
+Set parameter SoftMemLimit to value 40
+Set parameter Cutoff to value 9.5
+Set parameter MIPFocus to value 3
+Set parameter Symmetry to value 2
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+
+CPU model: AMD Ryzen Threadripper PRO 9975WX 32-Cores, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 32 physical cores, 64 logical processors, using up to 8 threads
+
+Non-default parameters:
+Cutoff  9.5
+SoftMemLimit  40
+MIPFocus  3
+NodefileStart  10
+Symmetry  2
+Threads  8
+
+Optimize a model with 85 rows, 253 columns and 694 nonzeros (Min)
+Model fingerprint: 0x7ce030f2
+Model has 168 linear objective coefficients
+Variable types: 0 continuous, 253 integer (168 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+01]
+  RHS range        [1e+00, 1e+00]
+
+Presolve time: 0.00s
+Presolved: 85 rows, 253 columns, 694 nonzeros
+Variable types: 0 continuous, 253 integer (168 binary)
+Root relaxation presolve removed 85 rows and 253 columns
+Root relaxation presolve: All rows and columns removed
+
+Extra simplex iterations after uncrush: 1
+
+Root relaxation: objective 1.000000e+00, 1 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.00000    0    4          -    1.00000      -     -    0s
+     0     0    6.00000    0   68          -    6.00000      -     -    0s
+     0     0    6.00000    0   68          -    6.00000      -     -    0s
+     0     0    6.00000    0   79          -    6.00000      -     -    0s
+     0     0    6.00000    0   77          -    6.00000      -     -    0s
+     0     0    6.00000    0   84          -    6.00000      -     -    0s
+     0     0    6.00000    0  101          -    6.00000      -     -    0s
+     0     0    6.00000    0  100          -    6.00000      -     -    0s
+     0     0    7.00000    0  100          -    7.00000      -     -    0s
+     0     0    7.00000    0   98          -    7.00000      -     -    0s
+     0     2    7.00000    0   83          -    7.00000      -     -    0s
+
+Cutting planes:
+  Gomory: 12
+  Lift-and-project: 2
+  Implied bound: 17
+  MIR: 105
+  Inf proof: 13
+  Zero half: 224
+  Relax-and-lift: 11
+
+Explored 11028 nodes (308612 simplex iterations) in 4.70 seconds (6.13 work units)
+Thread count was 8 (of 64 available processors)
+
+Solution count 0
+
+Model objective exceeds cutoff
+Best objective -, best bound 9.500000001050e+00, gap -
+
+Gurobi 13.0.3 (linux64) logging started Sun Sep 27 04:26:18 2026
+
+Set parameter LogFile to value "D3_56_gurobi.log"
+Set parameter Threads to value 8
+Set parameter NodefileStart to value 10
+Set parameter NodefileDir to value "."
+Set parameter SoftMemLimit to value 40
+Set parameter Cutoff to value 9.5
+Set parameter MIPFocus to value 3
+Set parameter Symmetry to value 2
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+
+CPU model: AMD Ryzen Threadripper PRO 9975WX 32-Cores, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 32 physical cores, 64 logical processors, using up to 8 threads
+
+Non-default parameters:
+Cutoff  9.5
+SoftMemLimit  40
+MIPFocus  3
+NodefileStart  10
+Symmetry  2
+Threads  8
+
+Optimize a model with 85 rows, 253 columns and 703 nonzeros (Min)
+Model fingerprint: 0x8fff6bec
+Model has 168 linear objective coefficients
+Variable types: 0 continuous, 253 integer (168 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+01]
+  RHS range        [1e+00, 1e+00]
+
+Presolve time: 0.00s
+Presolved: 85 rows, 253 columns, 703 nonzeros
+Variable types: 0 continuous, 253 integer (168 binary)
+Root relaxation presolve removed 85 rows and 253 columns
+Root relaxation presolve: All rows and columns removed
+
+Root relaxation: objective 1.000000e+00, 0 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.00000    0    3          -    1.00000      -     -    0s
+     0     0    1.00000    0    3          -    1.00000      -     -    0s
+     0     0    1.00000    0    3          -    1.00000      -     -    0s
+     0     0    2.00000    0    3          -    2.00000      -     -    0s
+     0     0    3.00000    0    3          -    3.00000      -     -    0s
+     0     2    3.00000    0    3          -    3.00000      -     -    0s
+
+Cutting planes:
+  Gomory: 35
+  Implied bound: 432
+  MIR: 92
+  Mixing: 1
+  StrongCG: 1
+  Inf proof: 23
+  Zero half: 105
+  Relax-and-lift: 1
+
+Explored 18490 nodes (336578 simplex iterations) in 2.42 seconds (2.86 work units)
+Thread count was 8 (of 64 available processors)
+
+Solution count 0
+
+Model objective exceeds cutoff
+Best objective -, best bound 9.500000001050e+00, gap -
+
+Gurobi 13.0.3 (linux64) logging started Sun Sep 27 04:26:20 2026
+
+Set parameter LogFile to value "D3_56_gurobi.log"
+Set parameter Threads to value 8
+Set parameter NodefileStart to value 10
+Set parameter NodefileDir to value "."
+Set parameter SoftMemLimit to value 40
+Set parameter Cutoff to value 9.5
+Set parameter MIPFocus to value 3
+Set parameter Symmetry to value 2
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+
+CPU model: AMD Ryzen Threadripper PRO 9975WX 32-Cores, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 32 physical cores, 64 logical processors, using up to 8 threads
+
+Non-default parameters:
+Cutoff  9.5
+SoftMemLimit  40
+MIPFocus  3
+NodefileStart  10
+Symmetry  2
+Threads  8
+
+Optimize a model with 85 rows, 253 columns and 715 nonzeros (Min)
+Model fingerprint: 0x6c2732fd
+Model has 168 linear objective coefficients
+Variable types: 0 continuous, 253 integer (168 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+01]
+  RHS range        [1e+00, 1e+00]
+
+Presolve time: 0.00s
+Presolved: 85 rows, 253 columns, 715 nonzeros
+Variable types: 0 continuous, 253 integer (168 binary)
+Root relaxation presolve removed 85 rows and 253 columns
+Root relaxation presolve: All rows and columns removed
+
+Root relaxation: objective 1.000000e+00, 0 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.00000    0    3          -    1.00000      -     -    0s
+     0     0    6.00000    0   16          -    6.00000      -     -    0s
+     0     0    6.00000    0   16          -    6.00000      -     -    0s
+     0     0    6.00000    0   17          -    6.00000      -     -    0s
+     0     0    6.00000    0   16          -    6.00000      -     -    0s
+     0     0    6.00000    0   16          -    6.00000      -     -    0s
+     0     0    6.00000    0   16          -    6.00000      -     -    0s
+     0     0    6.00000    0   16          -    6.00000      -     -    0s
+     0     0    6.00000    0   16          -    6.00000      -     -    0s
+     0     2    6.00000    0   16          -    6.00000      -     -    0s
+
+Cutting planes:
+  Gomory: 21
+  Lift-and-project: 2
+  Implied bound: 90
+  MIR: 59
+  Inf proof: 12
+  Zero half: 231
+  Relax-and-lift: 1
+
+Explored 11830 nodes (485623 simplex iterations) in 4.63 seconds (8.34 work units)
+Thread count was 8 (of 64 available processors)
+
+Solution count 0
+
+Model objective exceeds cutoff
+Best objective -, best bound 9.500000001050e+00, gap -
+
+Gurobi 13.0.3 (linux64) logging started Sun Sep 27 04:26:25 2026
+
+Set parameter LogFile to value "D3_56_gurobi.log"
+Set parameter Threads to value 8
+Set parameter NodefileStart to value 10
+Set parameter NodefileDir to value "."
+Set parameter SoftMemLimit to value 40
+Set parameter Cutoff to value 9.5
+Set parameter MIPFocus to value 3
+Set parameter Symmetry to value 2
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+
+CPU model: AMD Ryzen Threadripper PRO 9975WX 32-Cores, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 32 physical cores, 64 logical processors, using up to 8 threads
+
+Non-default parameters:
+Cutoff  9.5
+SoftMemLimit  40
+MIPFocus  3
+NodefileStart  10
+Symmetry  2
+Threads  8
+
+Optimize a model with 85 rows, 253 columns and 700 nonzeros (Min)
+Model fingerprint: 0x0f2307b1
+Model has 168 linear objective coefficients
+Variable types: 0 continuous, 253 integer (168 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+01]
+  RHS range        [1e+00, 1e+00]
+
+Presolve time: 0.00s
+Presolved: 85 rows, 253 columns, 700 nonzeros
+Variable types: 0 continuous, 253 integer (168 binary)
+Root relaxation presolve removed 85 rows and 253 columns
+Root relaxation presolve: All rows and columns removed
+
+Extra simplex iterations after uncrush: 1
+
+Root relaxation: objective 1.000000e+00, 1 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.00000    0    4          -    1.00000      -     -    0s
+     0     0    6.00000    0   35          -    6.00000      -     -    0s
+     0     0    6.00000    0   33          -    6.00000      -     -    0s
+     0     0    6.00000    0   38          -    6.00000      -     -    0s
+     0     0    6.00000    0   35          -    6.00000      -     -    0s
+     0     0    6.00000    0   35          -    6.00000      -     -    0s
+     0     0    6.00000    0   35          -    6.00000      -     -    0s
+     0     2    6.00000    0   35          -    6.00000      -     -    0s
+
+Cutting planes:
+  Gomory: 10
+  Lift-and-project: 4
+  Implied bound: 78
+  MIR: 93
+  Flow cover: 1
+  Inf proof: 15
+  Zero half: 244
+  Relax-and-lift: 3
+
+Explored 10244 nodes (361431 simplex iterations) in 4.62 seconds (7.70 work units)
+Thread count was 8 (of 64 available processors)
+
+Solution count 0
+
+Model objective exceeds cutoff
+Best objective -, best bound 9.500000001050e+00, gap -
+
+Gurobi 13.0.3 (linux64) logging started Sun Sep 27 04:26:30 2026
+
+Set parameter LogFile to value "D3_56_gurobi.log"
+Set parameter Threads to value 8
+Set parameter NodefileStart to value 10
+Set parameter NodefileDir to value "."
+Set parameter SoftMemLimit to value 40
+Set parameter Cutoff to value 9.5
+Set parameter MIPFocus to value 3
+Set parameter Symmetry to value 2
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+
+CPU model: AMD Ryzen Threadripper PRO 9975WX 32-Cores, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 32 physical cores, 64 logical processors, using up to 8 threads
+
+Non-default parameters:
+Cutoff  9.5
+SoftMemLimit  40
+MIPFocus  3
+NodefileStart  10
+Symmetry  2
+Threads  8
+
+Optimize a model with 85 rows, 253 columns and 701 nonzeros (Min)
+Model fingerprint: 0xb85529f0
+Model has 168 linear objective coefficients
+Variable types: 0 continuous, 253 integer (168 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+01]
+  RHS range        [1e+00, 1e+00]
+
+Presolve time: 0.00s
+Presolved: 85 rows, 253 columns, 701 nonzeros
+Variable types: 0 continuous, 253 integer (168 binary)
+Root relaxation presolve removed 85 rows and 253 columns
+Root relaxation presolve: All rows and columns removed
+
+Root relaxation: objective 1.000000e+00, 0 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.00000    0    3          -    1.00000      -     -    0s
+     0     0    1.00000    0    3          -    1.00000      -     -    0s
+     0     0    2.00000    0    3          -    2.00000      -     -    0s
+     0     0    2.50000    0    3          -    2.50000      -     -    0s
+     0     0    3.00000    0    3          -    3.00000      -     -    0s
+     0     2    3.00000    0    3          -    3.00000      -     -    0s
+
+Cutting planes:
+  Gomory: 25
+  Implied bound: 421
+  MIR: 55
+  Inf proof: 33
+  Zero half: 97
+  Relax-and-lift: 2
+
+Explored 20396 nodes (272357 simplex iterations) in 1.94 seconds (2.04 work units)
+Thread count was 8 (of 64 available processors)
+
+Solution count 0
+
+Model objective exceeds cutoff
+Best objective -, best bound 9.500000001050e+00, gap -
+
+Gurobi 13.0.3 (linux64) logging started Sun Sep 27 04:26:32 2026
+
+Set parameter LogFile to value "D3_56_gurobi.log"
+Set parameter Threads to value 8
+Set parameter NodefileStart to value 10
+Set parameter NodefileDir to value "."
+Set parameter SoftMemLimit to value 40
+Set parameter Cutoff to value 9.5
+Set parameter MIPFocus to value 3
+Set parameter Symmetry to value 2
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+
+CPU model: AMD Ryzen Threadripper PRO 9975WX 32-Cores, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 32 physical cores, 64 logical processors, using up to 8 threads
+
+Non-default parameters:
+Cutoff  9.5
+SoftMemLimit  40
+MIPFocus  3
+NodefileStart  10
+Symmetry  2
+Threads  8
+
+Optimize a model with 85 rows, 253 columns and 709 nonzeros (Min)
+Model fingerprint: 0x3cb1f060
+Model has 168 linear objective coefficients
+Variable types: 0 continuous, 253 integer (168 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+01]
+  RHS range        [1e+00, 1e+00]
+
+Presolve time: 0.00s
+Presolved: 85 rows, 253 columns, 709 nonzeros
+Variable types: 0 continuous, 253 integer (168 binary)
+Root relaxation presolve removed 85 rows and 253 columns
+Root relaxation presolve: All rows and columns removed
+
+Root relaxation: objective 1.000000e+00, 0 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.00000    0    3          -    1.00000      -     -    0s
+     0     0    1.00000    0    3          -    1.00000      -     -    0s
+     0     0    1.00000    0    4          -    1.00000      -     -    0s
+     0     0    2.00000    0    3          -    2.00000      -     -    0s
+     0     0    2.00000    0    3          -    2.00000      -     -    0s
+     0     0    3.00000    0    3          -    3.00000      -     -    0s
+     0     2    3.00000    0    3          -    3.00000      -     -    0s
+
+Cutting planes:
+  Gomory: 36
+  Implied bound: 426
+  MIR: 88
+  Inf proof: 25
+  Zero half: 257
+
+Explored 16531 nodes (327280 simplex iterations) in 2.73 seconds (3.60 work units)
+Thread count was 8 (of 64 available processors)
+
+Solution count 0
+
+Model objective exceeds cutoff
+Best objective -, best bound 9.500000001050e+00, gap -
+
+Gurobi 13.0.3 (linux64) logging started Sun Sep 27 04:26:34 2026
+
+Set parameter LogFile to value "D3_56_gurobi.log"
+Set parameter Threads to value 8
+Set parameter NodefileStart to value 10
+Set parameter NodefileDir to value "."
+Set parameter SoftMemLimit to value 40
+Set parameter Cutoff to value 9.5
+Set parameter MIPFocus to value 3
+Set parameter Symmetry to value 2
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+
+CPU model: AMD Ryzen Threadripper PRO 9975WX 32-Cores, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 32 physical cores, 64 logical processors, using up to 8 threads
+
+Non-default parameters:
+Cutoff  9.5
+SoftMemLimit  40
+MIPFocus  3
+NodefileStart  10
+Symmetry  2
+Threads  8
+
+Optimize a model with 85 rows, 253 columns and 694 nonzeros (Min)
+Model fingerprint: 0x05de0c47
+Model has 168 linear objective coefficients
+Variable types: 0 continuous, 253 integer (168 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+01]
+  RHS range        [1e+00, 1e+00]
+
+Presolve time: 0.00s
+Presolved: 85 rows, 253 columns, 694 nonzeros
+Variable types: 0 continuous, 253 integer (168 binary)
+Root relaxation presolve removed 85 rows and 253 columns
+Root relaxation presolve: All rows and columns removed
+
+Extra simplex iterations after uncrush: 1
+
+Root relaxation: objective 1.000000e+00, 1 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.00000    0    4          -    1.00000      -     -    0s
+     0     0    1.00000    0    3          -    1.00000      -     -    0s
+     0     0    2.00000    0    3          -    2.00000      -     -    0s
+     0     0    3.00000    0    3          -    3.00000      -     -    0s
+     0     0    3.00000    0    3          -    3.00000      -     -    0s
+     0     2    3.00000    0    3          -    3.00000      -     -    0s
+
+Cutting planes:
+  Gomory: 31
+  Implied bound: 374
+  MIR: 73
+  Mixing: 1
+  Inf proof: 21
+  Zero half: 92
+  Relax-and-lift: 7
+
+Explored 17808 nodes (232421 simplex iterations) in 2.09 seconds (1.81 work units)
+Thread count was 8 (of 64 available processors)
+
+Solution count 0
+
+Model objective exceeds cutoff
+Best objective -, best bound 9.500000001050e+00, gap -
+
+Gurobi 13.0.3 (linux64) logging started Sun Sep 27 04:26:37 2026
+
+Set parameter LogFile to value "D3_56_gurobi.log"
+Set parameter Threads to value 8
+Set parameter NodefileStart to value 10
+Set parameter NodefileDir to value "."
+Set parameter SoftMemLimit to value 40
+Set parameter Cutoff to value 9.5
+Set parameter MIPFocus to value 3
+Set parameter Symmetry to value 2
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+
+CPU model: AMD Ryzen Threadripper PRO 9975WX 32-Cores, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 32 physical cores, 64 logical processors, using up to 8 threads
+
+Non-default parameters:
+Cutoff  9.5
+SoftMemLimit  40
+MIPFocus  3
+NodefileStart  10
+Symmetry  2
+Threads  8
+
+Optimize a model with 85 rows, 253 columns and 683 nonzeros (Min)
+Model fingerprint: 0xea4a453e
+Model has 168 linear objective coefficients
+Variable types: 0 continuous, 253 integer (168 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 5e+00]
+  RHS range        [1e+00, 1e+00]
+
+Presolve time: 0.00s
+Presolved: 85 rows, 253 columns, 683 nonzeros
+Variable types: 0 continuous, 253 integer (168 binary)
+Root relaxation presolve removed 85 rows and 253 columns
+Root relaxation presolve: All rows and columns removed
+
+Root relaxation: objective 1.000000e+00, 0 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.00000    0    4          -    1.00000      -     -    0s
+     0     0    2.00000    0    4          -    2.00000      -     -    0s
+     0     0    3.00000    0    4          -    3.00000      -     -    0s
+     0     0    4.00000    0    4          -    4.00000      -     -    0s
+     0     2    4.00000    0    4          -    4.00000      -     -    0s
+
+Cutting planes:
+  Gomory: 32
+  Implied bound: 309
+  MIR: 59
+  Inf proof: 16
+  Zero half: 58
+  Relax-and-lift: 3
+
+Explored 12603 nodes (167852 simplex iterations) in 1.30 seconds (1.15 work units)
+Thread count was 8 (of 64 available processors)
+
+Solution count 0
+
+Model objective exceeds cutoff
+Best objective -, best bound 9.500000001050e+00, gap -
+
+Gurobi 13.0.3 (linux64) logging started Sun Sep 27 04:26:38 2026
+
+Set parameter LogFile to value "D3_56_gurobi.log"
+Set parameter Threads to value 8
+Set parameter NodefileStart to value 10
+Set parameter NodefileDir to value "."
+Set parameter SoftMemLimit to value 40
+Set parameter Cutoff to value 9.5
+Set parameter MIPFocus to value 3
+Set parameter Symmetry to value 2
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+
+CPU model: AMD Ryzen Threadripper PRO 9975WX 32-Cores, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 32 physical cores, 64 logical processors, using up to 8 threads
+
+Non-default parameters:
+Cutoff  9.5
+SoftMemLimit  40
+MIPFocus  3
+NodefileStart  10
+Symmetry  2
+Threads  8
+
+Optimize a model with 85 rows, 253 columns and 685 nonzeros (Min)
+Model fingerprint: 0x921ab480
+Model has 168 linear objective coefficients
+Variable types: 0 continuous, 253 integer (168 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 6e+00]
+  RHS range        [1e+00, 1e+00]
+
+Presolve time: 0.00s
+Presolved: 85 rows, 253 columns, 685 nonzeros
+Variable types: 0 continuous, 253 integer (168 binary)
+Root relaxation presolve removed 85 rows and 253 columns
+Root relaxation presolve: All rows and columns removed
+
+Root relaxation: objective 1.000000e+00, 0 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.00000    0    4          -    1.00000      -     -    0s
+     0     0    1.00000    0    4          -    1.00000      -     -    0s
+     0     0    2.00000    0    4          -    2.00000      -     -    0s
+     0     0    3.00000    0    4          -    3.00000      -     -    0s
+     0     0    3.00000    0    4          -    3.00000      -     -    0s
+     0     2    3.00000    0    4          -    3.00000      -     -    0s
+
+Cutting planes:
+  Gomory: 55
+  Implied bound: 211
+  MIR: 64
+  Inf proof: 24
+  Zero half: 64
+  Relax-and-lift: 11
+
+Explored 6698 nodes (77923 simplex iterations) in 0.61 seconds (0.56 work units)
+Thread count was 8 (of 64 available processors)
+
+Solution count 0
+
+Model objective exceeds cutoff
+Best objective -, best bound 9.500000001050e+00, gap -
+
+Gurobi 13.0.3 (linux64) logging started Sun Sep 27 04:26:39 2026
+
+Set parameter LogFile to value "D3_56_gurobi.log"
+Set parameter Threads to value 8
+Set parameter NodefileStart to value 10
+Set parameter NodefileDir to value "."
+Set parameter SoftMemLimit to value 40
+Set parameter Cutoff to value 9.5
+Set parameter MIPFocus to value 3
+Set parameter Symmetry to value 2
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+
+CPU model: AMD Ryzen Threadripper PRO 9975WX 32-Cores, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 32 physical cores, 64 logical processors, using up to 8 threads
+
+Non-default parameters:
+Cutoff  9.5
+SoftMemLimit  40
+MIPFocus  3
+NodefileStart  10
+Symmetry  2
+Threads  8
+
+Optimize a model with 85 rows, 253 columns and 683 nonzeros (Min)
+Model fingerprint: 0xf9be0ebd
+Model has 168 linear objective coefficients
+Variable types: 0 continuous, 253 integer (168 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 5e+00]
+  RHS range        [1e+00, 1e+00]
+
+Presolve time: 0.00s
+Presolved: 85 rows, 253 columns, 683 nonzeros
+Variable types: 0 continuous, 253 integer (168 binary)
+Root relaxation presolve removed 85 rows and 253 columns
+Root relaxation presolve: All rows and columns removed
+
+Root relaxation: objective 1.000000e+00, 0 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.00000    0    4          -    1.00000      -     -    0s
+     0     0    2.00000    0    4          -    2.00000      -     -    0s
+     0     0    3.00000    0    4          -    3.00000      -     -    0s
+     0     0    4.00000    0    4          -    4.00000      -     -    0s
+     0     2    4.00000    0    4          -    4.00000      -     -    0s
+
+Cutting planes:
+  Gomory: 32
+  Implied bound: 273
+  MIR: 51
+  Inf proof: 18
+  Zero half: 46
+  Relax-and-lift: 10
+
+Explored 12856 nodes (152994 simplex iterations) in 1.12 seconds (1.00 work units)
+Thread count was 8 (of 64 available processors)
+
+Solution count 0
+
+Model objective exceeds cutoff
+Best objective -, best bound 9.500000001050e+00, gap -
+
+Gurobi 13.0.3 (linux64) logging started Sun Sep 27 04:26:40 2026
+
+Set parameter LogFile to value "D3_56_gurobi.log"
+Set parameter Threads to value 8
+Set parameter NodefileStart to value 10
+Set parameter NodefileDir to value "."
+Set parameter SoftMemLimit to value 40
+Set parameter Cutoff to value 9.5
+Set parameter MIPFocus to value 3
+Set parameter Symmetry to value 2
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+
+CPU model: AMD Ryzen Threadripper PRO 9975WX 32-Cores, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 32 physical cores, 64 logical processors, using up to 8 threads
+
+Non-default parameters:
+Cutoff  9.5
+SoftMemLimit  40
+MIPFocus  3
+NodefileStart  10
+Symmetry  2
+Threads  8
+
+Optimize a model with 85 rows, 253 columns and 685 nonzeros (Min)
+Model fingerprint: 0xd7f22332
+Model has 168 linear objective coefficients
+Variable types: 0 continuous, 253 integer (168 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 6e+00]
+  RHS range        [1e+00, 1e+00]
+
+Presolve time: 0.00s
+Presolved: 85 rows, 253 columns, 685 nonzeros
+Variable types: 0 continuous, 253 integer (168 binary)
+Root relaxation presolve removed 85 rows and 253 columns
+Root relaxation presolve: All rows and columns removed
+
+Root relaxation: objective 1.000000e+00, 0 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.00000    0    4          -    1.00000      -     -    0s
+     0     0    1.00000    0    4          -    1.00000      -     -    0s
+     0     0    2.00000    0    4          -    2.00000      -     -    0s
+     0     0    3.00000    0    4          -    3.00000      -     -    0s
+     0     0    3.00000    0    4          -    3.00000      -     -    0s
+     0     2    3.00000    0    4          -    3.00000      -     -    0s
+
+Cutting planes:
+  Gomory: 62
+  Implied bound: 220
+  MIR: 67
+  Inf proof: 18
+  Zero half: 83
+  Relax-and-lift: 11
+
+Explored 6899 nodes (76324 simplex iterations) in 0.76 seconds (0.58 work units)
+Thread count was 8 (of 64 available processors)
+
+Solution count 0
+
+Model objective exceeds cutoff
+Best objective -, best bound 9.500000001050e+00, gap -
+
+Gurobi 13.0.3 (linux64) logging started Sun Sep 27 04:26:40 2026
+
+Set parameter LogFile to value "D3_56_gurobi.log"
+Set parameter Threads to value 8
+Set parameter NodefileStart to value 10
+Set parameter NodefileDir to value "."
+Set parameter SoftMemLimit to value 40
+Set parameter Cutoff to value 9.5
+Set parameter MIPFocus to value 3
+Set parameter Symmetry to value 2
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+
+CPU model: AMD Ryzen Threadripper PRO 9975WX 32-Cores, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 32 physical cores, 64 logical processors, using up to 8 threads
+
+Non-default parameters:
+Cutoff  9.5
+SoftMemLimit  40
+MIPFocus  3
+NodefileStart  10
+Symmetry  2
+Threads  8
+
+Optimize a model with 85 rows, 253 columns and 683 nonzeros (Min)
+Model fingerprint: 0x749175b5
+Model has 168 linear objective coefficients
+Variable types: 0 continuous, 253 integer (168 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 5e+00]
+  RHS range        [1e+00, 1e+00]
+
+Presolve time: 0.00s
+Presolved: 85 rows, 253 columns, 683 nonzeros
+Variable types: 0 continuous, 253 integer (168 binary)
+Root relaxation presolve removed 85 rows and 253 columns
+Root relaxation presolve: All rows and columns removed
+
+Root relaxation: objective 1.000000e+00, 0 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.00000    0    4          -    1.00000      -     -    0s
+     0     0    2.00000    0    4          -    2.00000      -     -    0s
+     0     0    3.00000    0    4          -    3.00000      -     -    0s
+     0     0    3.00000    0    4          -    3.00000      -     -    0s
+     0     2    3.00000    0    4          -    3.00000      -     -    0s
+
+Cutting planes:
+  Gomory: 34
+  Implied bound: 288
+  MIR: 60
+  Inf proof: 8
+  Zero half: 35
+  Relax-and-lift: 7
+
+Explored 10066 nodes (135725 simplex iterations) in 1.05 seconds (0.94 work units)
+Thread count was 8 (of 64 available processors)
+
+Solution count 0
+
+Model objective exceeds cutoff
+Best objective -, best bound 9.500000001050e+00, gap -
+
+Gurobi 13.0.3 (linux64) logging started Sun Sep 27 04:26:41 2026
+
+Set parameter LogFile to value "D3_56_gurobi.log"
+Set parameter Threads to value 8
+Set parameter NodefileStart to value 10
+Set parameter NodefileDir to value "."
+Set parameter SoftMemLimit to value 40
+Set parameter Cutoff to value 9.5
+Set parameter MIPFocus to value 3
+Set parameter Symmetry to value 2
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+
+CPU model: AMD Ryzen Threadripper PRO 9975WX 32-Cores, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 32 physical cores, 64 logical processors, using up to 8 threads
+
+Non-default parameters:
+Cutoff  9.5
+SoftMemLimit  40
+MIPFocus  3
+NodefileStart  10
+Symmetry  2
+Threads  8
+
+Optimize a model with 85 rows, 253 columns and 685 nonzeros (Min)
+Model fingerprint: 0xcc7a3f6e
+Model has 168 linear objective coefficients
+Variable types: 0 continuous, 253 integer (168 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 6e+00]
+  RHS range        [1e+00, 1e+00]
+
+Presolve time: 0.00s
+Presolved: 85 rows, 253 columns, 685 nonzeros
+Variable types: 0 continuous, 253 integer (168 binary)
+Root relaxation presolve removed 85 rows and 253 columns
+Root relaxation presolve: All rows and columns removed
+
+Root relaxation: objective 1.000000e+00, 0 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.00000    0    4          -    1.00000      -     -    0s
+     0     0    1.00000    0    4          -    1.00000      -     -    0s
+     0     0    2.00000    0    4          -    2.00000      -     -    0s
+     0     0    3.00000    0    4          -    3.00000      -     -    0s
+     0     0    3.00000    0    4          -    3.00000      -     -    0s
+     0     2    3.00000    0    4          -    3.00000      -     -    0s
+
+Cutting planes:
+  Gomory: 64
+  Implied bound: 221
+  MIR: 71
+  Inf proof: 10
+  Zero half: 89
+  Relax-and-lift: 17
+
+Explored 6994 nodes (84522 simplex iterations) in 0.65 seconds (0.67 work units)
+Thread count was 8 (of 64 available processors)
+
+Solution count 0
+
+Model objective exceeds cutoff
+Best objective -, best bound 9.500000001050e+00, gap -
+
+Gurobi 13.0.3 (linux64) logging started Sun Sep 27 04:26:42 2026
+
+Set parameter LogFile to value "D3_56_gurobi.log"
+Set parameter Threads to value 8
+Set parameter NodefileStart to value 10
+Set parameter NodefileDir to value "."
+Set parameter SoftMemLimit to value 40
+Set parameter Cutoff to value 9.5
+Set parameter MIPFocus to value 3
+Set parameter Symmetry to value 2
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+
+CPU model: AMD Ryzen Threadripper PRO 9975WX 32-Cores, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 32 physical cores, 64 logical processors, using up to 8 threads
+
+Non-default parameters:
+Cutoff  9.5
+SoftMemLimit  40
+MIPFocus  3
+NodefileStart  10
+Symmetry  2
+Threads  8
+
+Optimize a model with 85 rows, 253 columns and 685 nonzeros (Min)
+Model fingerprint: 0x04c3f766
+Model has 168 linear objective coefficients
+Variable types: 0 continuous, 253 integer (168 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 6e+00]
+  RHS range        [1e+00, 1e+00]
+
+Presolve time: 0.00s
+Presolved: 85 rows, 253 columns, 685 nonzeros
+Variable types: 0 continuous, 253 integer (168 binary)
+Root relaxation presolve removed 85 rows and 253 columns
+Root relaxation presolve: All rows and columns removed
+
+Root relaxation: objective 1.000000e+00, 0 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.00000    0    4          -    1.00000      -     -    0s
+     0     0    1.00000    0    4          -    1.00000      -     -    0s
+     0     0    2.00000    0    4          -    2.00000      -     -    0s
+     0     0    3.00000    0    4          -    3.00000      -     -    0s
+     0     0    3.00000    0    4          -    3.00000      -     -    0s
+     0     2    3.00000    0    4          -    3.00000      -     -    0s
+
+Cutting planes:
+  Gomory: 64
+  Implied bound: 225
+  MIR: 85
+  Inf proof: 8
+  Zero half: 93
+  Relax-and-lift: 12
+
+Explored 6733 nodes (79375 simplex iterations) in 0.82 seconds (0.62 work units)
+Thread count was 8 (of 64 available processors)
+
+Solution count 0
+
+Model objective exceeds cutoff
+Best objective -, best bound 9.500000001050e+00, gap -
+
+Gurobi 13.0.3 (linux64) logging started Sun Sep 27 04:26:43 2026
+
+Set parameter LogFile to value "D3_56_gurobi.log"
+Set parameter Threads to value 8
+Set parameter NodefileStart to value 10
+Set parameter NodefileDir to value "."
+Set parameter SoftMemLimit to value 40
+Set parameter Cutoff to value 9.5
+Set parameter MIPFocus to value 3
+Set parameter Symmetry to value 2
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+
+CPU model: AMD Ryzen Threadripper PRO 9975WX 32-Cores, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 32 physical cores, 64 logical processors, using up to 8 threads
+
+Non-default parameters:
+Cutoff  9.5
+SoftMemLimit  40
+MIPFocus  3
+NodefileStart  10
+Symmetry  2
+Threads  8
+
+Optimize a model with 85 rows, 253 columns and 683 nonzeros (Min)
+Model fingerprint: 0x06136808
+Model has 168 linear objective coefficients
+Variable types: 0 continuous, 253 integer (168 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 5e+00]
+  RHS range        [1e+00, 1e+00]
+
+Presolve time: 0.00s
+Presolved: 85 rows, 253 columns, 683 nonzeros
+Variable types: 0 continuous, 253 integer (168 binary)
+Root relaxation presolve removed 85 rows and 253 columns
+Root relaxation presolve: All rows and columns removed
+
+Root relaxation: objective 1.000000e+00, 0 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.00000    0    4          -    1.00000      -     -    0s
+     0     0    2.00000    0    4          -    2.00000      -     -    0s
+     0     0    3.00000    0    4          -    3.00000      -     -    0s
+     0     0    4.00000    0    4          -    4.00000      -     -    0s
+     0     2    4.00000    0    4          -    4.00000      -     -    0s
+
+Cutting planes:
+  Gomory: 36
+  Implied bound: 296
+  MIR: 68
+  Inf proof: 12
+  Zero half: 99
+  Relax-and-lift: 12
+
+Explored 11106 nodes (147850 simplex iterations) in 1.39 seconds (1.13 work units)
+Thread count was 8 (of 64 available processors)
+
+Solution count 0
+
+Model objective exceeds cutoff
+Best objective -, best bound 9.500000001050e+00, gap -
+
+Gurobi 13.0.3 (linux64) logging started Sun Sep 27 04:26:44 2026
+
+Set parameter LogFile to value "D3_56_gurobi.log"
+Set parameter Threads to value 8
+Set parameter NodefileStart to value 10
+Set parameter NodefileDir to value "."
+Set parameter SoftMemLimit to value 40
+Set parameter Cutoff to value 9.5
+Set parameter MIPFocus to value 3
+Set parameter Symmetry to value 2
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+
+CPU model: AMD Ryzen Threadripper PRO 9975WX 32-Cores, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 32 physical cores, 64 logical processors, using up to 8 threads
+
+Non-default parameters:
+Cutoff  9.5
+SoftMemLimit  40
+MIPFocus  3
+NodefileStart  10
+Symmetry  2
+Threads  8
+
+Optimize a model with 85 rows, 253 columns and 683 nonzeros (Min)
+Model fingerprint: 0xbcd86195
+Model has 168 linear objective coefficients
+Variable types: 0 continuous, 253 integer (168 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 5e+00]
+  RHS range        [1e+00, 1e+00]
+
+Presolve time: 0.00s
+Presolved: 85 rows, 253 columns, 683 nonzeros
+Variable types: 0 continuous, 253 integer (168 binary)
+Root relaxation presolve removed 85 rows and 253 columns
+Root relaxation presolve: All rows and columns removed
+
+Root relaxation: objective 1.000000e+00, 0 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.00000    0    4          -    1.00000      -     -    0s
+     0     0    2.00000    0    4          -    2.00000      -     -    0s
+     0     0    3.00000    0    4          -    3.00000      -     -    0s
+     0     0    4.00000    0    4          -    4.00000      -     -    0s
+     0     2    4.00000    0    4          -    4.00000      -     -    0s
+
+Cutting planes:
+  Gomory: 22
+  Implied bound: 15
+  MIR: 80
+  Inf proof: 91
+  Zero half: 52
+  Relax-and-lift: 2
+
+Explored 24794 nodes (161467 simplex iterations) in 1.54 seconds (1.04 work units)
+Thread count was 8 (of 64 available processors)
+
+Solution count 0
+
+Model objective exceeds cutoff
+Best objective -, best bound 9.500000001050e+00, gap -
+
+Gurobi 13.0.3 (linux64) logging started Sun Sep 27 04:26:46 2026
+
+Set parameter LogFile to value "D3_56_gurobi.log"
+Set parameter Threads to value 8
+Set parameter NodefileStart to value 10
+Set parameter NodefileDir to value "."
+Set parameter SoftMemLimit to value 40
+Set parameter Cutoff to value 9.5
+Set parameter MIPFocus to value 3
+Set parameter Symmetry to value 2
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+
+CPU model: AMD Ryzen Threadripper PRO 9975WX 32-Cores, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 32 physical cores, 64 logical processors, using up to 8 threads
+
+Non-default parameters:
+Cutoff  9.5
+SoftMemLimit  40
+MIPFocus  3
+NodefileStart  10
+Symmetry  2
+Threads  8
+
+Optimize a model with 85 rows, 253 columns and 683 nonzeros (Min)
+Model fingerprint: 0xc82f1003
+Model has 168 linear objective coefficients
+Variable types: 0 continuous, 253 integer (168 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 5e+00]
+  RHS range        [1e+00, 1e+00]
+
+Presolve time: 0.00s
+Presolved: 85 rows, 253 columns, 683 nonzeros
+Variable types: 0 continuous, 253 integer (168 binary)
+Root relaxation presolve removed 85 rows and 253 columns
+Root relaxation presolve: All rows and columns removed
+
+Root relaxation: objective 1.000000e+00, 0 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.00000    0    4          -    1.00000      -     -    0s
+     0     0    2.00000    0    4          -    2.00000      -     -    0s
+     0     0    3.00000    0    4          -    3.00000      -     -    0s
+     0     0    3.00000    0    4          -    3.00000      -     -    0s
+     0     2    3.00000    0    4          -    3.00000      -     -    0s
+  7461  1634    8.08104   21  117          -    8.00000      -  34.0    5s
+
+Cutting planes:
+  Gomory: 22
+  Lift-and-project: 2
+  Cover: 5
+  Implied bound: 51
+  MIR: 95
+  Flow cover: 3
+  Inf proof: 17
+  Zero half: 272
+  Relax-and-lift: 2
+
+Explored 11447 nodes (441979 simplex iterations) in 6.38 seconds (10.96 work units)
+Thread count was 8 (of 64 available processors)
+
+Solution count 0
+
+Model objective exceeds cutoff
+Best objective -, best bound 9.500000001050e+00, gap -
+
+Gurobi 13.0.3 (linux64) logging started Sun Sep 27 04:26:52 2026
+
+Set parameter LogFile to value "D3_56_gurobi.log"
+Set parameter Threads to value 8
+Set parameter NodefileStart to value 10
+Set parameter NodefileDir to value "."
+Set parameter SoftMemLimit to value 40
+Set parameter Cutoff to value 9.5
+Set parameter MIPFocus to value 3
+Set parameter Symmetry to value 2
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+
+CPU model: AMD Ryzen Threadripper PRO 9975WX 32-Cores, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 32 physical cores, 64 logical processors, using up to 8 threads
+
+Non-default parameters:
+Cutoff  9.5
+SoftMemLimit  40
+MIPFocus  3
+NodefileStart  10
+Symmetry  2
+Threads  8
+
+Optimize a model with 85 rows, 253 columns and 693 nonzeros (Min)
+Model fingerprint: 0xdf151cdd
+Model has 168 linear objective coefficients
+Variable types: 0 continuous, 253 integer (168 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+01]
+  RHS range        [1e+00, 1e+00]
+
+Presolve time: 0.00s
+Presolved: 85 rows, 253 columns, 693 nonzeros
+Variable types: 0 continuous, 253 integer (168 binary)
+Root relaxation presolve removed 85 rows and 253 columns
+Root relaxation presolve: All rows and columns removed
+
+Root relaxation: objective 1.000000e+00, 0 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.00000    0    4          -    1.00000      -     -    0s
+     0     0    1.00000    0    4          -    1.00000      -     -    0s
+     0     0    2.00000    0    3          -    2.00000      -     -    0s
+     0     0    3.00000    0    4          -    3.00000      -     -    0s
+     0     0    3.00000    0    4          -    3.00000      -     -    0s
+     0     2    3.00000    0    4          -    3.00000      -     -    0s
+
+Cutting planes:
+  Gomory: 10
+  Implied bound: 14
+  MIR: 54
+  Inf proof: 92
+  Zero half: 35
+
+Explored 25145 nodes (130485 simplex iterations) in 1.54 seconds (1.11 work units)
+Thread count was 8 (of 64 available processors)
+
+Solution count 0
+
+Model objective exceeds cutoff
+Best objective -, best bound 9.500000001050e+00, gap -
+
+Gurobi 13.0.3 (linux64) logging started Sun Sep 27 04:26:54 2026
+
+Set parameter LogFile to value "D3_56_gurobi.log"
+Set parameter Threads to value 8
+Set parameter NodefileStart to value 10
+Set parameter NodefileDir to value "."
+Set parameter SoftMemLimit to value 40
+Set parameter Cutoff to value 9.5
+Set parameter MIPFocus to value 3
+Set parameter Symmetry to value 2
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+
+CPU model: AMD Ryzen Threadripper PRO 9975WX 32-Cores, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 32 physical cores, 64 logical processors, using up to 8 threads
+
+Non-default parameters:
+Cutoff  9.5
+SoftMemLimit  40
+MIPFocus  3
+NodefileStart  10
+Symmetry  2
+Threads  8
+
+Optimize a model with 85 rows, 253 columns and 701 nonzeros (Min)
+Model fingerprint: 0x65148171
+Model has 168 linear objective coefficients
+Variable types: 0 continuous, 253 integer (168 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+01]
+  RHS range        [1e+00, 1e+00]
+
+Presolve time: 0.00s
+Presolved: 85 rows, 253 columns, 701 nonzeros
+Variable types: 0 continuous, 253 integer (168 binary)
+Root relaxation presolve removed 85 rows and 253 columns
+Root relaxation presolve: All rows and columns removed
+
+Root relaxation: objective 1.000000e+00, 0 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.00000    0    4          -    1.00000      -     -    0s
+     0     0    1.00000    0    4          -    1.00000      -     -    0s
+     0     0    2.00000    0    4          -    2.00000      -     -    0s
+     0     0    3.00000    0    3          -    3.00000      -     -    0s
+     0     0    3.00000    0    3          -    3.00000      -     -    0s
+     0     0    3.00000    0    4          -    3.00000      -     -    0s
+     0     0    4.00000    0    4          -    4.00000      -     -    0s
+     0     2    4.00000    0    4          -    4.00000      -     -    0s
+
+Cutting planes:
+  Gomory: 16
+  Implied bound: 9
+  MIR: 92
+  Inf proof: 95
+  Zero half: 24
+  Relax-and-lift: 1
+
+Explored 30222 nodes (169685 simplex iterations) in 1.76 seconds (1.40 work units)
+Thread count was 8 (of 64 available processors)
+
+Solution count 0
+
+Model objective exceeds cutoff
+Best objective -, best bound 9.500000001050e+00, gap -
+
+Gurobi 13.0.3 (linux64) logging started Sun Sep 27 04:26:56 2026
+
+Set parameter LogFile to value "D3_56_gurobi.log"
+Set parameter Threads to value 8
+Set parameter NodefileStart to value 10
+Set parameter NodefileDir to value "."
+Set parameter SoftMemLimit to value 40
+Set parameter Cutoff to value 9.5
+Set parameter MIPFocus to value 3
+Set parameter Symmetry to value 2
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+
+CPU model: AMD Ryzen Threadripper PRO 9975WX 32-Cores, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 32 physical cores, 64 logical processors, using up to 8 threads
+
+Non-default parameters:
+Cutoff  9.5
+SoftMemLimit  40
+MIPFocus  3
+NodefileStart  10
+Symmetry  2
+Threads  8
+
+Optimize a model with 85 rows, 253 columns and 707 nonzeros (Min)
+Model fingerprint: 0xd0b10c38
+Model has 168 linear objective coefficients
+Variable types: 0 continuous, 253 integer (168 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+01]
+  RHS range        [1e+00, 1e+00]
+
+Presolve time: 0.00s
+Presolved: 85 rows, 253 columns, 707 nonzeros
+Variable types: 0 continuous, 253 integer (168 binary)
+Root relaxation presolve removed 85 rows and 253 columns
+Root relaxation presolve: All rows and columns removed
+
+Root relaxation: objective 1.000000e+00, 0 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.00000    0    4          -    1.00000      -     -    0s
+     0     0    1.00000    0    3          -    1.00000      -     -    0s
+     0     0    2.00000    0    3          -    2.00000      -     -    0s
+     0     0    2.00000    0    3          -    2.00000      -     -    0s
+     0     0    3.00000    0    3          -    3.00000      -     -    0s
+     0     2    3.00000    0    3          -    3.00000      -     -    0s
+
+Cutting planes:
+  Gomory: 44
+  Implied bound: 343
+  MIR: 59
+  Inf proof: 25
+  Zero half: 128
+  Relax-and-lift: 4
+
+Explored 14461 nodes (146932 simplex iterations) in 1.29 seconds (1.26 work units)
+Thread count was 8 (of 64 available processors)
+
+Solution count 0
+
+Model objective exceeds cutoff
+Best objective -, best bound 9.500000001050e+00, gap -
+
+Gurobi 13.0.3 (linux64) logging started Sun Sep 27 04:26:57 2026
+
+Set parameter LogFile to value "D3_56_gurobi.log"
+Set parameter Threads to value 8
+Set parameter NodefileStart to value 10
+Set parameter NodefileDir to value "."
+Set parameter SoftMemLimit to value 40
+Set parameter Cutoff to value 9.5
+Set parameter MIPFocus to value 3
+Set parameter Symmetry to value 2
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+
+CPU model: AMD Ryzen Threadripper PRO 9975WX 32-Cores, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 32 physical cores, 64 logical processors, using up to 8 threads
+
+Non-default parameters:
+Cutoff  9.5
+SoftMemLimit  40
+MIPFocus  3
+NodefileStart  10
+Symmetry  2
+Threads  8
+
+Optimize a model with 85 rows, 253 columns and 689 nonzeros (Min)
+Model fingerprint: 0x9bd91c04
+Model has 168 linear objective coefficients
+Variable types: 0 continuous, 253 integer (168 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 8e+00]
+  RHS range        [1e+00, 1e+00]
+
+Presolve time: 0.00s
+Presolved: 85 rows, 253 columns, 689 nonzeros
+Variable types: 0 continuous, 253 integer (168 binary)
+Root relaxation presolve removed 85 rows and 253 columns
+Root relaxation presolve: All rows and columns removed
+
+Root relaxation: objective 1.000000e+00, 0 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.00000    0    4          -    1.00000      -     -    0s
+     0     0    1.00000    0    4          -    1.00000      -     -    0s
+     0     0    2.00000    0    3          -    2.00000      -     -    0s
+     0     0    3.00000    0    3          -    3.00000      -     -    0s
+     0     0    4.00000    0    3          -    4.00000      -     -    0s
+     0     2    4.00000    0    3          -    4.00000      -     -    0s
+
+Cutting planes:
+  Gomory: 30
+  Lift-and-project: 1
+  Implied bound: 43
+  MIR: 98
+  StrongCG: 2
+  Inf proof: 55
+  Zero half: 51
+  Relax-and-lift: 4
+
+Explored 20846 nodes (212962 simplex iterations) in 1.54 seconds (1.40 work units)
+Thread count was 8 (of 64 available processors)
+
+Solution count 0
+
+Model objective exceeds cutoff
+Best objective -, best bound 9.500000001050e+00, gap -
+
+Gurobi 13.0.3 (linux64) logging started Sun Sep 27 04:26:59 2026
+
+Set parameter LogFile to value "D3_56_gurobi.log"
+Set parameter Threads to value 8
+Set parameter NodefileStart to value 10
+Set parameter NodefileDir to value "."
+Set parameter SoftMemLimit to value 40
+Set parameter Cutoff to value 9.5
+Set parameter MIPFocus to value 3
+Set parameter Symmetry to value 2
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+
+CPU model: AMD Ryzen Threadripper PRO 9975WX 32-Cores, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 32 physical cores, 64 logical processors, using up to 8 threads
+
+Non-default parameters:
+Cutoff  9.5
+SoftMemLimit  40
+MIPFocus  3
+NodefileStart  10
+Symmetry  2
+Threads  8
+
+Optimize a model with 85 rows, 253 columns and 711 nonzeros (Min)
+Model fingerprint: 0xc2c7b675
+Model has 168 linear objective coefficients
+Variable types: 0 continuous, 253 integer (168 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+01]
+  RHS range        [1e+00, 1e+00]
+
+Presolve time: 0.00s
+Presolved: 85 rows, 253 columns, 711 nonzeros
+Variable types: 0 continuous, 253 integer (168 binary)
+Root relaxation presolve removed 85 rows and 253 columns
+Root relaxation presolve: All rows and columns removed
+
+Root relaxation: objective 1.000000e+00, 0 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.00000    0    4          -    1.00000      -     -    0s
+     0     0    1.00000    0    3          -    1.00000      -     -    0s
+     0     0    2.00000    0    4          -    2.00000      -     -    0s
+     0     0    2.00000    0    3          -    2.00000      -     -    0s
+     0     0    3.00000    0    3          -    3.00000      -     -    0s
+     0     2    3.00000    0    3          -    3.00000      -     -    0s
+
+Cutting planes:
+  Gomory: 35
+  Implied bound: 394
+  MIR: 84
+  Inf proof: 30
+  Zero half: 222
+  Relax-and-lift: 3
+
+Explored 17716 nodes (289145 simplex iterations) in 2.87 seconds (2.94 work units)
+Thread count was 8 (of 64 available processors)
+
+Solution count 0
+
+Model objective exceeds cutoff
+Best objective -, best bound 9.500000001050e+00, gap -
+
+Gurobi 13.0.3 (linux64) logging started Sun Sep 27 04:27:01 2026
+
+Set parameter LogFile to value "D3_56_gurobi.log"
+Set parameter Threads to value 8
+Set parameter NodefileStart to value 10
+Set parameter NodefileDir to value "."
+Set parameter SoftMemLimit to value 40
+Set parameter Cutoff to value 9.5
+Set parameter MIPFocus to value 3
+Set parameter Symmetry to value 2
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+
+CPU model: AMD Ryzen Threadripper PRO 9975WX 32-Cores, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 32 physical cores, 64 logical processors, using up to 8 threads
+
+Non-default parameters:
+Cutoff  9.5
+SoftMemLimit  40
+MIPFocus  3
+NodefileStart  10
+Symmetry  2
+Threads  8
+
+Optimize a model with 85 rows, 253 columns and 695 nonzeros (Min)
+Model fingerprint: 0xa5e7e6f6
+Model has 168 linear objective coefficients
+Variable types: 0 continuous, 253 integer (168 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+01]
+  RHS range        [1e+00, 1e+00]
+
+Presolve time: 0.00s
+Presolved: 85 rows, 253 columns, 695 nonzeros
+Variable types: 0 continuous, 253 integer (168 binary)
+Root relaxation presolve removed 85 rows and 253 columns
+Root relaxation presolve: All rows and columns removed
+
+Root relaxation: objective 1.000000e+00, 0 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.00000    0    4          -    1.00000      -     -    0s
+     0     0    1.00000    0    4          -    1.00000      -     -    0s
+     0     0    2.00000    0    3          -    2.00000      -     -    0s
+     0     0    3.00000    0    3          -    3.00000      -     -    0s
+     0     0    3.00000    0    3          -    3.00000      -     -    0s
+     0     0    3.00000    0    4          -    3.00000      -     -    0s
+     0     0    4.00000    0    4          -    4.00000      -     -    0s
+     0     2    4.00000    0    4          -    4.00000      -     -    0s
+
+Cutting planes:
+  Gomory: 18
+  Implied bound: 31
+  MIR: 103
+  StrongCG: 1
+  Inf proof: 41
+  Zero half: 91
+  Relax-and-lift: 3
+
+Explored 20154 nodes (295079 simplex iterations) in 3.21 seconds (2.78 work units)
+Thread count was 8 (of 64 available processors)
+
+Solution count 0
+
+Model objective exceeds cutoff
+Best objective -, best bound 9.500000001050e+00, gap -
+
+Gurobi 13.0.3 (linux64) logging started Sun Sep 27 04:27:05 2026
+
+Set parameter LogFile to value "D3_56_gurobi.log"
+Set parameter Threads to value 8
+Set parameter NodefileStart to value 10
+Set parameter NodefileDir to value "."
+Set parameter SoftMemLimit to value 40
+Set parameter Cutoff to value 9.5
+Set parameter MIPFocus to value 3
+Set parameter Symmetry to value 2
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+
+CPU model: AMD Ryzen Threadripper PRO 9975WX 32-Cores, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 32 physical cores, 64 logical processors, using up to 8 threads
+
+Non-default parameters:
+Cutoff  9.5
+SoftMemLimit  40
+MIPFocus  3
+NodefileStart  10
+Symmetry  2
+Threads  8
+
+Optimize a model with 85 rows, 253 columns and 708 nonzeros (Min)
+Model fingerprint: 0xca0ce623
+Model has 168 linear objective coefficients
+Variable types: 0 continuous, 253 integer (168 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+01]
+  RHS range        [1e+00, 1e+00]
+
+Presolve time: 0.00s
+Presolved: 85 rows, 253 columns, 708 nonzeros
+Variable types: 0 continuous, 253 integer (168 binary)
+Root relaxation presolve removed 85 rows and 253 columns
+Root relaxation presolve: All rows and columns removed
+
+Extra simplex iterations after uncrush: 1
+
+Root relaxation: objective 1.000000e+00, 1 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.00000    0    3          -    1.00000      -     -    0s
+     0     0    1.00000    0    3          -    1.00000      -     -    0s
+     0     0    2.00000    0    3          -    2.00000      -     -    0s
+     0     0    2.00000    0    3          -    2.00000      -     -    0s
+     0     0    3.00000    0    3          -    3.00000      -     -    0s
+     0     2    3.00000    0    3          -    3.00000      -     -    0s
+
+Cutting planes:
+  Gomory: 40
+  Implied bound: 416
+  MIR: 78
+  Inf proof: 17
+  Zero half: 161
+  Relax-and-lift: 5
+
+Explored 16657 nodes (313517 simplex iterations) in 2.68 seconds (3.00 work units)
+Thread count was 8 (of 64 available processors)
+
+Solution count 0
+
+Model objective exceeds cutoff
+Best objective -, best bound 9.500000001050e+00, gap -
+
+Gurobi 13.0.3 (linux64) logging started Sun Sep 27 04:27:07 2026
+
+Set parameter LogFile to value "D3_56_gurobi.log"
+Set parameter Threads to value 8
+Set parameter NodefileStart to value 10
+Set parameter NodefileDir to value "."
+Set parameter SoftMemLimit to value 40
+Set parameter Cutoff to value 9.5
+Set parameter MIPFocus to value 3
+Set parameter Symmetry to value 2
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+
+CPU model: AMD Ryzen Threadripper PRO 9975WX 32-Cores, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 32 physical cores, 64 logical processors, using up to 8 threads
+
+Non-default parameters:
+Cutoff  9.5
+SoftMemLimit  40
+MIPFocus  3
+NodefileStart  10
+Symmetry  2
+Threads  8
+
+Optimize a model with 85 rows, 253 columns and 712 nonzeros (Min)
+Model fingerprint: 0x478669c1
+Model has 168 linear objective coefficients
+Variable types: 0 continuous, 253 integer (168 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+01]
+  RHS range        [1e+00, 1e+00]
+
+Presolve time: 0.00s
+Presolved: 85 rows, 253 columns, 712 nonzeros
+Variable types: 0 continuous, 253 integer (168 binary)
+Root relaxation presolve removed 85 rows and 253 columns
+Root relaxation presolve: All rows and columns removed
+
+Extra simplex iterations after uncrush: 1
+
+Root relaxation: objective 1.000000e+00, 1 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.00000    0    3          -    1.00000      -     -    0s
+     0     0    1.00000    0    3          -    1.00000      -     -    0s
+     0     0    2.00000    0    3          -    2.00000      -     -    0s
+     0     0    2.00000    0    3          -    2.00000      -     -    0s
+     0     0    2.00000    0    3          -    2.00000      -     -    0s
+     0     2    2.00000    0    3          -    2.00000      -     -    0s
+
+Cutting planes:
+  Gomory: 43
+  Implied bound: 447
+  MIR: 77
+  Inf proof: 20
+  Zero half: 141
+  Relax-and-lift: 2
+
+Explored 17585 nodes (299996 simplex iterations) in 2.17 seconds (2.94 work units)
+Thread count was 8 (of 64 available processors)
+
+Solution count 0
+
+Model objective exceeds cutoff
+Best objective -, best bound 9.500000001050e+00, gap -
+
+Gurobi 13.0.3 (linux64) logging started Sun Sep 27 04:27:10 2026
+
+Set parameter LogFile to value "D3_56_gurobi.log"
+Set parameter Threads to value 8
+Set parameter NodefileStart to value 10
+Set parameter NodefileDir to value "."
+Set parameter SoftMemLimit to value 40
+Set parameter Cutoff to value 9.5
+Set parameter MIPFocus to value 3
+Set parameter Symmetry to value 2
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+
+CPU model: AMD Ryzen Threadripper PRO 9975WX 32-Cores, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 32 physical cores, 64 logical processors, using up to 8 threads
+
+Non-default parameters:
+Cutoff  9.5
+SoftMemLimit  40
+MIPFocus  3
+NodefileStart  10
+Symmetry  2
+Threads  8
+
+Optimize a model with 85 rows, 253 columns and 706 nonzeros (Min)
+Model fingerprint: 0x505c1297
+Model has 168 linear objective coefficients
+Variable types: 0 continuous, 253 integer (168 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+01]
+  RHS range        [1e+00, 1e+00]
+
+Presolve time: 0.00s
+Presolved: 85 rows, 253 columns, 706 nonzeros
+Variable types: 0 continuous, 253 integer (168 binary)
+Root relaxation presolve removed 85 rows and 253 columns
+Root relaxation presolve: All rows and columns removed
+
+Extra simplex iterations after uncrush: 1
+
+Root relaxation: objective 1.000000e+00, 1 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.00000    0    3          -    1.00000      -     -    0s
+     0     0    1.00000    0    3          -    1.00000      -     -    0s
+     0     0    2.00000    0    3          -    2.00000      -     -    0s
+     0     0    3.00000    0    3          -    3.00000      -     -    0s
+     0     0    3.00000    0    3          -    3.00000      -     -    0s
+     0     2    3.00000    0    3          -    3.00000      -     -    0s
+
+Cutting planes:
+  Gomory: 35
+  Implied bound: 424
+  MIR: 59
+  Inf proof: 34
+  Zero half: 319
+  Relax-and-lift: 10
+
+Explored 18683 nodes (347286 simplex iterations) in 2.80 seconds (3.86 work units)
+Thread count was 8 (of 64 available processors)
+
+Solution count 0
+
+Model objective exceeds cutoff
+Best objective -, best bound 9.500000001050e+00, gap -
+
+Gurobi 13.0.3 (linux64) logging started Sun Sep 27 04:27:12 2026
+
+Set parameter LogFile to value "D3_56_gurobi.log"
+Set parameter Threads to value 8
+Set parameter NodefileStart to value 10
+Set parameter NodefileDir to value "."
+Set parameter SoftMemLimit to value 40
+Set parameter Cutoff to value 9.5
+Set parameter MIPFocus to value 3
+Set parameter Symmetry to value 2
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+
+CPU model: AMD Ryzen Threadripper PRO 9975WX 32-Cores, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 32 physical cores, 64 logical processors, using up to 8 threads
+
+Non-default parameters:
+Cutoff  9.5
+SoftMemLimit  40
+MIPFocus  3
+NodefileStart  10
+Symmetry  2
+Threads  8
+
+Optimize a model with 85 rows, 253 columns and 706 nonzeros (Min)
+Model fingerprint: 0xbc5ea1c1
+Model has 168 linear objective coefficients
+Variable types: 0 continuous, 253 integer (168 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+01]
+  RHS range        [1e+00, 1e+00]
+
+Presolve time: 0.00s
+Presolved: 85 rows, 253 columns, 706 nonzeros
+Variable types: 0 continuous, 253 integer (168 binary)
+Root relaxation presolve removed 85 rows and 253 columns
+Root relaxation presolve: All rows and columns removed
+
+Extra simplex iterations after uncrush: 1
+
+Root relaxation: objective 1.000000e+00, 1 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.00000    0    3          -    1.00000      -     -    0s
+     0     0    1.00000    0    3          -    1.00000      -     -    0s
+     0     0    2.00000    0    3          -    2.00000      -     -    0s
+     0     0    2.00000    0    3          -    2.00000      -     -    0s
+     0     0    3.00000    0    3          -    3.00000      -     -    0s
+     0     2    3.00000    0    3          -    3.00000      -     -    0s
+
+Cutting planes:
+  Gomory: 45
+  Implied bound: 400
+  MIR: 71
+  Inf proof: 26
+  Zero half: 121
+  Relax-and-lift: 6
+
+Explored 20484 nodes (296166 simplex iterations) in 1.98 seconds (2.49 work units)
+Thread count was 8 (of 64 available processors)
+
+Solution count 0
+
+Model objective exceeds cutoff
+Best objective -, best bound 9.500000001050e+00, gap -

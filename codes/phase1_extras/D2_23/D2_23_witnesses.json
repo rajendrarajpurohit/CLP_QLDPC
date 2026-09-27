@@ -1,0 +1,32 @@
+{
+ "dZ": {
+  "sector": 1,
+  "weight": 8,
+  "support": [
+   0,
+   89,
+   92,
+   98,
+   114,
+   123,
+   124,
+   130
+  ],
+  "file": "D2_23_witness_dZ_sector1_w8.txt"
+ },
+ "dX": {
+  "sector": 1,
+  "weight": 8,
+  "support": [
+   47,
+   85,
+   95,
+   102,
+   121,
+   140,
+   147,
+   166
+  ],
+  "file": "D2_23_witness_dX_sector1_w8.txt"
+ }
+}
