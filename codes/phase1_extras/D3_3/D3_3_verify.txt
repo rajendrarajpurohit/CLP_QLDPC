@@ -1,0 +1,35 @@
+file shapes: HX (120, 240)  HZ (120, 240)
+
+[1] entries are 0/1 only
+    unique values: [np.int64(0), np.int64(1)]  -> PASS
+
+[2] CSS orthogonality  HX . HZ^T = 0 mod 2
+    nonzero entries: 0  -> PASS
+
+[3] dimension  k = n - rank(HX) - rank(HZ)
+    rank(HX)=112  rank(HZ)=112  k=16
+
+[4] logical bases have size k on both sides
+    |X-logicals|=16  |Z-logicals|=16  -> PASS
+
+[5] logicals are in the right kernel and not stabilizers
+    logicals outside kernel: 0  -> PASS
+
+[6] weight, both conventions
+    max check weight (ATB convention): 7
+    max qubit degree  deg_X+deg_Z    : 7
+    overall w (Qian-Li Eq.1)         : 7
+    min check weight: 6
+
+[7] no all-zero or duplicate rows
+    zero rows: HX=0 HZ=0   duplicate rows: HX=0 HZ=0
+
+[8] no all-zero columns (every qubit is checked)
+    unchecked qubits: 0  -> PASS
+
+[9] trivial-distance check: no weight-1 or weight-2 logical
+    weight-1 Z-logicals: 0  -> PASS
+
+[10] summary
+    [[240,16]]  w=7   Q at d=22: 32.267   Q at d=20: 26.667
+    ALL STRUCTURAL CHECKS: PASS
