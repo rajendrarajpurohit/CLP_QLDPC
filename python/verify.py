@@ -162,8 +162,8 @@ def main():
     ok &= (small == 0)
 
     print("\n[10] summary")
-    print("    [[%d,%d]]  w=%d   Q at d=22: %.3f   Q at d=20: %.3f"
-          % (N, k, w_QL, k * 22 * 22 / N, k * 20 * 20 / N))
+    print("    [[%d,%d,%d]]  w=%d   Q = %.3f"
+          % (N, k, a.d_ub, w_QL, k * a.d_ub * a.d_ub / N))
     print("    ALL STRUCTURAL CHECKS: %s" % ("PASS" if ok else "FAIL"))
     sys.exit(0 if ok else 1)
 

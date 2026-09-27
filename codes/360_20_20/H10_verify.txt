@@ -31,5 +31,11 @@ file shapes: HX (180, 360)  HZ (180, 360)
     weight-1 Z-logicals: 0  -> PASS
 
 [10] summary
-    [[360,20]]  w=6   Q at d=22: 26.889   Q at d=20: 22.222
-    ALL STRUCTURAL CHECKS: PASS
+Traceback (most recent call last):
+  File "/home/user1/Rajendra/CLP/release/codes/360_20_20/../../python/verify.py", line 172, in <module>
+    main()
+    ~~~~^^
+  File "/home/user1/Rajendra/CLP/release/codes/360_20_20/../../python/verify.py", line 166, in main
+    % (N, k, a.d_ub, w_QL, k * a.d_ub * a.d_ub / N))
+             ^
+NameError: name 'a' is not defined

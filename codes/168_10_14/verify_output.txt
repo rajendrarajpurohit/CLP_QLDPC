@@ -31,5 +31,11 @@ file shapes: HX (84, 168)  HZ (84, 168)
     weight-1 Z-logicals: 0  -> PASS
 
 [10] summary
-    [[168,10]]  w=6   Q at d=22: 28.810   Q at d=20: 23.810
-    ALL STRUCTURAL CHECKS: PASS
+Traceback (most recent call last):
+  File "/home/user1/Rajendra/CLP/release/codes/168_10_14/../../python/verify.py", line 172, in <module>
+    main()
+    ~~~~^^
+  File "/home/user1/Rajendra/CLP/release/codes/168_10_14/../../python/verify.py", line 166, in main
+    % (N, k, a.d_ub, w_QL, k * a.d_ub * a.d_ub / N))
+             ^
+NameError: name 'a' is not defined
