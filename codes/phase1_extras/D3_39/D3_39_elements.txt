@@ -1,0 +1,28 @@
+== SmallGroup(336,188)  n=168  layout [ 1, 1 ]/[ 2, 2 ]
+G = C7 x D8 x S3
+a words [ [ [ <identity> of ..., f3*f4^4*f6^2, f3*f4^6*f6 ] ] ]
+B words [ [ [ <identity> of ..., f3*f4^6 ], [ <identity> of ..., f4^6 ] ], [ [ <identity> of ..., f4^6 ], [ f4, f3*f4^3 ] ] ]
+
+candidate [ [ 1, 0, 1, 0, 0, 0 ], [ 0, 1, 0, 0, 0, 0 ], [ 0, 0, 0, 0, 1, 0 ] ] lift=14 stab=2 r=3 allB=true someA=true
+candidate [ [ 1, 1, 0, 0, 0, 0 ], [ 0, 1, 1, 0, 0, 0 ], [ 0, 0, 0, 0, 1, 0 ] ] lift=14 stab=2 r=3 allB=true someA=true
+candidate [ [ 1, 1, 0, 0, 0, 0 ], [ 0, 0, 1, 0, 0, 0 ], [ 0, 0, 0, 0, 1, 0 ] ] lift=14 stab=2 r=3 allB=true someA=true
+
+surviving: 3
+
+H gens [ [ 1, 0, 1, 0, 0, 0 ], [ 0, 1, 0, 0, 0, 0 ], [ 0, 0, 0, 0, 1, 0 ] ]
+  Aidx [ [ [ 1, 69, 77 ] ] ]  Bidx [ [ [ 1, 14 ], [ 1, 13 ] ], [ [ 1, 13 ], [ 3, 8 ] ] ]
+  rebuild identical: true  k=14
+
+PINNED H = [ "f1*f3", "f2", "f5" ] D8
+  N_G(H) = C14 x D8  Core = C2 x C2  m=42 r=3 lift=14 stab=2
+
+H gens [ [ 1, 1, 0, 0, 0, 0 ], [ 0, 1, 1, 0, 0, 0 ], [ 0, 0, 0, 0, 1, 0 ] ]
+  Aidx [ [ [ 1, 69, 77 ] ] ]  Bidx [ [ [ 1, 14 ], [ 1, 13 ] ], [ [ 1, 13 ], [ 3, 8 ] ] ]
+  rebuild identical: true  k=14
+
+PINNED H = [ "f1*f2", "f2*f3", "f5" ] D8
+  N_G(H) = C14 x D8  Core = C4  m=42 r=3 lift=14 stab=2
+
+H gens [ [ 1, 1, 0, 0, 0, 0 ], [ 0, 0, 1, 0, 0, 0 ], [ 0, 0, 0, 0, 1, 0 ] ]
+  Aidx [ [ [ 1, 60, 70 ] ] ]  Bidx [ [ [ 1, 13 ], [ 1, 13 ] ], [ [ 1, 13 ], [ 3, 7 ] ] ]
+  rebuild identical: false  k=28

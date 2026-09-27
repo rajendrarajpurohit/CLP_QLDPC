@@ -42,3 +42,23 @@ Certification trails
 
 Phase 1 layouts  D1 1x1/1x1 (ATB shape, validation only)  D2 2x2/1x1  D3 1x1/2x2  D4 2x2/2x2 (empty)
 Note  Phase 1 matrix files use GAP backslash line continuation for n >= 216, unwrap before strict parsing
+
+Phase 1 extras, certified 27 Sep 2026, codes/phase1_extras/<id>/, H pinned by gap/recoverD3.g
+[[120,8,8]]     w=5  D2_15  SG(360,99)  H=<f2,f3f6,f5>=C6xC2
+[[180,12,8]]    w=5  D2_23  SG(135,3)   H=<f2>=C3
+[[240,16,8]]    w=5  D2_4   SG(360,99)  H=<f2,f3>=C6
+[[112,12,10]]   w=7  D3_41  SG(336,188) H=<f6,f1,f2>=D12   (second class rebuilds identically)
+[[168,14,12]]   w=7  D3_39  SG(336,188) H=<f1f3,f2,f5>=D8  (second class rebuilds identically)
+[[168,20,10]]   w=7  D3_56  SG(336,188) H=<f1f2,f2f3,f5>=D8 (second class rebuilds identically)
+[[180,16,12]]   w=7  D3_17  SG(135,3)   H=<f1f2>=C3
+[[224,24,9]]    w=7  D3_5   SG(336,188) H=<f6,f1f2>=S3
+[[240,16,13]]   w=7  D3_3   SG(360,99)  H=<f3f6,f5>=C6
+[[252,22,10]]   w=7  D3_8   SG(126,8)   H=<f1>=C2
+
+Not reported
+[[224,12,<=21]] w=9  W9_m56-100_15   MILP started 25 Sep, stopped for memory, upper bound only
+[[216,8,<=18]]  w=7  D2_10           rescreen held at 10^6, MILP queued
+D1 validation codes [[56,6,8]] [[36,4,6]] and the gross code [[144,12,12]]  pipeline checks only
+
+Queued when compute is free
+[[360,24,<=20]] w=7  W7_m56-100_38   then  [[216,8,<=18]] w=7  then  [[288,16,<=20]] w=9

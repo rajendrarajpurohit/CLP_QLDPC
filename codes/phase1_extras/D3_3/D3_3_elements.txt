@@ -1,0 +1,20 @@
+== SmallGroup(360,99)  n=240  layout [ 1, 1 ]/[ 2, 2 ]
+G = C15 x ((C6 x C2) : C2)
+a words [ [ [ <identity> of ..., f1*f4^3*f6^2, f1*f2*f3^2*f4^4*f5*f6^2 ] ] ]
+B words [ [ [ <identity> of ... ], [ <identity> of ..., f2*f4^3*f6^2 ] ], [ [ <identity> of ..., f2*f6 ], [ f2*f4^2*f6^2, f4^4*f6 ] ] ]
+
+candidate [ [ 0, 1, 0, 0, 0, 0 ], [ 0, 0, 1, 0, 0, 2 ] ] lift=30 stab=6 r=2 allB=true someA=true
+candidate [ [ 0, 0, 0, 0, 0, 1 ], [ 0, 1, 0, 0, 0, 0 ] ] lift=30 stab=2 r=2 allB=true someA=true
+candidate [ [ 0, 0, 1, 0, 0, 1 ], [ 0, 0, 0, 0, 1, 0 ] ] lift=30 stab=3 r=2 allB=true someA=true
+candidate [ [ 0, 1, 0, 0, 0, 0 ], [ 0, 0, 1, 0, 0, 0 ] ] lift=30 stab=2 r=2 allB=true someA=true
+candidate [ [ 0, 1, 0, 0, 0, 0 ], [ 0, 0, 1, 0, 0, 1 ] ] lift=30 stab=6 r=2 allB=true someA=true
+
+surviving: 1
+
+H gens [ [ 0, 0, 1, 0, 0, 1 ], [ 0, 0, 0, 0, 1, 0 ] ]
+  Aidx [ [ [ 1, 115, 180 ] ] ]  Bidx [ [ [ 1 ], [ 1, 28 ] ], [ [ 1, 6 ], [ 24, 25 ] ] ]
+  rebuild identical: true  k=16
+
+PINNED H = [ "f3*f6", "f5" ] C6
+  N_G(H) = C30 x C6  Core = C2  m=60 r=2 lift=30 stab=3
+

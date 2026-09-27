@@ -1,0 +1,25 @@
+== SmallGroup(135,3)  n=180  layout [ 1, 1 ]/[ 2, 2 ]
+G = C5 x ((C3 x C3) : C3)
+a words [ [ [ <identity> of ..., f1*f2^2*f3^4*f4^2, f1^2*f2*f3*f4 ] ] ]
+B words [ [ [ <identity> of ..., f3^2 ], [ <identity> of ..., f3*f4^2 ] ], [ [ <identity> of ..., f3^3*f4^2 ], [ f3*f4^2, f3^2*f4^2 ] ] ]
+
+candidate [ [ 1, 0, 0, 0 ] ] lift=15 stab=3 r=3 allB=true someA=true
+candidate [ [ 0, 1, 0, 0 ] ] lift=15 stab=3 r=3 allB=true someA=true
+candidate [ [ 1, 1, 0, 0 ] ] lift=15 stab=3 r=3 allB=true someA=true
+candidate [ [ 1, 2, 0, 0 ] ] lift=15 stab=3 r=3 allB=true someA=false
+
+surviving: 3
+
+H gens [ [ 1, 0, 0, 0 ] ]
+  Aidx [ [ [ 1, 90, 110 ] ] ]  Bidx [ [ [ 1, 4 ], [ 1, 9 ] ], [ [ 1, 14 ], [ 9, 12 ] ] ]
+  rebuild identical: false  k=16
+H gens [ [ 0, 1, 0, 0 ] ]
+  Aidx [ [ [ 1, 90, 110 ] ] ]  Bidx [ [ [ 1, 4 ], [ 1, 9 ] ], [ [ 1, 14 ], [ 9, 12 ] ] ]
+  rebuild identical: false  k=16
+H gens [ [ 1, 1, 0, 0 ] ]
+  Aidx [ [ [ 1, 90, 110 ] ] ]  Bidx [ [ [ 1, 4 ], [ 1, 9 ] ], [ [ 1, 14 ], [ 9, 12 ] ] ]
+  rebuild identical: true  k=16
+
+PINNED H = [ "f1*f2" ] C3
+  N_G(H) = C15 x C3  Core = 1  m=45 r=3 lift=15 stab=3
+

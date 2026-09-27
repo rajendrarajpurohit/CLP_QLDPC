@@ -1,0 +1,16 @@
+== SmallGroup(126,8)  n=252  layout [ 1, 1 ]/[ 2, 2 ]
+G = S3 x (C7 : C3)
+a words [ [ [ <identity> of ..., f3*f4^6, f3^2*f4^4 ] ] ]
+B words [ [ [ <identity> of ..., f2^2*f4^4 ], [ <identity> of ..., f2 ] ], [ [ <identity> of ..., f2*f4^3 ], [ f2^2, f2*f4^6 ] ] ]
+
+candidate [ [ 1, 0, 0, 0 ] ] lift=21 stab=2 r=3 allB=true someA=true
+
+surviving: 1
+
+H gens [ [ 1, 0, 0, 0 ] ]
+  Aidx [ [ [ 1, 14, 19 ] ] ]  Bidx [ [ [ 1, 16 ], [ 1, 2 ] ], [ [ 1, 11 ], [ 4, 20 ] ] ]
+  rebuild identical: true  k=22
+
+PINNED H = [ "f1" ] C2
+  N_G(H) = C2 x (C7 : C3)  Core = 1  m=63 r=3 lift=21 stab=2
+
