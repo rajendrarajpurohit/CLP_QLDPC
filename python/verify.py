@@ -85,6 +85,7 @@ def logical_basis(H_same, H_other):
 def main():
     cid = sys.argv[1]
     N = int(sys.argv[2])
+    d_ub = int(sys.argv[3])
     ok = True
 
     HX = parse_matrix(cid + "_HX.txt", N)
@@ -163,7 +164,7 @@ def main():
 
     print("\n[10] summary")
     print("    [[%d,%d,%d]]  w=%d   Q = %.3f"
-          % (N, k, a.d_ub, w_QL, k * a.d_ub * a.d_ub / N))
+          % (N, k, d_ub, w_QL, k * d_ub * d_ub / N))
     print("    ALL STRUCTURAL CHECKS: %s" % ("PASS" if ok else "FAIL"))
     sys.exit(0 if ok else 1)
 
