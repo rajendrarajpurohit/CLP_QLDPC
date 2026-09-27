@@ -6,7 +6,7 @@
 b04d25bd3ab6451a871b1498c6159c18  ./codes/168_10_14/D3_6_HX.txt
 c1d8f8a1e79353129a014ed92c32279e  ./codes/168_10_14/D3_6_HZ.txt
 31c960df4185be7d72847f7c28b361b6  ./codes/168_10_14/PROVENANCE.txt
-9541fae8372a57c3ccdc8db3a4a0c9fb  ./codes/168_10_14/verify_output.txt
+38f7a1126923011666044d387760c091  ./codes/168_10_14/verify_output.txt
 be97a0682bfe476fb6710406127b2874  ./codes/240_8_20/D3_4_dZ_1.log
 06950edc74a6d741b4a38ca9b19abdcf  ./codes/240_8_20/D3_4_dZ_2.log
 f2263c4d4b2bc5386ca70efdfaa468a8  ./codes/240_8_20/D3_4_dZ_3.log
@@ -23,10 +23,10 @@ fefcc27a4549a1258f6a96d08db72dbd  ./codes/240_8_20/progress_D3_4.json
 e0ca61bb8cc65ee0887e1fd7f5da91ab  ./codes/240_8_20/progress_d3_4_overnight.txt
 afca3fa41d13dedeccadfa62b18f27fd  ./codes/240_8_20/progress_d3_4.txt
 adb017e49d7a751f4e05496c8dc95530  ./codes/240_8_20/PROVENANCE.txt
-dd981600e359f93bed89c6a2f524caa4  ./codes/240_8_20/verify_output.txt
+6d2a8ff66f16feb815ee8adf01e6907b  ./codes/240_8_20/verify_output.txt
 21b3584eaaed13b57495d6d2a3d032a1  ./codes/252_16_18/construction.txt
 4963c34192eca34e25c5f72e39a5ebae  ./codes/252_16_18/PROVENANCE.txt
-2d2ecc75f1bd261c968f1997b4b36482  ./codes/252_16_18/verify_output.txt
+b910a78c6dc14d0fca05599924f0b688  ./codes/252_16_18/verify_output.txt
 63917872e15253e944ceee5bed400de2  ./codes/252_16_18/W10_m56-100_12_n252k16d18w9_certify.log
 4fa8a292e05cc497a3014de8f34f3910  ./codes/252_16_18/W10_m56-100_12_n252k16d18w9_gurobi.log
 76ba9a77803ad85d8f940506c85045b5  ./codes/252_16_18/W10_m56-100_12_n252k16d18w9_HX.txt
@@ -92,7 +92,7 @@ fd48abe1b132c2e4a882ad2398ee86ec  ./codes/360_20_20/H10_package/H10_n360k20d20_w
 9b33510c090f341c8ae861ef4e2f9b01  ./codes/360_20_20/H10_package/sectors.py
 486632dbc6d2958cdf464daaf2e55d0b  ./codes/360_20_20/H10_package/verify.py
 296eede99b047f6811ead58ba48a49a8  ./codes/360_20_20/H10_package/witness.py
-8472dfe7aa4bf87e665ef2b44c0148e7  ./codes/360_20_20/H10_verify.txt
+15153f021457667ae166c7bfda40f11f  ./codes/360_20_20/H10_verify.txt
 91346ebb37776669716716d46b71f3ca  ./codes/360_20_20/h10x14.log
 d3d0c26f7912e33b9e8ba5f7bcca34c3  ./codes/360_20_20/h10x15.log
 1d6b894f7cb655d817977bf43c00c040  ./codes/360_20_20/h10x8.log
@@ -105,7 +105,7 @@ d3d0c26f7912e33b9e8ba5f7bcca34c3  ./codes/360_20_20/h10x15.log
 2d901d797f084229348161f12520145a  ./codes/phase1_extras/D2_15/D2_15_HX.txt
 96dd8384e0c34751b3494a12410e1aff  ./codes/phase1_extras/D2_15/D2_15_HZ.txt
 dcb9be2f604e5df91deb9659bed4748d  ./codes/phase1_extras/D2_15/D2_15.rescreen.log
-ae406b151afbffb7bab99eb3613c9766  ./codes/phase1_extras/D2_15/D2_15_verify.txt
+92642d68e21a433899af021d7c4911f0  ./codes/phase1_extras/D2_15/D2_15_verify.txt
 b500323f5eed7bdcf490f0eb2b79c877  ./codes/phase1_extras/D2_15/D2_15_witnesses.json
 9ec5198689c91f50124be39731809dde  ./codes/phase1_extras/D2_15/D2_15_witness.out
 5828e66e70056abebe7960fd82d4e694  ./codes/phase1_extras/D2_23/D2_23_certify.log
@@ -114,7 +114,7 @@ c0f2c35b181e3f2e00e7a0a69ff1e46a  ./codes/phase1_extras/D2_23/D2_23_gurobi.log
 34d5c9091daccb752e4c148f4131e737  ./codes/phase1_extras/D2_23/D2_23_HX.txt
 a56b5905bec35bc89370bb55e634e0ad  ./codes/phase1_extras/D2_23/D2_23_HZ.txt
 dcb9be2f604e5df91deb9659bed4748d  ./codes/phase1_extras/D2_23/D2_23.rescreen.log
-cef4a5ec3da727877dd81d38f1b96c10  ./codes/phase1_extras/D2_23/D2_23_verify.txt
+687a95aa6ed31aa3bf569e7d32008bab  ./codes/phase1_extras/D2_23/D2_23_verify.txt
 2bc7837c2202708c94a71d10df0dd7b7  ./codes/phase1_extras/D2_23/D2_23_witnesses.json
 72795763e47e336101b9b5adb65d24a4  ./codes/phase1_extras/D2_23/D2_23_witness.out
 d32eb14ee510581e7dc6128a864b327a  ./codes/phase1_extras/D2_4/D2_4_certify.log
@@ -123,7 +123,7 @@ cc5ae31c43a0b0b54aef4f4ea0906351  ./codes/phase1_extras/D2_4/D2_4_elements.txt
 23c8e69a480c3acf9f89458c1f77d810  ./codes/phase1_extras/D2_4/D2_4_HX.txt
 7506c4a755f2efa5375d7f0ddfe77f36  ./codes/phase1_extras/D2_4/D2_4_HZ.txt
 dcb9be2f604e5df91deb9659bed4748d  ./codes/phase1_extras/D2_4/D2_4.rescreen.log
-b5bd2df564ed5d01e62470ccd08ac734  ./codes/phase1_extras/D2_4/D2_4_verify.txt
+a2af60283db34d26dd0ac2f7078d3ddd  ./codes/phase1_extras/D2_4/D2_4_verify.txt
 33653a017a81ac97e47a3fc9abc49e62  ./codes/phase1_extras/D2_4/D2_4_witnesses.json
 872d614bcbe4970cfdd1819b0dc6953b  ./codes/phase1_extras/D2_4/D2_4_witness.out
 70b1407a6fbbae0c0f7f43724f14a35c  ./codes/phase1_extras/D3_17/D3_17_certify.log
@@ -132,7 +132,7 @@ b5bd2df564ed5d01e62470ccd08ac734  ./codes/phase1_extras/D2_4/D2_4_verify.txt
 662b7b711bf999f24ac22b842fa1fa0f  ./codes/phase1_extras/D3_17/D3_17_HX.txt
 0f3d31776fd46dcdc958ceeb94e47c4f  ./codes/phase1_extras/D3_17/D3_17_HZ.txt
 dcb9be2f604e5df91deb9659bed4748d  ./codes/phase1_extras/D3_17/D3_17.rescreen.log
-ced64e78706867f487d9406ce8d0da28  ./codes/phase1_extras/D3_17/D3_17_verify.txt
+08c70f6dc3635195cd51dc7246e70878  ./codes/phase1_extras/D3_17/D3_17_verify.txt
 153f1d32c140919789ddbeffa400ba34  ./codes/phase1_extras/D3_17/D3_17_witnesses.json
 07dc88113f162e55340a0d0b1cb6c3fb  ./codes/phase1_extras/D3_17/D3_17_witness.out
 182790305a5d97c3159b216fa5a6325d  ./codes/phase1_extras/D3_39/D3_39_certify.log
@@ -141,7 +141,7 @@ ced64e78706867f487d9406ce8d0da28  ./codes/phase1_extras/D3_17/D3_17_verify.txt
 f0703e690675a33f14d4562d526fc36b  ./codes/phase1_extras/D3_39/D3_39_HX.txt
 381252000e5bb371113eb0f034513c4f  ./codes/phase1_extras/D3_39/D3_39_HZ.txt
 dcb9be2f604e5df91deb9659bed4748d  ./codes/phase1_extras/D3_39/D3_39.rescreen.log
-a56e96ab595dfc00d04cacff0e25a44b  ./codes/phase1_extras/D3_39/D3_39_verify.txt
+d71be293ff47a6c3c853be5735d2f03e  ./codes/phase1_extras/D3_39/D3_39_verify.txt
 cf35698bbe00f6a1a8909288fa8db05d  ./codes/phase1_extras/D3_39/D3_39_witnesses.json
 df17705a689dd541869121e33af4911c  ./codes/phase1_extras/D3_39/D3_39_witness.out
 0dcf4c15ceb02cbfe989e8f96073b3c0  ./codes/phase1_extras/D3_3/D3_3_certify.log
@@ -150,14 +150,14 @@ df17705a689dd541869121e33af4911c  ./codes/phase1_extras/D3_39/D3_39_witness.out
 f23fe5b3cba544b4c5be5f3bc4aaae2f  ./codes/phase1_extras/D3_3/D3_3_HX.txt
 1f7b79f7047af03cc52ae14aad6309fc  ./codes/phase1_extras/D3_3/D3_3_HZ.txt
 dcb9be2f604e5df91deb9659bed4748d  ./codes/phase1_extras/D3_3/D3_3.rescreen.log
-cd424f5a5bc31b627bb791d488fc5779  ./codes/phase1_extras/D3_3/D3_3_verify.txt
+60efb84d0d07a9a5efc139aed490e69d  ./codes/phase1_extras/D3_3/D3_3_verify.txt
 bf60eb00ec96c3d0a3f5f2f37a7840a9  ./codes/phase1_extras/D3_41/D3_41_certify.log
 cea618b728c216b64bb4c3fe9e4ccabc  ./codes/phase1_extras/D3_41/D3_41_elements.txt
 863cf4cecaf576affab3cc90f01e608b  ./codes/phase1_extras/D3_41/D3_41_gurobi.log
 03d238887cdf0ddc5d00828396496bbd  ./codes/phase1_extras/D3_41/D3_41_HX.txt
 7d57ba1980f927d4f7cd78897d556e33  ./codes/phase1_extras/D3_41/D3_41_HZ.txt
 dcb9be2f604e5df91deb9659bed4748d  ./codes/phase1_extras/D3_41/D3_41.rescreen.log
-c7fb16a766e61cb54e012d5105f70346  ./codes/phase1_extras/D3_41/D3_41_verify.txt
+2e474b243b6defa758bb06db139119fa  ./codes/phase1_extras/D3_41/D3_41_verify.txt
 1c05f1f59f7cbdb0f3d2b8aeb5dcb5ac  ./codes/phase1_extras/D3_41/D3_41_witnesses.json
 3b012f31b1e16fb7f7b90477ef8cbfac  ./codes/phase1_extras/D3_41/D3_41_witness.out
 61a76ad60721f606a560cd6bef2f764e  ./codes/phase1_extras/D3_56/D3_56_certify.log
@@ -166,7 +166,7 @@ c7fb16a766e61cb54e012d5105f70346  ./codes/phase1_extras/D3_41/D3_41_verify.txt
 3352020ed7d4acd00317f89cbfd76feb  ./codes/phase1_extras/D3_56/D3_56_HX.txt
 325b65ccb26ecd2858752c6fc6b3d30c  ./codes/phase1_extras/D3_56/D3_56_HZ.txt
 dcb9be2f604e5df91deb9659bed4748d  ./codes/phase1_extras/D3_56/D3_56.rescreen.log
-5646e34142041ca1d2aa414f0f42ac76  ./codes/phase1_extras/D3_56/D3_56_verify.txt
+03533db7de61cdc02de8b33f56d53152  ./codes/phase1_extras/D3_56/D3_56_verify.txt
 6ec6a656e24f1371743ab100a69e5a8c  ./codes/phase1_extras/D3_56/D3_56_witnesses.json
 ecdba2e6e30a5e2cdb600de224cf49b9  ./codes/phase1_extras/D3_56/D3_56_witness.out
 6fc7ffc595afb08ed6522e4ea82a2dca  ./codes/phase1_extras/D3_5/D3_5_certify.log
@@ -175,7 +175,7 @@ ecdba2e6e30a5e2cdb600de224cf49b9  ./codes/phase1_extras/D3_56/D3_56_witness.out
 7548723f390a5ffd5a19d755a4cc7ac4  ./codes/phase1_extras/D3_5/D3_5_HX.txt
 e7847ae2510de9efd738e19f697bb9ed  ./codes/phase1_extras/D3_5/D3_5_HZ.txt
 dcb9be2f604e5df91deb9659bed4748d  ./codes/phase1_extras/D3_5/D3_5.rescreen.log
-81e90a0fc26bbc9048a189683eb613e9  ./codes/phase1_extras/D3_5/D3_5_verify.txt
+fdcbc7482de54b01f27c14d0f3ce3bb9  ./codes/phase1_extras/D3_5/D3_5_verify.txt
 dbc34c88074275fdbf32499dc938b3df  ./codes/phase1_extras/D3_5/D3_5_witnesses.json
 672b33b6d98c9240a999b7b3b05c15df  ./codes/phase1_extras/D3_5/D3_5_witness.out
 99fec2fcb66091d700d16bdf3e63468d  ./codes/phase1_extras/D3_8/D3_8_certify.log
@@ -184,7 +184,7 @@ dbc34c88074275fdbf32499dc938b3df  ./codes/phase1_extras/D3_5/D3_5_witnesses.json
 4ac6a861afcd99722a2720493413dd05  ./codes/phase1_extras/D3_8/D3_8_HX.txt
 54ba7bfcf6f1224aed7d61a2f6052f8d  ./codes/phase1_extras/D3_8/D3_8_HZ.txt
 dcb9be2f604e5df91deb9659bed4748d  ./codes/phase1_extras/D3_8/D3_8.rescreen.log
-f47778197d111ae29ba2929fb2bc2577  ./codes/phase1_extras/D3_8/D3_8_verify.txt
+9c4d2feb13a693319b8c1a3aa06231d2  ./codes/phase1_extras/D3_8/D3_8_verify.txt
 4e03ce671f23bb984f668cf6b1ee4a5b  ./codes/phase1_extras/D3_8/D3_8_witnesses.json
 9b6b403e4ea5254a73e0e3e88bb50fc7  ./codes/phase1_extras/D3_8/D3_8_witness.out
 2b683684df27041ef8f4b179603c053a  ./codes/phase1_extras/SUMMARY.txt
@@ -229,7 +229,7 @@ aece40dd5a5c28f082213589ff91f0ed  ./hope/pairs_mid.g
 f288cf3eb4d39a8e42a9d7af369d6b71  ./hope/screen4.g
 17a38a867ed6dc5ed0ceda378030e28c  ./hope/screen4_results.txt
 c0f3e8d662d655f25f7e32d574d2f00c  ./hope/stems.txt
-f72d99d748990ff10090e3e9bbf385c0  ./MANIFEST.md5
+00fa11db65bca39d825cfd701a5dc788  ./MANIFEST.md5
 47a439c372308072388aed58b7f05d31  ./negative/failed_layouts_G3-G9.tar.gz
 a5d2d0167a4f8bab814a17d0a99a5ac9  ./negative/G1.g
 8cb11a1abda5b1d62056f144673ec278  ./negative/G2.g
@@ -330,7 +330,7 @@ c4ecce480fa2646e6d5c3a7181f8b71d  ./phase2/W9_results.txt
 f9c4a47e69788638f8a39c2a8210444b  ./python/certify.py
 28a3ef4d402aca5a8a5046407fbb45de  ./python/collect.py
 9b33510c090f341c8ae861ef4e2f9b01  ./python/sectors.py
-486632dbc6d2958cdf464daaf2e55d0b  ./python/verify.py
+0bde55505350b04d95196bf3e948b567  ./python/verify.py
 296eede99b047f6811ead58ba48a49a8  ./python/witness.py
 0fcf4da55c1ffa8f9d28b556afd97bdd  ./README.md
 a270fd29ea160221158f81bf51ad068f  ./results/F9_m60-90_results.txt

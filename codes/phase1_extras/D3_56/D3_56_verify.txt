@@ -31,5 +31,5 @@ file shapes: HX (84, 168)  HZ (84, 168)
     weight-1 Z-logicals: 0  -> PASS
 
 [10] summary
-    [[168,20]]  w=7   Q at d=22: 57.619   Q at d=20: 47.619
+    [[168,20,10]]  w=7   Q = 11.905
     ALL STRUCTURAL CHECKS: PASS

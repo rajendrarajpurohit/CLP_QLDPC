@@ -31,5 +31,5 @@ file shapes: HX (120, 240)  HZ (120, 240)
     weight-1 Z-logicals: 0  -> PASS
 
 [10] summary
-    [[240,16]]  w=5   Q at d=22: 32.267   Q at d=20: 26.667
+    [[240,16,8]]  w=5   Q = 4.267
     ALL STRUCTURAL CHECKS: PASS
