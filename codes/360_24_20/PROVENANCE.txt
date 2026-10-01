@@ -1,0 +1,14 @@
+[[360,24,20]] w=7   W7_m56-100_38_n360k24d20w7, Phase 4 driver W7b, certified 27 Sep to 2 Oct 2026
+group SmallGroup(810,84), H=<f6,f2*f4>=C9, m=90, |a|=3, B weights 3 1 / 1 3
+rescreen 10^6 rounds, dZ<=20 dX<=20
+
+Sector proofs, 24 per side, cutoff 19.5
+  Z1 to Z24   certify.py   W7_m56-100_38_n360k24d20w7_certify.log, 8 threads, stopped after Z24 by watcher
+  X1 to X17   sectors.py   W7_38_X01-24.log, stopped after X17
+  X18, X19    sectors.py   W7_38_X18-19.log
+  X20 to X24  sectors.py   W7_38_X20-24.log
+Both scripts use the same logical_basis function. Basis files LX_basis.txt and LZ_basis.txt written by certify.py and
+reproduced by sectors.py's function, so sector numbering agrees across all jobs.
+Witnesses   witness.py, weight 20 logical on each side, sector 1, W7_m56-100_38_n360k24d20w7_witnesses.json
+verify      verify.py, all structural checks pass, check weight 7, qubit degree 7
+Solver Gurobi 13.0.3, MIPFocus 3, Symmetry 2.
