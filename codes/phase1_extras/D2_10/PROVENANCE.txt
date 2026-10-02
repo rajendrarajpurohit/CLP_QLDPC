@@ -1,0 +1,4 @@
+[[216,8,18]] w=7   D2_10, Phase 1 layout 2x2/1x1, SmallGroup(162,3) H=C3, m=54
+certified 2 Oct 2026 with certify_nolimit.py (certify.py with MEMLIMIT_GB raised to 1000), 48 threads
+all 8 dZ and 8 dX sectors at cutoff 17.5, witness weight 18 on Z, sectors 5 to 10 minutes each
+rescreen 10^6 rounds dZ<=18 dX<=18. verify.py all checks pass.
