@@ -152,5 +152,10 @@ RecoverGen( 126, 8, 63, 21, 2, "C2",
   f -> [ [ [ One(f[1]), f[3]*f[4]^6, f[3]^2*f[4]^4 ] ] ],
   f -> [ [ [ One(f[1]), f[2]^2*f[4]^4 ], [ One(f[1]), f[2] ] ], [ [ One(f[1]), f[2]*f[4]^3 ], [ f[2]^2, f[2]*f[4]^6 ] ] ], [1,1], [2,2],
   Concatenation(EXD,"D3_8/D3_8_HX.txt"), Concatenation(EXD,"D3_8/D3_8_HZ.txt"), 252, Concatenation(EXD,"D3_8/D3_8_elements.txt") );
+RecoverGen( 162, 3, 54, 27, 3, "C3",
+  f -> [ [ [ One(f[1]), f[1]*f[2]*f[4] ], [ f[1]*f[3]^2*f[4]^2*f[5]^2, f[1]*f[2]*f[4]^2*f[5] ] ],
+         [ [ One(f[1]), f[1]*f[3]*f[4]*f[5]^2 ], [ f[2]^2*f[4]*f[5], f[1]*f[2]^2*f[3]*f[4]*f[5] ] ] ],
+  f -> [ [ [ One(f[1]), f[2]^2*f[4], f[2]^2*f[4]^2*f[5] ] ] ], [2,2], [1,1],
+  Concatenation(EXD,"D2_10/D2_10_HX.txt"), Concatenation(EXD,"D2_10/D2_10_HZ.txt"), 216, Concatenation(EXD,"D2_10/D2_10_elements.txt") );
 Print("extras done\n");
 QUIT;

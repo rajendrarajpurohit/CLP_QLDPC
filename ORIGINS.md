@@ -62,3 +62,5 @@ D1 validation codes [[56,6,8]] [[36,4,6]] and the gross code [[144,12,12]]  pipe
 
 Queued when compute is free
 [[360,24,<=20]] w=7  W7_m56-100_38   then  [[216,8,<=18]] w=7  then  [[288,16,<=20]] w=9
+[[216,8,18]]    w=7  D2_10  SG(162,3)   H=<f3f5>=C3   certified 2 Oct 2026, moved from Not reported
+[[360,24,20]]   w=7  W7_m56-100_38  SG(810,84) H=<f6,f2f4>=C9   certified 2 Oct 2026, codes/360_24_20/

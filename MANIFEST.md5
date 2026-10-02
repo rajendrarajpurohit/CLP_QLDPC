@@ -117,6 +117,14 @@ cee7cc51290c88709ef4c306ed7f7d21  ./codes/360_24_20/W7_m56-100_38_n360k24d20w7_H
 6622bda442256cb2a6c6ccdbac3b9527  ./codes/360_24_20/W7_m56-100_38_n360k24d20w7_LZ_basis.txt
 dcb9be2f604e5df91deb9659bed4748d  ./codes/360_24_20/W7_m56-100_38_n360k24d20w7.rescreen.log
 57820da2bc6ee212ee64b617d7158985  ./codes/360_24_20/W7_m56-100_38_n360k24d20w7_witnesses.json
+60f1e2f76c7439eb97771ed5b6966b95  ./codes/phase1_extras/D2_10/D2_10_certify.log
+26ae2aa4531bde5aa87b9b92d15d0ca4  ./codes/phase1_extras/D2_10/D2_10_elements.txt
+5e3b248f57526cb14aa387143bef5e05  ./codes/phase1_extras/D2_10/D2_10_gurobi.log
+170a3c01c324582c6825900877ebb627  ./codes/phase1_extras/D2_10/D2_10_HX.txt
+0e4b38317c09810e84c3b35258d9f402  ./codes/phase1_extras/D2_10/D2_10_HZ.txt
+dcb9be2f604e5df91deb9659bed4748d  ./codes/phase1_extras/D2_10/D2_10.rescreen.log
+a69dfac4cf1405c535c92b70048d55e5  ./codes/phase1_extras/D2_10/D2_10_verify.txt
+e612bab0f4642f61da3096c09d2525d1  ./codes/phase1_extras/D2_10/PROVENANCE.txt
 16b34f0143552d21d23b8e94bee535e7  ./codes/phase1_extras/D2_15/D2_15_certify.log
 93804990a3e0db0bb2a3b700a8a9ea54  ./codes/phase1_extras/D2_15/D2_15_elements.txt
 586d2a5f09fb233f5cf131aeb5eeb88a  ./codes/phase1_extras/D2_15/D2_15_gurobi.log
@@ -205,7 +213,7 @@ dcb9be2f604e5df91deb9659bed4748d  ./codes/phase1_extras/D3_8/D3_8.rescreen.log
 9c4d2feb13a693319b8c1a3aa06231d2  ./codes/phase1_extras/D3_8/D3_8_verify.txt
 4e03ce671f23bb984f668cf6b1ee4a5b  ./codes/phase1_extras/D3_8/D3_8_witnesses.json
 9b6b403e4ea5254a73e0e3e88bb50fc7  ./codes/phase1_extras/D3_8/D3_8_witness.out
-2b683684df27041ef8f4b179603c053a  ./codes/phase1_extras/SUMMARY.txt
+6d7b96d5f083c42329d38404406da547  ./codes/phase1_extras/SUMMARY.txt
 0eabb7cf32650044201dd3219a1e29a7  ./drivers/F9.g
 8fa5ed1d10fb7af590946b2835bb2a28  ./drivers/Fbase.g
 a5d2d0167a4f8bab814a17d0a99a5ac9  ./drivers/G1.g
@@ -226,7 +234,7 @@ f1fb115ca6b844c710934325759f3b00  ./drivers/W8b.g
 a41d29adef954331b859c87e23d7d968  ./gap/check.g
 465289b1b3aaf8c07f6ab15759077d9a  ./gap/CLP_core.g
 845d7b9dc67c2511a94bc75ff0a45d50  ./gap/NOVA_lib.g
-dad88542b5b1a7cb48efad51080da800  ./gap/recoverD3.g
+08f81641d908295c7cd80656aaa8f33c  ./gap/recoverD3.g
 d8cfccff8f8fccbc93810ef44d443ab4  ./gap/rescreen.g
 465289b1b3aaf8c07f6ab15759077d9a  ./hope/CLP_core.g
 0ec1c57da4318f2477a6777a63a36246  ./hope/CLP_pairs_mid.g
@@ -247,7 +255,7 @@ aece40dd5a5c28f082213589ff91f0ed  ./hope/pairs_mid.g
 f288cf3eb4d39a8e42a9d7af369d6b71  ./hope/screen4.g
 17a38a867ed6dc5ed0ceda378030e28c  ./hope/screen4_results.txt
 c0f3e8d662d655f25f7e32d574d2f00c  ./hope/stems.txt
-6b46d6ae200865db0f24b37598bba74b  ./MANIFEST.md5
+a6236858156c68efb09c4756a008294b  ./MANIFEST.md5
 47a439c372308072388aed58b7f05d31  ./negative/failed_layouts_G3-G9.tar.gz
 a5d2d0167a4f8bab814a17d0a99a5ac9  ./negative/G1.g
 8cb11a1abda5b1d62056f144673ec278  ./negative/G2.g
@@ -259,7 +267,7 @@ a302b9ac9ee064f83954b6ad8bfa2508  ./negative/G6.g
 f6aef887a6f143bbba752f8692482038  ./negative/G8.g
 998bd2d80227d7650cf5d2b00a1362e9  ./negative/g9diag.g
 4c5443fb37a2109b0001391907739161  ./negative/G9.g
-de37b36cc16ff8670cbcc14d9a5aa948  ./ORIGINS.md
+7d9ecd4b6e061c234e5c78e1340ce68c  ./ORIGINS.md
 bd06f619144864d71cd32018b0914e8f  ./pairs/pairs_bigm.g
 839b2e37f2fe4bc9a9924f87cb4d9741  ./pairs/pairs_final.g
 aece40dd5a5c28f082213589ff91f0ed  ./pairs/pairs_mid.g
@@ -345,6 +353,7 @@ fb4f165e34b5386d21928027da4bd5f5  ./phase2/w8diag.g
 c4ecce480fa2646e6d5c3a7181f8b71d  ./phase2/W9_results.txt
 47051a29460e018289f8548a68533898  ./phase2/wide.g
 2b61ae2579670539d3b0238a7507341b  ./phase2/wide_results.txt
+1fb9b871aa6eda2803c54cb4a655c644  ./python/certify_nolimit.py
 f9c4a47e69788638f8a39c2a8210444b  ./python/certify.py
 28a3ef4d402aca5a8a5046407fbb45de  ./python/collect.py
 9b33510c090f341c8ae861ef4e2f9b01  ./python/sectors.py
