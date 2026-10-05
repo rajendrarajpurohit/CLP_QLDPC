@@ -1,0 +1,14 @@
+[[288,16,20]] w=9   W10_m56-100_1_n288k16d20w9, Phase 4 driver W10b, certified 2 to 5 Oct 2026
+group SmallGroup(144,164), H=<f1*f5>=C2, Core=1, m=72, |a|=4, B weights 2 2 / 2 3
+rescreen 10^6 rounds, dZ<=20 dX<=20
+
+Lower bound, 16 sectors per side, cutoff 19.5, sectors.py in eight parallel chunks of four, 6 threads each
+  Z1 to Z16   logs _Z1-4 _Z5-8 _Z9-12 _Z13-16 and matching _dZ_*_gurobi.log
+  X1 to X16   logs _X1-4 _X5-8 _X9-12 _X13-16 and matching _dX_*_gurobi.log
+  all 32 sectors at cutoff, launched and collected by chain_288.sh, see chain_288.log
+
+Upper bound, one weight 20 logical per side found by randomised information set search in GAP
+  witness_isd.g, Z side at round 36, X side at round 123, vectors in _witness_Z_w20.txt and _witness_X_w20.txt
+  each checked in NumPy, in the kernel of the opposite check matrix, not in the row space of the same side, weight 20
+verify      verify.py, all structural checks pass, check weight 9, qubit degree 9
+Solver Gurobi 13.0.3, MIPFocus 3, Symmetry 2. GAP 4.15.1.

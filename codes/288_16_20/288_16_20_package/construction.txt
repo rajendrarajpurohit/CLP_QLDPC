@@ -1,0 +1,9 @@
+#### W10_m56-100_1_n288k16d20w9  [[288,16,<=20]]  w=9  dZ<=20  dX<=
+20  Q=22.22222222222222
+group := "SmallGroup(144,164) H=C2";  l := 144;  i := 164;  m := 72;  lift := 
+24;  stab := 2;
+Hgens := [ [ 1, 0, 0, 0, 1, 0 ] ];
+A := 
+[ [ [ <identity> of ..., f3*f4*f5*f6, f2*f3*f4^2*f5, f2*f3*f4^2*f5*f6 ] ] ];
+B := [ [ [ <identity> of ..., f3*f4 ], [ <identity> of ..., f2*f4*f5 ] ], 
+  [ [ <identity> of ..., f2*f3*f4 ], [ f2, f5, f2*f3*f4^2*f5 ] ] ];

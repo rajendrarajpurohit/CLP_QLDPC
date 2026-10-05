@@ -66,3 +66,4 @@ Queued when compute is free
 [[360,24,20]]   w=7  W7_m56-100_38  SG(810,84) H=<f6,f2f4>=C9   certified 2 Oct 2026, codes/360_24_20/
 [[216,8,18]]    w=7  D2_10  SG(162,3)   H=<f3f5>=C3   certified 2 Oct 2026, moved from Not reported
 [[360,24,20]]   w=7  W7_m56-100_38  SG(810,84) H=<f6,f2f4>=C9   certified 2 Oct 2026, codes/360_24_20/
+[[288,16,20]]   w=9  W10_m56-100_1  SG(144,164) H=<f1f5>=C2   certified 5 Oct 2026, codes/288_16_20/, w=9 leader Q=22.22
