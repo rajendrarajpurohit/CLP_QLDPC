@@ -12,10 +12,6 @@ frozen snapshot with checksums in MANIFEST.md5.
 | [[240,8,20]]  | 6 | SmallGroup(360,99) | <f2, f3> = C6    | codes/240_8_20  |
 | [[360,20,20]] | 6 | SmallGroup(270,26) | <f2 f4> = C3     | codes/360_20_20 |
 | [[252,16,18]] | 9 | SmallGroup(189,8)  | <f2> = C3        | codes/252_16_18 |
-| [[288,16,20]] | 9 | SmallGroup(144,164) | <f1 f5> = C2     | codes/288_16_20 |
-| [[360,24,20]] | 7 | SmallGroup(810,84)  | <f6, f2 f4> = C9 | codes/360_24_20 |
-| [[216,8,18]]  | 7 | SmallGroup(162,3)   | <f3 f5> = C3     | codes/phase1_extras/D2_10 |
-
 
 Each folder holds HX and HZ as 0/1 text, the construction record (G, H, a, B), the
 solver logs for every sector on both sides, the distance witnesses, the output of
@@ -62,3 +58,51 @@ python/witness.py extracts a weight d_ub logical operator so the distance is exa
 Phase 1 matrix files for n >= 216 contain GAP backslash line continuations. Strip them
 before parsing with a strict reader. The D3_results.txt kept on the server mixes two runs
 with restarted counters. phase1/D3_results_original.txt is the clean single run file.
+
+## Reproducing a code from the paper
+
+Every code in the paper is printed as a SmallGroup identifier, the generators of H,
+and the entries of A and B as words in the pc generators f1, f2, ... of that group.
+gap/rebuild.g turns such a block into parity check matrices using the same
+construction functions the search used (CLP_core.g). Nothing else is needed.
+
+1. Transcribe the block into a call. The form is
+
+       Rebuild( l, i, Hw, Aw, Bw, sA, sB, name );
+
+   l, i      the SmallGroup identifier
+   Hw        f -> [ generators of H ]
+   Aw        f -> A as a list of rows, each entry a list of its terms
+   Bw        f -> B in the same form
+   sA, sB    [1,1] and [2,2] for the 1x1 over 2x2 layout
+             [2,2] and [1,1] for the 2x2 over 1x1 layout
+   name      prefix for the output files name_HX.txt, name_HZ.txt
+
+   An entry equal to 1 is written as One(f[1]). A sum such as 1 + f6 + f4^4 f6^2
+   is the list [ One(f[1]), f[6], f[4]^4*f[6]^2 ]. The pc generators f1, f2, ...
+   are those of GAP's SmallGroup(l,i), obtained inside the call as Pcgs(G).
+
+   Worked example, the [[120,8,8]] code of the paper, is in gap/example_120_8_8.g.
+
+2. Build the matrices.
+
+       cd gap
+       gap -q example_120_8_8.g
+
+   The script prints n, k, the check weight and a QDistRnd upper bound, and
+   writes example_HX.txt and example_HZ.txt in the current directory.
+
+3. Check the structure and certify the distance.
+
+       python3 ../python/verify.py  example 120 8 --dir .
+       python3 ../python/certify.py example 120 8 --dir .
+
+   verify.py checks orthogonality, dimension, check weights, qubit degrees and
+   the logical bases from the matrix files alone. certify.py proves d >= 8 by
+   solving one integer program per logical sector with Gurobi, cutoff 7.5, and
+   then finds a weight 8 logical operator, which gives d = 8. The 120 qubit code
+   takes seconds. The length 360 codes with d = 20 take days on a workstation,
+   and sectors.py splits the sectors across machines, see python/sectors.py.
+
+If a transcription error puts an entry of B outside N_G(H), or an entry of A in
+the core, rebuild.g stops with a message naming which matrix is wrong.
