@@ -1,0 +1,72 @@
+Syntax warning: Unbound global variable in CLP_core.g:277
+    pairs := Filtered( PAIRS, pr -> pr.l > 0 and T.pairOK( pr ) );
+                       ^^^^^
+G = SmallGroup(540,115) = C30 x ((C3 x C3) : C2)
+core free C3 classes with [G:N] in {2,3,4}: 4
+Syntax warning: Unbound global variable in probe6.g:30
+    if Bsum( B ) <= W - wa and ForAny( Flat(A), x -> not P.AinN[x] ) then
+                                                         ^
+Syntax warning: Unbound global variable in probe6.g:56
+                      "A := ", List(A, r -> List(r, e -> List(e, x -> P.Areps[\
+x]))), ";\n",
+                                                                      ^
+Syntax warning: Unbound global variable in probe6.g:57
+                      "B := ", List(B, r -> List(r, e -> List(e, x -> P.Lreps[\
+x]))), ";\n",
+                                                                      ^
+== SmallGroup(540,115) H=C3 Hgens=[ [ 0, 0, 1, 0, 1, 2 ] ] m=180 r=2 lift=
+90 n=720
+   t=226 K=16 d500<=30 need 37
+   pair done: bestK=48  K>=16: 7  best d500 30  passed 20000: 0  logged: 0
+== SmallGroup(540,115) H=C3 Hgens=[ [ 0, 0, 1, 0, 1, 1 ] ] m=180 r=2 lift=
+90 n=720
+   t=82 K=16 d500<=37 need 37
+   pair done: bestK=24  K>=16: 7  best d500 37  passed 20000: 1  logged: 0
+== SmallGroup(540,115) H=C3 Hgens=[ [ 0, 0, 1, 0, 1, 0 ] ] m=180 r=2 lift=
+90 n=720
+   t=1333 K=16 d500<=16 need 37
+   pair done: bestK=40  K>=16: 7  best d500 16  passed 20000: 0  logged: 0
+== SmallGroup(540,115) H=C3 Hgens=[ [ 0, 0, 1, 0, 0, 1 ] ] m=180 r=2 lift=
+90 n=720
+   t=133 K=24 d500<=10 need 31
+   t=189 K=16 d500<=14 need 37
+   t=972 K=24 d500<=20 need 31
+   pair done: bestK=40  K>=16: 12  best d500 20  passed 20000: 0  logged: 0
+
+probe6_540 done, 0 codes
+Syntax warning: Unbound global variable in CLP_core.g:277
+    pairs := Filtered( PAIRS, pr -> pr.l > 0 and T.pairOK( pr ) );
+                       ^^^^^
+G = SmallGroup(630,28) = C35 x ((C3 x C3) : C2)
+core free C3 classes with [G:N] in {2,3,4}: 0
+Syntax warning: Unbound global variable in probe6.g:30
+    if Bsum( B ) <= W - wa and ForAny( Flat(A), x -> not P.AinN[x] ) then
+                                                         ^
+Syntax warning: Unbound global variable in probe6.g:56
+                      "A := ", List(A, r -> List(r, e -> List(e, x -> P.Areps[\
+x]))), ";\n",
+                                                                      ^
+Syntax warning: Unbound global variable in probe6.g:57
+                      "B := ", List(B, r -> List(r, e -> List(e, x -> P.Lreps[\
+x]))), ";\n",
+                                                                      ^
+
+probe6_630 done, 0 codes
+Syntax warning: Unbound global variable in CLP_core.g:277
+    pairs := Filtered( PAIRS, pr -> pr.l > 0 and T.pairOK( pr ) );
+                       ^^^^^
+G = SmallGroup(720,351) = C40 x ((C3 x C3) : C2)
+core free C3 classes with [G:N] in {2,3,4}: 0
+Syntax warning: Unbound global variable in probe6.g:30
+    if Bsum( B ) <= W - wa and ForAny( Flat(A), x -> not P.AinN[x] ) then
+                                                         ^
+Syntax warning: Unbound global variable in probe6.g:56
+                      "A := ", List(A, r -> List(r, e -> List(e, x -> P.Areps[\
+x]))), ";\n",
+                                                                      ^
+Syntax warning: Unbound global variable in probe6.g:57
+                      "B := ", List(B, r -> List(r, e -> List(e, x -> P.Lreps[\
+x]))), ";\n",
+                                                                      ^
+
+probe6_720 done, 0 codes

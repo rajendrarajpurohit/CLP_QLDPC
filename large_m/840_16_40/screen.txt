@@ -1,0 +1,2 @@
+# QDistRnd two sided screen, 1 run(s), total rounds 1000000, min over runs dZ<=40 dX<=44, d<=40
+W6rest_c11_1_n840k16d42w6  [[840,16,<=40]]  dZ<=40  dX<=44  rounds=1000000

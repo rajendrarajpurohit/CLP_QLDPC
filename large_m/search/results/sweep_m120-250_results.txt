@@ -1,0 +1,448 @@
+# W6big_c0 shape 1x1/2x2 n=4m  w<=6  both sides  d=min(dZ,dX)  bar Q>30.
+
+#### W6big_c0_1_n960k16d48w6  [[960,16,<=48]]  w=6  dZ<=56  dX<=48  Q=38.4
+group := "SmallGroup(1200,771) H=C5";  l := 1200;  i := 771;  m := 
+240;  lift := 120;  stab := 5;
+Hgens := [ [ 0, 0, 0, 0, 0, 1, 2 ] ];
+A := [ [ [ <identity> of ..., f1*f4*f6^3*f7^4, f1*f2*f3*f6^4*f7^3 ] ] ];
+B := [ [ [ <identity> of ..., f3*f4*f7^3 ], [ <identity> of ... ] ], 
+  [ [ <identity> of ... ], [ f1*f2*f7^2, f1*f2*f3*f5*f7^3 ] ] ];
+Aidx := [ [ [ 1, 670, 1074 ] ] ];  Bidx := 
+[ [ [ 1, 64 ], [ 1 ] ], [ [ 1 ], [ 37, 96 ] ] ];
+# W6big_c10 shape 1x1/2x2 n=4m  w<=6  both sides  d=min(dZ,dX)  bar Q>30.
+# W6big_c11 shape 1x1/2x2 n=4m  w<=6  both sides  d=min(dZ,dX)  bar Q>30.
+# W6big_c12 shape 1x1/2x2 n=4m  w<=6  both sides  d=min(dZ,dX)  bar Q>30.
+# W6big_c13 shape 1x1/2x2 n=4m  w<=6  both sides  d=min(dZ,dX)  bar Q>30.
+# W6big_c14 shape 1x1/2x2 n=4m  w<=6  both sides  d=min(dZ,dX)  bar Q>30.
+# W6big_c15 shape 1x1/2x2 n=4m  w<=6  both sides  d=min(dZ,dX)  bar Q>30.
+
+#### W6big_c15_1_n960k16d46w6  [[960,16,<=46]]  w=6  dZ<=46  dX<=
+52  Q=35.26666666666667
+group := "SmallGroup(480,657) H=C2";  l := 480;  i := 657;  m := 
+240;  lift := 60;  stab := 2;
+Hgens := [ [ 1, 0, 0, 0, 0, 0, 0 ] ];
+A := [ [ [ <identity> of ..., f3^2*f5*f6*f7, f1*f2*f3*f5*f6*f7 ] ] ];
+B := [ [ [ <identity> of ... ], [ <identity> of ..., f2*f3^2*f6*f7 ] ], 
+  [ [ <identity> of ..., f2*f3 ], [ f2*f7 ] ] ];
+Aidx := [ [ [ 1, 40, 344 ] ] ];  Bidx := 
+[ [ [ 1 ], [ 1, 44 ] ], [ [ 1, 7 ], [ 9 ] ] ];
+# W6big_c16 shape 1x1/2x2 n=4m  w<=6  both sides  d=min(dZ,dX)  bar Q>30.
+
+#### W6big_c16_1_n840k16d40w6  [[840,16,<=40]]  w=6  dZ<=40  dX<=
+46  Q=30.47619047619047
+group := "SmallGroup(1470,26) H=C7";  l := 1470;  i := 26;  m := 
+210;  lift := 105;  stab := 7;
+Hgens := [ [ 0, 0, 0, 1, 1 ] ];
+A := [ [ [ <identity> of ..., f1*f3^4*f4^4*f5^5, f1*f2^2*f3^2*f4^3 ] ] ];
+B := [ [ [ <identity> of ..., f3^2*f5^6 ], [ <identity> of ... ] ], 
+  [ [ <identity> of ... ], [ f2*f3*f5, f2^2*f3^3*f5^4 ] ] ];
+Aidx := [ [ [ 1, 965, 1345 ] ] ];  Bidx := 
+[ [ [ 1, 86 ], [ 1 ] ], [ [ 1 ], [ 14, 88 ] ] ];
+# W6big_c17 shape 1x1/2x2 n=4m  w<=6  both sides  d=min(dZ,dX)  bar Q>30.
+# W6big_c18 shape 1x1/2x2 n=4m  w<=6  both sides  d=min(dZ,dX)  bar Q>30.
+# W6big_c19 shape 1x1/2x2 n=4m  w<=6  both sides  d=min(dZ,dX)  bar Q>30.
+# W6big_c1 shape 1x1/2x2 n=4m  w<=6  both sides  d=min(dZ,dX)  bar Q>30.
+
+#### W6big_c1_1_n960k16d44w6  [[960,16,<=44]]  w=6  dZ<=50  dX<=
+44  Q=32.26666666666667
+group := "SmallGroup(480,745) H=C2";  l := 480;  i := 745;  m := 
+240;  lift := 120;  stab := 2;
+Hgens := [ [ 0, 1, 1, 0, 1, 0, 0 ] ];
+A := [ [ [ <identity> of ..., f4*f6*f7^3, f1*f2*f3*f7^2 ] ] ];
+B := [ [ [ <identity> of ..., f3*f4*f6*f7^3 ], [ <identity> of ... ] ], 
+  [ [ <identity> of ... ], [ f5*f6*f7^2, f4^2*f5*f7^3 ] ] ];
+Aidx := [ [ [ 1, 29, 423 ] ] ];  Bidx := 
+[ [ [ 1, 90 ], [ 1 ] ], [ [ 1 ], [ 57, 96 ] ] ];
+# W6big_c2 shape 1x1/2x2 n=4m  w<=6  both sides  d=min(dZ,dX)  bar Q>30.
+# W6big_c3 shape 1x1/2x2 n=4m  w<=6  both sides  d=min(dZ,dX)  bar Q>30.
+# W6big_c4 shape 1x1/2x2 n=4m  w<=6  both sides  d=min(dZ,dX)  bar Q>30.
+
+#### W6big_c4_1_n960k16d58w6  [[960,16,<=58]]  w=6  dZ<=58  dX<=
+64  Q=56.06666666666667
+group := "SmallGroup(480,1181) H=C2";  l := 480;  i := 1181;  m := 
+240;  lift := 120;  stab := 2;
+Hgens := [ [ 1, 0, 1, 1, 0, 0, 0 ] ];
+A := [ [ [ <identity> of ..., f2*f5*f6^3, f1*f2*f4*f5*f6^2*f7 ] ] ];
+B := [ [ [ <identity> of ..., f4*f5^2*f6 ], [ <identity> of ... ] ], 
+  [ [ <identity> of ... ], [ f3*f5*f7, f4*f6^3*f7 ] ] ];
+Aidx := [ [ [ 1, 137, 406 ] ] ];  Bidx := 
+[ [ [ 1, 49 ], [ 1 ] ], [ [ 1 ], [ 24, 78 ] ] ];
+# W6big_c5 shape 1x1/2x2 n=4m  w<=6  both sides  d=min(dZ,dX)  bar Q>30.
+# W6big_c6 shape 1x1/2x2 n=4m  w<=6  both sides  d=min(dZ,dX)  bar Q>30.
+# W6big_c7 shape 1x1/2x2 n=4m  w<=6  both sides  d=min(dZ,dX)  bar Q>30.
+# W6big_c8 shape 1x1/2x2 n=4m  w<=6  both sides  d=min(dZ,dX)  bar Q>30.
+# W6big_c9 shape 1x1/2x2 n=4m  w<=6  both sides  d=min(dZ,dX)  bar Q>30.
+# W6rest_c0 shape 1x1/2x2 n=4m  w<=6  both sides  d=min(dZ,dX)  bar Q>30.
+
+#### W6rest_c0_1_n960k16d48w6  [[960,16,<=48]]  w=6  dZ<=48  dX<=60  Q=38.4
+group := "SmallGroup(1200,736) H=C5";  l := 1200;  i := 736;  m := 
+240;  lift := 60;  stab := 5;
+Hgens := [ [ 0, 0, 1, 0, 0, 0, 1 ] ];
+A := [ [ [ <identity> of ..., f2*f4*f6*f7^4, f1*f2*f4*f6^2*f7^4 ] ] ];
+B := [ [ [ <identity> of ..., f5*f6^2*f7^4 ], [ <identity> of ... ] ], 
+  [ [ <identity> of ... ], [ f5*f6*f7^2, f5*f6^2*f7^3 ] ] ];
+Aidx := [ [ [ 1, 340, 945 ] ] ];  Bidx := 
+[ [ [ 1, 59 ], [ 1 ] ], [ [ 1 ], [ 32, 53 ] ] ];
+# W6rest_c10 shape 1x1/2x2 n=4m  w<=6  both sides  d=min(dZ,dX)  bar Q>30.
+# W6rest_c11 shape 1x1/2x2 n=4m  w<=6  both sides  d=min(dZ,dX)  bar Q>30.
+
+#### W6rest_c11_1_n840k16d42w6  [[840,16,<=42]]  w=6  dZ<=42  dX<=46  Q=33.6
+group := "SmallGroup(1470,44) H=C7";  l := 1470;  i := 44;  m := 
+210;  lift := 105;  stab := 7;
+Hgens := [ [ 0, 1, 0, 0, 1 ] ];
+A := [ [ [ <identity> of ..., f2^6*f3*f4^4, f1*f2*f3*f4*f5 ] ] ];
+B := [ [ [ <identity> of ... ], [ <identity> of ..., f3*f4^2*f5^5 ] ], 
+  [ [ <identity> of ..., f3*f5^2 ], [ f3*f5 ] ] ];
+Aidx := [ [ [ 1, 694, 884 ] ] ];  Bidx := 
+[ [ [ 1 ], [ 1, 82 ] ], [ [ 1, 15 ], [ 7 ] ] ];
+
+#### W6rest_c11_2_n864k20d42w6  [[864,20,<=42]]  w=6  dZ<=42  dX<=
+44  Q=40.83333333333334
+group := "SmallGroup(648,720) H=C3";  l := 648;  i := 720;  m := 
+216;  lift := 54;  stab := 3;
+Hgens := [ [ 0, 0, 0, 0, 1, 1, 1 ] ];
+A := [ [ [ <identity> of ..., f1*f3*f4*f5*f6*f7, f1*f2*f3^2*f5*f7 ] ] ];
+B := [ [ [ <identity> of ... ], [ <identity> of ..., f1*f3^2*f4*f5^2*f7 ] ], 
+  [ [ <identity> of ..., f1*f3^2*f4*f5*f7 ], [ f1*f3^2*f4*f5^2 ] ] ];
+Aidx := [ [ [ 1, 419, 605 ] ] ];  Bidx := 
+[ [ [ 1 ], [ 1, 51 ] ], [ [ 1, 45 ], [ 44 ] ] ];
+
+#### W6rest_c11_3_n960k16d54w6  [[960,16,<=54]]  w=6  dZ<=54  dX<=56  Q=48.6
+group := "SmallGroup(1200,660) H=C5";  l := 1200;  i := 660;  m := 
+240;  lift := 120;  stab := 5;
+Hgens := [ [ 0, 0, 0, 0, 0, 1, 1 ] ];
+A := [ [ [ <identity> of ..., f3*f4*f6^4*f7^3, f2*f3*f4*f5^2*f6^2*f7^3 ] ] ];
+B := [ [ [ <identity> of ..., f4*f7 ], [ <identity> of ... ] ], 
+  [ [ <identity> of ... ], [ f4*f5^2*f7, f1*f2*f3*f4*f5*f7 ] ] ];
+Aidx := [ [ [ 1, 249, 589 ] ] ];  Bidx := 
+[ [ [ 1, 11 ], [ 1 ] ], [ [ 1 ], [ 44, 73 ] ] ];
+
+#### W6rest_c11_4_n960k16d52w6  [[960,16,<=52]]  w=6  dZ<=52  dX<=
+70  Q=45.06666666666667
+group := "SmallGroup(1200,773) H=C5";  l := 1200;  i := 773;  m := 
+240;  lift := 120;  stab := 5;
+Hgens := [ [ 0, 0, 0, 0, 0, 1, 2 ] ];
+A := [ [ [ <identity> of ..., f1*f4^2, f1*f2*f4*f5*f6^2*f7^4 ] ] ];
+B := [ [ [ <identity> of ... ], [ <identity> of ..., f3*f4*f7^4 ] ], 
+  [ [ <identity> of ..., f3*f4^2*f7^4 ], [ f3*f5*f7^3 ] ] ];
+Aidx := [ [ [ 1, 701, 990 ] ] ];  Bidx := 
+[ [ [ 1 ], [ 1, 87 ] ], [ [ 1, 104 ], [ 65 ] ] ];
+# W6rest_c12 shape 1x1/2x2 n=4m  w<=6  both sides  d=min(dZ,dX)  bar Q>30.
+
+#### W6rest_c12_1_n1000k16d56w6  [[1000,16,<=56]]  w=6  dZ<=56  dX<=
+60  Q=50.176
+group := "SmallGroup(1250,53) H=C5";  l := 1250;  i := 53;  m := 
+250;  lift := 125;  stab := 5;
+Hgens := [ [ 0, 1, 2, 1, 3 ] ];
+A := [ [ [ <identity> of ..., f2^4*f3^4*f4*f5^4, f1*f3^2 ] ] ];
+B := [ [ [ <identity> of ..., f3^4*f4*f5^3 ], [ <identity> of ... ] ], 
+  [ [ <identity> of ... ], [ f3^3*f4^3*f5, f4^4*f5^3 ] ] ];
+Aidx := [ [ [ 1, 610, 676 ] ] ];  Bidx := 
+[ [ [ 1, 94 ], [ 1 ] ], [ [ 1 ], [ 78, 89 ] ] ];
+# W6rest_c13 shape 1x1/2x2 n=4m  w<=6  both sides  d=min(dZ,dX)  bar Q>30.
+
+#### W6rest_c13_1_n960k20d56w6  [[960,20,<=56]]  w=6  dZ<=56  dX<=
+58  Q=65.33333333333333
+group := "SmallGroup(1200,642) H=C5";  l := 1200;  i := 642;  m := 
+240;  lift := 120;  stab := 5;
+Hgens := [ [ 0, 0, 0, 0, 0, 1, 1 ] ];
+A := [ [ [ <identity> of ..., f3*f4*f5*f6^4*f7^3, f2*f3*f4*f5^2*f6^2 ] ] ];
+B := [ [ [ <identity> of ... ], [ <identity> of ..., f1*f2*f3*f4*f5*f7 ] ], 
+  [ [ <identity> of ..., f1*f2*f3*f4 ], [ f1*f2*f3*f4*f5*f7^4 ] ] ];
+Aidx := [ [ [ 1, 274, 586 ] ] ];  Bidx := 
+[ [ [ 1 ], [ 1, 73 ] ], [ [ 1, 30 ], [ 117 ] ] ];
+
+#### W6rest_c13_2_n960k16d46w6  [[960,16,<=46]]  w=6  dZ<=46  dX<=
+46  Q=35.26666666666667
+group := "SmallGroup(1200,772) H=C5";  l := 1200;  i := 772;  m := 
+240;  lift := 120;  stab := 5;
+Hgens := [ [ 0, 0, 0, 0, 0, 1, 2 ] ];
+A := [ [ [ <identity> of ..., f1*f3*f4^2*f6^2*f7^3, f1*f2*f4^2*f6^4*f7^2 ] ] 
+ ];
+B := [ [ [ <identity> of ..., f7 ], [ <identity> of ... ] ], 
+  [ [ <identity> of ... ], [ f4*f5*f7^3, f1*f2*f3*f7^3 ] ] ];
+Aidx := [ [ [ 1, 864, 1023 ] ] ];  Bidx := 
+[ [ [ 1, 5 ], [ 1 ] ], [ [ 1 ], [ 69, 77 ] ] ];
+
+#### W6rest_c13_3_n960k16d50w6  [[960,16,<=50]]  w=6  dZ<=50  dX<=
+50  Q=41.66666666666666
+group := "SmallGroup(720,350) H=C3";  l := 720;  i := 350;  m := 
+240;  lift := 120;  stab := 3;
+Hgens := [ [ 0, 0, 1, 0, 0, 1, 0 ] ];
+A := [ [ [ <identity> of ..., f2*f3*f4*f7, f1*f6^2 ] ] ];
+B := [ [ [ <identity> of ... ], [ <identity> of ..., f2*f6^2*f7^3 ] ], 
+  [ [ <identity> of ..., f2*f5*f6^2 ], [ f2*f7^2 ] ] ];
+Aidx := [ [ [ 1, 272, 371 ] ] ];  Bidx := 
+[ [ [ 1 ], [ 1, 93 ] ], [ [ 1, 43 ], [ 26 ] ] ];
+
+#### W6rest_c13_4_n960k16d48w6  [[960,16,<=48]]  w=6  dZ<=48  dX<=48  Q=38.4
+group := "SmallGroup(480,925) H=C2";  l := 480;  i := 925;  m := 
+240;  lift := 120;  stab := 2;
+Hgens := [ [ 0, 1, 1, 0, 0, 0, 0 ] ];
+A := [ [ [ <identity> of ..., f1*f2*f5*f6*f7, f1*f2*f4^2*f5^3*f6 ] ] ];
+B := [ [ [ <identity> of ... ], [ <identity> of ..., f3*f5*f6*f7 ] ], 
+  [ [ <identity> of ..., f3*f4*f5^4*f6 ], [ f3*f4^2*f5*f6*f7 ] ] ];
+Aidx := [ [ [ 1, 368, 415 ] ] ];  Bidx := 
+[ [ [ 1 ], [ 1, 48 ] ], [ [ 1, 107 ], [ 87 ] ] ];
+# W6rest_c14 shape 1x1/2x2 n=4m  w<=6  both sides  d=min(dZ,dX)  bar Q>30.
+
+#### W6rest_c14_1_n960k16d48w6  [[960,16,<=48]]  w=6  dZ<=52  dX<=48  Q=38.4
+group := "SmallGroup(480,746) H=C2";  l := 480;  i := 746;  m := 
+240;  lift := 120;  stab := 2;
+Hgens := [ [ 0, 0, 1, 0, 0, 1, 0 ] ];
+A := [ [ [ <identity> of ..., f2*f5*f6*f7^3, f1*f2*f4^2*f5*f7^4 ] ] ];
+B := [ [ [ <identity> of ..., f4*f5*f6*f7^3 ], [ <identity> of ... ] ], 
+  [ [ <identity> of ... ], [ f2*f4*f5*f6, f4*f5*f7^3 ] ] ];
+Aidx := [ [ [ 1, 139, 415 ] ] ];  Bidx := 
+[ [ [ 1, 99 ], [ 1 ] ], [ [ 1 ], [ 41, 78 ] ] ];
+# W6rest_c15 shape 1x1/2x2 n=4m  w<=6  both sides  d=min(dZ,dX)  bar Q>30.
+
+#### W6rest_c15_1_n960k16d48w6  [[960,16,<=48]]  w=6  dZ<=50  dX<=48  Q=38.4
+group := "SmallGroup(1200,723) H=C5";  l := 1200;  i := 723;  m := 
+240;  lift := 60;  stab := 5;
+Hgens := [ [ 0, 0, 0, 0, 0, 1, 1 ] ];
+A := [ [ [ <identity> of ..., f1*f3^2*f7^3, f1*f3^2*f4*f7 ] ] ];
+B := [ [ [ <identity> of ... ], [ <identity> of ..., f2*f7^4 ] ], 
+  [ [ <identity> of ..., f2*f3^2*f5 ], [ f5*f7^2 ] ] ];
+Aidx := [ [ [ 1, 804, 852 ] ] ];  Bidx := 
+[ [ [ 1 ], [ 1, 42 ] ], [ [ 1, 25 ], [ 23 ] ] ];
+
+#### W6rest_c15_2_n960k16d48w6  [[960,16,<=48]]  w=6  dZ<=48  dX<=64  Q=38.4
+group := "SmallGroup(480,293) H=C2";  l := 480;  i := 293;  m := 
+240;  lift := 60;  stab := 2;
+Hgens := [ [ 0, 1, 0, 0, 0, 0, 0 ] ];
+A := [ [ [ <identity> of ..., f4*f7, f1*f2*f7 ] ] ];
+B := [ [ [ <identity> of ... ], [ <identity> of ..., f3^2*f5*f7^3 ] ], 
+  [ [ <identity> of ..., f3^2*f5*f7 ], [ f3*f5*f6*f7^2 ] ] ];
+Aidx := [ [ [ 1, 22, 362 ] ] ];  Bidx := 
+[ [ [ 1 ], [ 1, 49 ] ], [ [ 1, 26 ], [ 41 ] ] ];
+# W6rest_c16 shape 1x1/2x2 n=4m  w<=6  both sides  d=min(dZ,dX)  bar Q>30.
+
+#### W6rest_c16_1_n960k16d62w6  [[960,16,<=62]]  w=6  dZ<=62  dX<=
+66  Q=64.06666666666666
+group := "SmallGroup(1200,229) H=C5";  l := 1200;  i := 229;  m := 
+240;  lift := 80;  stab := 5;
+Hgens := [ [ 0, 0, 0, 0, 0, 0, 1 ] ];
+A := [ [ [ <identity> of ..., f1*f5*f6*f7, f1*f2*f4*f5^2*f6^4*f7^4 ] ] ];
+B := [ [ [ <identity> of ... ], [ <identity> of ..., f2*f3*f4*f6^3 ] ], 
+  [ [ <identity> of ..., f1*f4*f6*f7^2 ], [ f2*f3*f6^2 ] ] ];
+Aidx := [ [ [ 1, 632, 1050 ] ] ];  Bidx := 
+[ [ [ 1 ], [ 1, 55 ] ], [ [ 1, 40 ], [ 31 ] ] ];
+# W6rest_c17 shape 1x1/2x2 n=4m  w<=6  both sides  d=min(dZ,dX)  bar Q>30.
+
+#### W6rest_c17_1_n960k16d44w6  [[960,16,<=44]]  w=6  dZ<=48  dX<=
+44  Q=32.26666666666667
+group := "SmallGroup(480,292) H=C2";  l := 480;  i := 292;  m := 
+240;  lift := 120;  stab := 2;
+Hgens := [ [ 0, 1, 0, 0, 0, 0, 0 ] ];
+A := [ [ [ <identity> of ..., f2*f3^2*f4*f5*f7^3, f1*f2*f5*f6*f7^3 ] ] ];
+B := [ [ [ <identity> of ... ], [ <identity> of ..., f3*f4*f7^4 ] ], 
+  [ [ <identity> of ..., f3^2*f6*f7^4 ], [ f5*f7^3 ] ] ];
+Aidx := [ [ [ 1, 234, 379 ] ] ];  Bidx := 
+[ [ [ 1 ], [ 1, 95 ] ], [ [ 1, 109 ], [ 58 ] ] ];
+# W6rest_c18 shape 1x1/2x2 n=4m  w<=6  both sides  d=min(dZ,dX)  bar Q>30.
+
+#### W6rest_c18_1_n864k16d48w6  [[864,16,<=48]]  w=6  dZ<=48  dX<=
+52  Q=42.66666666666666
+group := "SmallGroup(432,525) H=C2";  l := 432;  i := 525;  m := 
+216;  lift := 72;  stab := 2;
+Hgens := [ [ 0, 0, 0, 0, 0, 1, 0 ] ];
+A := [ [ [ <identity> of ..., f1*f2*f3^2*f5*f6*f7, f1^2*f2*f6 ] ] ];
+B := [ [ [ <identity> of ..., f2*f3^2*f7 ], [ <identity> of ... ] ], 
+  [ [ <identity> of ... ], [ f4*f7, f2^2*f3^2*f5 ] ] ];
+Aidx := [ [ [ 1, 232, 339 ] ] ];  Bidx := 
+[ [ [ 1, 46 ], [ 1 ] ], [ [ 1 ], [ 17, 56 ] ] ];
+# W6rest_c19 shape 1x1/2x2 n=4m  w<=6  both sides  d=min(dZ,dX)  bar Q>30.
+# W6rest_c1 shape 1x1/2x2 n=4m  w<=6  both sides  d=min(dZ,dX)  bar Q>30.
+
+#### W6rest_c1_1_n960k16d58w6  [[960,16,<=58]]  w=6  dZ<=58  dX<=
+62  Q=56.06666666666667
+group := "SmallGroup(1200,735) H=C5";  l := 1200;  i := 735;  m := 
+240;  lift := 60;  stab := 5;
+Hgens := [ [ 0, 0, 1, 0, 0, 0, 1 ] ];
+A := [ [ [ <identity> of ..., f2*f4*f5*f6^2*f7, f1*f4*f6 ] ] ];
+B := [ [ [ <identity> of ... ], [ <identity> of ..., f2*f5*f6*f7^3 ] ], 
+  [ [ <identity> of ..., f5*f6*f7 ], [ f2*f6*f7^2 ] ] ];
+Aidx := [ [ [ 1, 357, 636 ] ] ];  Bidx := 
+[ [ [ 1 ], [ 1, 49 ] ], [ [ 1, 20 ], [ 29 ] ] ];
+# W6rest_c20 shape 1x1/2x2 n=4m  w<=6  both sides  d=min(dZ,dX)  bar Q>30.
+
+#### W6rest_c20_1_n720k16d40w6  [[720,16,<=40]]  w=6  dZ<=40  dX<=
+46  Q=35.55555555555556
+group := "SmallGroup(360,116) H=C2";  l := 360;  i := 116;  m := 
+180;  lift := 90;  stab := 2;
+Hgens := [ [ 0, 1, 0, 0, 0, 0 ] ];
+A := [ [ [ <identity> of ..., f1*f5^2*f6, f1*f2*f3^2*f5*f6 ] ] ];
+B := [ [ [ <identity> of ... ], [ <identity> of ..., f4^2*f5 ] ], 
+  [ [ <identity> of ..., f3^2*f4^2*f5^3*f6 ], [ f5^3*f6 ] ] ];
+Aidx := [ [ [ 1, 186, 334 ] ] ];  Bidx := 
+[ [ [ 1 ], [ 1, 23 ] ], [ [ 1, 87 ], [ 45 ] ] ];
+
+#### W6rest_c20_2_n1000k16d62w6  [[1000,16,<=62]]  w=6  dZ<=64  dX<=
+62  Q=61.504
+group := "SmallGroup(1250,52) H=C5";  l := 1250;  i := 52;  m := 
+250;  lift := 125;  stab := 5;
+Hgens := [ [ 0, 0, 1, 3, 3 ] ];
+A := [ [ [ <identity> of ..., f2^4*f3^3*f4^4, f1*f2*f3^3*f4^3*f5^2 ] ] ];
+B := [ [ [ <identity> of ... ], [ <identity> of ..., f2*f4*f5^4 ] ], 
+  [ [ <identity> of ..., f4^2*f5^4 ], [ f2^2*f4^3*f5^2 ] ] ];
+Aidx := [ [ [ 1, 596, 843 ] ] ];  Bidx := 
+[ [ [ 1 ], [ 1, 69 ] ], [ [ 1, 72 ], [ 83 ] ] ];
+# W6rest_c21 shape 1x1/2x2 n=4m  w<=6  both sides  d=min(dZ,dX)  bar Q>30.
+
+#### W6rest_c21_1_n960k16d58w6  [[960,16,<=58]]  w=6  dZ<=58  dX<=
+58  Q=56.06666666666667
+group := "SmallGroup(480,746) H=C2";  l := 480;  i := 746;  m := 
+240;  lift := 120;  stab := 2;
+Hgens := [ [ 0, 0, 1, 0, 0, 0, 0 ] ];
+A := [ [ [ <identity> of ..., f2*f3*f4^2*f7^4, f1*f2*f3*f5*f6 ] ] ];
+B := [ [ [ <identity> of ..., f2*f4^2*f5*f7^2 ], [ <identity> of ... ] ], 
+  [ [ <identity> of ... ], [ f2*f4*f5, f5*f6*f7 ] ] ];
+Aidx := [ [ [ 1, 225, 436 ] ] ];  Bidx := 
+[ [ [ 1, 85 ], [ 1 ] ], [ [ 1 ], [ 20, 34 ] ] ];
+# W6rest_c22 shape 1x1/2x2 n=4m  w<=6  both sides  d=min(dZ,dX)  bar Q>30.
+
+#### W6rest_c22_1_n960k16d48w6  [[960,16,<=48]]  w=6  dZ<=50  dX<=48  Q=38.4
+group := "SmallGroup(480,1065) H=C2";  l := 480;  i := 1065;  m := 
+240;  lift := 120;  stab := 2;
+Hgens := [ [ 0, 0, 1, 0, 0, 0, 0 ] ];
+A := [ [ [ <identity> of ..., f1*f3*f6*f7^4, f1*f2*f4*f6^2*f7 ] ] ];
+B := [ [ [ <identity> of ... ], [ <identity> of ..., f2*f6^2*f7^2 ] ], 
+  [ [ <identity> of ..., f2*f6*f7^4 ], [ f7^4 ] ] ];
+Aidx := [ [ [ 1, 310, 402 ] ] ];  Bidx := 
+[ [ [ 1 ], [ 1, 70 ] ], [ [ 1, 94 ], [ 60 ] ] ];
+
+#### W6rest_c22_2_n960k16d46w6  [[960,16,<=46]]  w=6  dZ<=48  dX<=
+46  Q=35.26666666666667
+group := "SmallGroup(480,746) H=C2";  l := 480;  i := 746;  m := 
+240;  lift := 120;  stab := 2;
+Hgens := [ [ 0, 1, 0, 0, 0, 0, 0 ] ];
+A := [ [ [ <identity> of ..., f1*f3*f5*f6*f7^3, f1*f3*f4*f5*f7^2 ] ] ];
+B := [ [ [ <identity> of ..., f3*f4*f5*f6*f7^2 ], [ <identity> of ... ] ], 
+  [ [ <identity> of ... ], [ f3*f5*f6*f7^3, f4^2*f5*f6*f7^4 ] ] ];
+Aidx := [ [ [ 1, 319, 333 ] ] ];  Bidx := 
+[ [ [ 1, 88 ], [ 1 ] ], [ [ 1 ], [ 92, 119 ] ] ];
+
+#### W6rest_c22_3_n960k16d44w6  [[960,16,<=44]]  w=6  dZ<=44  dX<=
+52  Q=32.26666666666667
+group := "SmallGroup(480,725) H=C2";  l := 480;  i := 725;  m := 
+240;  lift := 120;  stab := 2;
+Hgens := [ [ 0, 1, 0, 0, 1, 0, 0 ] ];
+A := [ [ [ <identity> of ..., f4^2*f6*f7, f1*f4^2*f5*f6*f7 ] ] ];
+B := [ [ [ <identity> of ... ], [ <identity> of ..., f5*f6*f7^4 ] ], 
+  [ [ <identity> of ..., f3*f4^2*f5*f7 ], [ f3*f4*f5*f6*f7 ] ] ];
+Aidx := [ [ [ 1, 47, 297 ] ] ];  Bidx := 
+[ [ [ 1 ], [ 1, 102 ] ], [ [ 1, 62 ], [ 65 ] ] ];
+# W6rest_c23 shape 1x1/2x2 n=4m  w<=6  both sides  d=min(dZ,dX)  bar Q>30.
+
+#### W6rest_c23_1_n972k16d46w6  [[972,16,<=46]]  w=6  dZ<=46  dX<=
+58  Q=34.83127572016461
+group := "SmallGroup(729,268) H=C3";  l := 729;  i := 268;  m := 
+243;  lift := 81;  stab := 3;
+Hgens := [ [ 0, 0, 1, 0, 1, 0 ] ];
+A := [ [ [ <identity> of ..., f1*f2*f4^2*f5*f6^2, f1*f2^2*f4*f5^2*f6 ] ] ];
+B := [ [ [ <identity> of ... ], [ <identity> of ..., f1 ] ], 
+  [ [ <identity> of ..., f1^2*f4^2*f5 ], [ f1*f5^2*f6 ] ] ];
+Aidx := [ [ [ 1, 348, 422 ] ] ];  Bidx := 
+[ [ [ 1 ], [ 1, 2 ] ], [ [ 1, 51 ], [ 43 ] ] ];
+# W6rest_c24 shape 1x1/2x2 n=4m  w<=6  both sides  d=min(dZ,dX)  bar Q>30.
+# W6rest_c25 shape 1x1/2x2 n=4m  w<=6  both sides  d=min(dZ,dX)  bar Q>30.
+# W6rest_c26 shape 1x1/2x2 n=4m  w<=6  both sides  d=min(dZ,dX)  bar Q>30.
+# W6rest_c27 shape 1x1/2x2 n=4m  w<=6  both sides  d=min(dZ,dX)  bar Q>30.
+# W6rest_c28 shape 1x1/2x2 n=4m  w<=6  both sides  d=min(dZ,dX)  bar Q>30.
+# W6rest_c29 shape 1x1/2x2 n=4m  w<=6  both sides  d=min(dZ,dX)  bar Q>30.
+
+#### W6rest_c29_1_n960k16d44w6  [[960,16,<=44]]  w=6  dZ<=48  dX<=
+44  Q=32.26666666666667
+group := "SmallGroup(1200,616) H=C5";  l := 1200;  i := 616;  m := 
+240;  lift := 120;  stab := 5;
+Hgens := [ [ 0, 0, 0, 0, 0, 1, 1 ] ];
+A := [ [ [ <identity> of ..., f2*f5*f6^2*f7^2, f1*f4*f6^3*f7^2 ] ] ];
+B := [ [ [ <identity> of ... ], [ <identity> of ..., f4*f5^2*f7 ] ], 
+  [ [ <identity> of ..., f2*f4*f5*f6^2 ], [ f2*f3*f6^3 ] ] ];
+Aidx := [ [ [ 1, 338, 693 ] ] ];  Bidx := 
+[ [ [ 1 ], [ 1, 55 ] ], [ [ 1, 68 ], [ 66 ] ] ];
+
+#### W6rest_c29_2_n960k16d44w6  [[960,16,<=44]]  w=6  dZ<=60  dX<=
+44  Q=32.26666666666667
+group := "SmallGroup(1200,745) H=C5";  l := 1200;  i := 745;  m := 
+240;  lift := 120;  stab := 5;
+Hgens := [ [ 0, 0, 0, 0, 0, 1, 1 ] ];
+A := [ [ [ <identity> of ..., f2*f4*f5*f7^3, f1*f2*f4*f5*f7^2 ] ] ];
+B := [ [ [ <identity> of ..., f5*f7^4 ], [ <identity> of ... ] ], 
+  [ [ <identity> of ... ], [ f3*f5*f7^2, f5^2*f7^2 ] ] ];
+Aidx := [ [ [ 1, 404, 1003 ] ] ];  Bidx := 
+[ [ [ 1, 83 ], [ 1 ] ], [ [ 1 ], [ 53, 58 ] ] ];
+
+#### W6rest_c29_3_n960k16d54w6  [[960,16,<=54]]  w=6  dZ<=56  dX<=54  Q=48.6
+group := "SmallGroup(480,671) H=C2";  l := 480;  i := 671;  m := 
+240;  lift := 120;  stab := 2;
+Hgens := [ [ 0, 1, 0, 0, 1, 0, 0 ] ];
+A := [ [ [ <identity> of ..., f4^2*f6*f7^2, f1*f2*f3*f4^2*f7^2 ] ] ];
+B := [ [ [ <identity> of ... ], [ <identity> of ..., f4^2*f5*f6*f7^3 ] ], 
+  [ [ <identity> of ..., f4^2*f5 ], [ f1*f6 ] ] ];
+Aidx := [ [ [ 1, 48, 463 ] ] ];  Bidx := 
+[ [ [ 1 ], [ 1, 111 ] ], [ [ 1, 27 ], [ 9 ] ] ];
+# W6rest_c2 shape 1x1/2x2 n=4m  w<=6  both sides  d=min(dZ,dX)  bar Q>30.
+# W6rest_c3 shape 1x1/2x2 n=4m  w<=6  both sides  d=min(dZ,dX)  bar Q>30.
+
+#### W6rest_c3_1_n960k16d46w6  [[960,16,<=46]]  w=6  dZ<=50  dX<=
+46  Q=35.26666666666667
+group := "SmallGroup(720,788) H=C3";  l := 720;  i := 788;  m := 
+240;  lift := 60;  stab := 3;
+Hgens := [ [ 0, 0, 1, 2, 0, 0, 0 ] ];
+A := [ [ [ <identity> of ..., f2*f4*f6, f1*f2*f4^2*f5^2*f7 ] ] ];
+B := [ [ [ <identity> of ... ], [ <identity> of ..., f4^2*f5^4 ] ], 
+  [ [ <identity> of ..., f2*f4^2*f5^4 ], [ f1*f2*f5^3 ] ] ];
+Aidx := [ [ [ 1, 203, 590 ] ] ];  Bidx := 
+[ [ [ 1 ], [ 1, 55 ] ], [ [ 1, 59 ], [ 39 ] ] ];
+# W6rest_c4 shape 1x1/2x2 n=4m  w<=6  both sides  d=min(dZ,dX)  bar Q>30.
+# W6rest_c5 shape 1x1/2x2 n=4m  w<=6  both sides  d=min(dZ,dX)  bar Q>30.
+# W6rest_c6 shape 1x1/2x2 n=4m  w<=6  both sides  d=min(dZ,dX)  bar Q>30.
+# W6rest_c7 shape 1x1/2x2 n=4m  w<=6  both sides  d=min(dZ,dX)  bar Q>30.
+# W6rest_c8 shape 1x1/2x2 n=4m  w<=6  both sides  d=min(dZ,dX)  bar Q>30.
+
+#### W6rest_c8_1_n960k16d44w6  [[960,16,<=44]]  w=6  dZ<=44  dX<=
+44  Q=32.26666666666667
+group := "SmallGroup(480,1147) H=C2";  l := 480;  i := 1147;  m := 
+240;  lift := 120;  stab := 2;
+Hgens := [ [ 0, 0, 1, 1, 0, 0, 0 ] ];
+A := [ [ [ <identity> of ..., f3*f6*f7, f2*f3*f5*f7^3 ] ] ];
+B := [ [ [ <identity> of ..., f1*f2*f5^2*f7^4 ], [ <identity> of ... ] ], 
+  [ [ <identity> of ... ], [ f1*f2*f4*f7^2, f1*f2*f5^2*f6*f7 ] ] ];
+Aidx := [ [ [ 1, 67, 194 ] ] ];  Bidx := 
+[ [ [ 1, 113 ], [ 1 ] ], [ [ 1 ], [ 54, 78 ] ] ];
+
+#### W6rest_c8_2_n960k16d46w6  [[960,16,<=46]]  w=6  dZ<=46  dX<=
+56  Q=35.26666666666667
+group := "SmallGroup(480,248) H=C2";  l := 480;  i := 248;  m := 
+240;  lift := 120;  stab := 2;
+Hgens := [ [ 0, 0, 0, 1, 0, 0, 0 ] ];
+A := [ [ [ <identity> of ..., f5*f7^3, f1*f3*f6^2*f7 ] ] ];
+B := [ [ [ <identity> of ... ], [ <identity> of ..., f5*f6*f7^4 ] ], 
+  [ [ <identity> of ..., f2*f3*f6*f7^3 ], [ f5*f6*f7 ] ] ];
+Aidx := [ [ [ 1, 19, 312 ] ] ];  Bidx := 
+[ [ [ 1 ], [ 1, 101 ] ], [ [ 1, 88 ], [ 33 ] ] ];
+# W6rest_c9 shape 1x1/2x2 n=4m  w<=6  both sides  d=min(dZ,dX)  bar Q>30.
+
+#### W6rest_c9_1_n960k16d50w6  [[960,16,<=50]]  w=6  dZ<=50  dX<=
+58  Q=41.66666666666666
+group := "SmallGroup(480,1005) H=C2";  l := 480;  i := 1005;  m := 
+240;  lift := 120;  stab := 2;
+Hgens := [ [ 0, 0, 1, 0, 0, 0, 0 ] ];
+A := [ [ [ <identity> of ..., f1*f6, f1*f3*f4*f5*f7^3 ] ] ];
+B := [ [ [ <identity> of ... ], [ <identity> of ..., f1*f2*f5*f7^2 ] ], 
+  [ [ <identity> of ..., f1*f2*f4*f5*f6^2*f7^2 ], [ f4*f5*f6*f7^2 ] ] ];
+Aidx := [ [ [ 1, 246, 349 ] ] ];  Bidx := 
+[ [ [ 1 ], [ 1, 57 ] ], [ [ 1, 107 ], [ 62 ] ] ];
+
+#### W6rest_c9_2_n960k20d58w6  [[960,20,<=58]]  w=6  dZ<=62  dX<=
+58  Q=70.08333333333333
+group := "SmallGroup(480,1005) H=C2";  l := 480;  i := 1005;  m := 
+240;  lift := 120;  stab := 2;
+Hgens := [ [ 0, 0, 1, 0, 0, 0, 0 ] ];
+A := [ [ [ <identity> of ..., f2*f6*f7^4, f1*f2*f3*f7 ] ] ];
+B := [ [ [ <identity> of ..., f4*f5*f6*f7^3 ], [ <identity> of ... ] ], 
+  [ [ <identity> of ... ], [ f4*f5*f6, f4*f6*f7^2 ] ] ];
+Aidx := [ [ [ 1, 130, 422 ] ] ];  Bidx := 
+[ [ [ 1, 85 ], [ 1 ] ], [ [ 1 ], [ 19, 42 ] ] ];

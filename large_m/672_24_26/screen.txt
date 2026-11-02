@@ -1,0 +1,3 @@
+# QDistRnd two sided screen, 1 run(s), total rounds 1000000, min over runs dZ<=26 dX<=26, d<=26
+W6focus_c10_4_n672k24d26w6  [[672,24,<=26]]  dZ<=26  dX<=26  rounds=1000000
+# board tool RIS witness: dX<=26 dZ<=26, see board_witnesses.json

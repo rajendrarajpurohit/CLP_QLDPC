@@ -1,0 +1,5 @@
+# G = SmallGroup(480,671), H = C2, Hgens as exponent vectors in Pcgs(G): [ [ 0, 1, 0, 0, 1, 0, 0 ] ]
+# a = [ [ [ 1, f4^2 f6 f7^2, f1 f2 f3 f4^2 f7^2 ] ] ]
+# B = [ [ [ 1 ], [ 1, f4^2 f5 f6 f7^3 ] ],    [ [ 1, f4^2 f5 ], [ f1 f6 ] ] ]
+# index form for CLP_core.g: Aidx = [ [ [ 1, 48, 463 ] ] ]  Bidx = [ [ [ 1 ], [ 1, 111 ] ], [ [ 1, 27 ], [ 9 ] ] ]
+# rebuild: gap/rebuild.g, Rebuild(480,671, Hw, Aw, Bw, [1,1], [2,2], "960_16_46_G480_671") with Hw, Aw, Bw transcribed from the words above

@@ -1,0 +1,13 @@
+W6focus_c7_2_n640k16d34w6
+W6focus_c10_2_n588k18d30w6
+W6focus_c7_1_n576k16d30w6
+W6focus_c10_4_n672k24d26w6
+W6focus_c4_1_n640k24d24w6
+W6focus_c16_1_n576k20d24w6
+W6rest_c20_1_n720k16d40w6
+W6rest_c11_1_n840k16d42w6
+W6rest_c18_1_n864k16d48w6
+W6rest_c11_2_n864k20d42w6
+mut960_s21_2_n960k20d64w6
+W6rest_c16_1_n960k16d62w6
+W6rest_c20_2_n1000k16d62w6
